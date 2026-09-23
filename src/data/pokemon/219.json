@@ -1,0 +1,169 @@
+{
+  "id": 219,
+  "nameEn": "magcargo",
+  "nameZh": "熔岩蜗牛",
+  "genusZh": "熔岩宝可梦",
+  "johtoDex": 212,
+  "types": [
+    "fire",
+    "rock"
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 120,
+    "special-attack": 90,
+    "special-defense": 80,
+    "speed": 30
+  },
+  "height": 8,
+  "weight": 550,
+  "captureRate": 75,
+  "genderRate": 4,
+  "eggGroups": [
+    "indeterminate"
+  ],
+  "growthRate": "medium",
+  "flavorText": "Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell.",
+  "evolutionChainId": 111,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "ember"
+      },
+      {
+        "level": 1,
+        "move": "rock-throw"
+      },
+      {
+        "level": 1,
+        "move": "smog"
+      },
+      {
+        "level": 8,
+        "move": "ember"
+      },
+      {
+        "level": 15,
+        "move": "rock-throw"
+      },
+      {
+        "level": 22,
+        "move": "harden"
+      },
+      {
+        "level": 29,
+        "move": "amnesia"
+      },
+      {
+        "level": 36,
+        "move": "flamethrower"
+      },
+      {
+        "level": 48,
+        "move": "rock-slide"
+      },
+      {
+        "level": 60,
+        "move": "body-slam"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

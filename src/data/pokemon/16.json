@@ -1,0 +1,159 @@
+{
+  "id": 16,
+  "nameEn": "pidgey",
+  "nameZh": "波波",
+  "genusZh": "小鸟宝可梦",
+  "johtoDex": 10,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 40,
+    "special-attack": 35,
+    "special-defense": 35,
+    "speed": 56
+  },
+  "height": 3,
+  "weight": 18,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "flying"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "It rapidly flaps its wings in the grass, stirring up a dust cloud that drives insect prey out into the open.",
+  "evolutionChainId": 6,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 5,
+        "move": "sand-attack"
+      },
+      {
+        "level": 9,
+        "move": "gust"
+      },
+      {
+        "level": 15,
+        "move": "quick-attack"
+      },
+      {
+        "level": 21,
+        "move": "whirlwind"
+      },
+      {
+        "level": 29,
+        "move": "wing-attack"
+      },
+      {
+        "level": 37,
+        "move": "agility"
+      },
+      {
+        "level": 47,
+        "move": "mirror-move"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "feint-attack"
+      },
+      {
+        "move": "foresight"
+      },
+      {
+        "move": "pursuit"
+      }
+    ],
+    "tutor": []
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": 176,
+  "nameEn": "togetic",
+  "nameZh": "波克基古",
+  "genusZh": "幸福宝可梦",
+  "johtoDex": 47,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 40,
+    "defense": 85,
+    "special-attack": 80,
+    "special-defense": 105,
+    "speed": 40
+  },
+  "height": 6,
+  "weight": 32,
+  "captureRate": 75,
+  "genderRate": 1,
+  "eggGroups": [
+    "flying",
+    "fairy"
+  ],
+  "growthRate": "fast",
+  "flavorText": "Although it does not flap its wings very much, it can stay up in the air as it tags along after its trainer.",
+  "evolutionChainId": 87,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "charm"
+      },
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 7,
+        "move": "metronome"
+      },
+      {
+        "level": 18,
+        "move": "sweet-kiss"
+      },
+      {
+        "level": 25,
+        "move": "encore"
+      },
+      {
+        "level": 31,
+        "move": "safeguard"
+      },
+      {
+        "level": 38,
+        "move": "double-edge"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

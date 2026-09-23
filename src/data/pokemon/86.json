@@ -1,0 +1,168 @@
+{
+  "id": 86,
+  "nameEn": "seel",
+  "nameZh": "小海狮",
+  "genusZh": "海狮宝可梦",
+  "johtoDex": 176,
+  "types": [
+    "water"
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 45,
+    "defense": 55,
+    "special-attack": 45,
+    "special-defense": 70,
+    "speed": 45
+  },
+  "height": 11,
+  "weight": 900,
+  "captureRate": 190,
+  "genderRate": 4,
+  "eggGroups": [
+    "water1",
+    "ground"
+  ],
+  "growthRate": "medium",
+  "flavorText": "The light blue fur that covers it keeps it protected against the cold. It loves iceberg- filled oceans.",
+  "evolutionChainId": 37,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "headbutt"
+      },
+      {
+        "level": 5,
+        "move": "growl"
+      },
+      {
+        "level": 16,
+        "move": "aurora-beam"
+      },
+      {
+        "level": 21,
+        "move": "rest"
+      },
+      {
+        "level": 32,
+        "move": "take-down"
+      },
+      {
+        "level": 37,
+        "move": "ice-beam"
+      },
+      {
+        "level": 48,
+        "move": "safeguard"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "disable"
+      },
+      {
+        "move": "encore"
+      },
+      {
+        "move": "lick"
+      },
+      {
+        "move": "peck"
+      },
+      {
+        "move": "perish-song"
+      },
+      {
+        "move": "slam"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

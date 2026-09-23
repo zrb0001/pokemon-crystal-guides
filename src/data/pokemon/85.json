@@ -1,0 +1,157 @@
+{
+  "id": 85,
+  "nameEn": "dodrio",
+  "nameZh": "嘟嘟利",
+  "genusZh": "三头鸟宝可梦",
+  "johtoDex": 200,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 110,
+    "defense": 70,
+    "special-attack": 60,
+    "special-defense": 60,
+    "speed": 110
+  },
+  "height": 18,
+  "weight": 852,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "flying"
+  ],
+  "growthRate": "medium",
+  "flavorText": "An enemy that takes its eyes off any of the three heads--even for a second--will get pecked severely.",
+  "evolutionChainId": 36,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "fury-attack"
+      },
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "peck"
+      },
+      {
+        "level": 1,
+        "move": "pursuit"
+      },
+      {
+        "level": 9,
+        "move": "pursuit"
+      },
+      {
+        "level": 13,
+        "move": "fury-attack"
+      },
+      {
+        "level": 21,
+        "move": "tri-attack"
+      },
+      {
+        "level": 25,
+        "move": "rage"
+      },
+      {
+        "level": 38,
+        "move": "drill-peck"
+      },
+      {
+        "level": 47,
+        "move": "agility"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

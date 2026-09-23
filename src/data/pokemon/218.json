@@ -1,0 +1,152 @@
+{
+  "id": 218,
+  "nameEn": "slugma",
+  "nameZh": "熔岩虫",
+  "genusZh": "熔岩宝可梦",
+  "johtoDex": 211,
+  "types": [
+    "fire"
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 40,
+    "special-attack": 70,
+    "special-defense": 40,
+    "speed": 20
+  },
+  "height": 7,
+  "weight": 350,
+  "captureRate": 190,
+  "genderRate": 4,
+  "eggGroups": [
+    "indeterminate"
+  ],
+  "growthRate": "medium",
+  "flavorText": "These group to­ gether in areas that are hotter than normal. If it cools off, its skin hardens.",
+  "evolutionChainId": 111,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "smog"
+      },
+      {
+        "level": 8,
+        "move": "ember"
+      },
+      {
+        "level": 15,
+        "move": "rock-throw"
+      },
+      {
+        "level": 22,
+        "move": "harden"
+      },
+      {
+        "level": 29,
+        "move": "amnesia"
+      },
+      {
+        "level": 36,
+        "move": "flamethrower"
+      },
+      {
+        "level": 43,
+        "move": "rock-slide"
+      },
+      {
+        "level": 50,
+        "move": "body-slam"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "acid-armor"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "id": 163,
+  "nameEn": "hoothoot",
+  "nameZh": "咕咕",
+  "genusZh": "猫头鹰宝可梦",
+  "johtoDex": 15,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 30,
+    "defense": 30,
+    "special-attack": 36,
+    "special-defense": 56,
+    "speed": 50
+  },
+  "height": 7,
+  "weight": 212,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "flying"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It begins to hoot at the same time every day. Some trainers use them in place of clocks.",
+  "evolutionChainId": 83,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 6,
+        "move": "foresight"
+      },
+      {
+        "level": 11,
+        "move": "peck"
+      },
+      {
+        "level": 16,
+        "move": "hypnosis"
+      },
+      {
+        "level": 22,
+        "move": "reflect"
+      },
+      {
+        "level": 28,
+        "move": "take-down"
+      },
+      {
+        "level": 34,
+        "move": "confusion"
+      },
+      {
+        "level": 48,
+        "move": "dream-eater"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "feint-attack"
+      },
+      {
+        "move": "mirror-move"
+      },
+      {
+        "move": "sky-attack"
+      },
+      {
+        "move": "supersonic"
+      },
+      {
+        "move": "whirlwind"
+      },
+      {
+        "move": "wing-attack"
+      }
+    ],
+    "tutor": []
+  }
+}

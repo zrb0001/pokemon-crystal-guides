@@ -1,0 +1,165 @@
+{
+  "id": 103,
+  "nameEn": "exeggutor",
+  "nameZh": "椰蛋树",
+  "genusZh": "椰子宝可梦",
+  "johtoDex": 105,
+  "types": [
+    "grass",
+    "psychic"
+  ],
+  "stats": {
+    "hp": 95,
+    "attack": 95,
+    "defense": 85,
+    "special-attack": 125,
+    "special-defense": 75,
+    "speed": 55
+  },
+  "height": 20,
+  "weight": 1200,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "plant"
+  ],
+  "growthRate": "slow",
+  "flavorText": "Living in a good environment makes it grow lots of heads. A head that drops off becomes an EXEGGCUTE.",
+  "evolutionChainId": 45,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "barrage"
+      },
+      {
+        "level": 1,
+        "move": "confusion"
+      },
+      {
+        "level": 1,
+        "move": "hypnosis"
+      },
+      {
+        "level": 19,
+        "move": "stomp"
+      },
+      {
+        "level": 31,
+        "move": "egg-bomb"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

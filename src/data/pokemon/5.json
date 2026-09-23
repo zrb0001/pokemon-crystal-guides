@@ -1,0 +1,197 @@
+{
+  "id": 5,
+  "nameEn": "charmeleon",
+  "nameZh": "火恐龙",
+  "genusZh": "火焰宝可梦",
+  "johtoDex": 230,
+  "types": [
+    "fire"
+  ],
+  "stats": {
+    "hp": 58,
+    "attack": 64,
+    "defense": 58,
+    "special-attack": 80,
+    "special-defense": 65,
+    "speed": 80
+  },
+  "height": 11,
+  "weight": 190,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
+  "evolutionChainId": 2,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "ember"
+      },
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "scratch"
+      },
+      {
+        "level": 7,
+        "move": "ember"
+      },
+      {
+        "level": 13,
+        "move": "smokescreen"
+      },
+      {
+        "level": 20,
+        "move": "rage"
+      },
+      {
+        "level": 27,
+        "move": "scary-face"
+      },
+      {
+        "level": 34,
+        "move": "flamethrower"
+      },
+      {
+        "level": 41,
+        "move": "slash"
+      },
+      {
+        "level": 48,
+        "move": "dragon-rage"
+      },
+      {
+        "level": 55,
+        "move": "fire-spin"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dragon-breath",
+        "tm": "TM24"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

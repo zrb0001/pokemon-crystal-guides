@@ -1,0 +1,12 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import DexBrowser from '../../components/DexBrowser.astro';
+import { getAllPokemon } from '../../lib/data';
+
+const all = getAllPokemon();
+---
+
+<Layout title="图鉴" description="宝可梦水晶版全 251 只宝可梦图鉴">
+  <h1 style="margin: 0 0 18px">城都图鉴（{all.length}）</h1>
+  <DexBrowser />
+</Layout>

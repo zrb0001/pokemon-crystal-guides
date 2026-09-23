@@ -1,0 +1,196 @@
+{
+  "id": 126,
+  "nameEn": "magmar",
+  "nameZh": "鸭嘴火兽",
+  "genusZh": "吐火宝可梦",
+  "johtoDex": 151,
+  "types": [
+    "fire"
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 57,
+    "special-attack": 100,
+    "special-defense": 85,
+    "speed": 93
+  },
+  "height": 13,
+  "weight": 445,
+  "captureRate": 45,
+  "genderRate": 2,
+  "eggGroups": [
+    "humanshape"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It moves more frequently in hot areas. It can heal itself by dipping its wound into lava.",
+  "evolutionChainId": 61,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "ember"
+      },
+      {
+        "level": 1,
+        "move": "fire-punch"
+      },
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "smog"
+      },
+      {
+        "level": 7,
+        "move": "leer"
+      },
+      {
+        "level": 13,
+        "move": "smog"
+      },
+      {
+        "level": 19,
+        "move": "fire-punch"
+      },
+      {
+        "level": 25,
+        "move": "smokescreen"
+      },
+      {
+        "level": 33,
+        "move": "sunny-day"
+      },
+      {
+        "level": 41,
+        "move": "flamethrower"
+      },
+      {
+        "level": 49,
+        "move": "confuse-ray"
+      },
+      {
+        "level": 57,
+        "move": "fire-blast"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

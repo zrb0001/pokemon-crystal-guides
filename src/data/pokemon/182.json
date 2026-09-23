@@ -1,0 +1,136 @@
+{
+  "id": 182,
+  "nameEn": "bellossom",
+  "nameZh": "美丽花",
+  "genusZh": "花宝可梦",
+  "johtoDex": 86,
+  "types": [
+    "grass"
+  ],
+  "stats": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 95,
+    "special-attack": 90,
+    "special-defense": 100,
+    "speed": 50
+  },
+  "height": 4,
+  "weight": 58,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "plant"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "When these dance together, their petals rub against each other, making pretty, relaxing sounds.",
+  "evolutionChainId": 18,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "absorb"
+      },
+      {
+        "level": 1,
+        "move": "petal-dance"
+      },
+      {
+        "level": 1,
+        "move": "stun-spore"
+      },
+      {
+        "level": 1,
+        "move": "sweet-scent"
+      },
+      {
+        "level": 55,
+        "move": "solar-beam"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

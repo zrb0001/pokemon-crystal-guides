@@ -1,0 +1,172 @@
+{
+  "id": 179,
+  "nameEn": "mareep",
+  "nameZh": "咩利羊",
+  "genusZh": "绵毛宝可梦",
+  "johtoDex": 53,
+  "types": [
+    "electric"
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 40,
+    "defense": 40,
+    "special-attack": 65,
+    "special-defense": 45,
+    "speed": 35
+  },
+  "height": 6,
+  "weight": 78,
+  "captureRate": 235,
+  "genderRate": 4,
+  "eggGroups": [
+    "monster",
+    "ground"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "It stores lots of air in its soft fur, allowing it to stay cool in summer and warm in winter.",
+  "evolutionChainId": 89,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 9,
+        "move": "thunder-shock"
+      },
+      {
+        "level": 16,
+        "move": "thunder-wave"
+      },
+      {
+        "level": 23,
+        "move": "cotton-spore"
+      },
+      {
+        "level": 30,
+        "move": "light-screen"
+      },
+      {
+        "level": 37,
+        "move": "thunder"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [
+      {
+        "move": "body-slam"
+      },
+      {
+        "move": "reflect"
+      },
+      {
+        "move": "safeguard"
+      },
+      {
+        "move": "screech"
+      },
+      {
+        "move": "take-down"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

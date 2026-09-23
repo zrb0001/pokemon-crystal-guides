@@ -1,0 +1,226 @@
+{
+  "id": 39,
+  "nameEn": "jigglypuff",
+  "nameZh": "胖丁",
+  "genusZh": "气球宝可梦",
+  "johtoDex": 44,
+  "types": [
+    "normal"
+  ],
+  "stats": {
+    "hp": 115,
+    "attack": 45,
+    "defense": 20,
+    "special-attack": 45,
+    "special-defense": 25,
+    "speed": 20
+  },
+  "height": 5,
+  "weight": 55,
+  "captureRate": 170,
+  "genderRate": 6,
+  "eggGroups": [
+    "fairy"
+  ],
+  "growthRate": "fast",
+  "flavorText": "It rolls its cute eyes as it sings a soothing lullaby. Its gentle song puts anyone who hears it to sleep.",
+  "evolutionChainId": 16,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "sing"
+      },
+      {
+        "level": 4,
+        "move": "defense-curl"
+      },
+      {
+        "level": 9,
+        "move": "pound"
+      },
+      {
+        "level": 14,
+        "move": "disable"
+      },
+      {
+        "level": 19,
+        "move": "rollout"
+      },
+      {
+        "level": 24,
+        "move": "double-slap"
+      },
+      {
+        "level": 29,
+        "move": "rest"
+      },
+      {
+        "level": 34,
+        "move": "body-slam"
+      },
+      {
+        "level": 39,
+        "move": "double-edge"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      },
+      {
+        "move": "ice-beam"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

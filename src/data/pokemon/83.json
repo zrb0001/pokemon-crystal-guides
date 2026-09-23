@@ -1,0 +1,182 @@
+{
+  "id": 83,
+  "nameEn": "farfetchd",
+  "nameZh": "大葱鸭",
+  "genusZh": "黄嘴鸭宝可梦",
+  "johtoDex": 158,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "stats": {
+    "hp": 52,
+    "attack": 90,
+    "defense": 55,
+    "special-attack": 58,
+    "special-defense": 62,
+    "speed": 60
+  },
+  "height": 8,
+  "weight": 150,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "flying",
+    "ground"
+  ],
+  "growthRate": "medium",
+  "flavorText": "In order to pre­ vent their extinction, more people have made an effort to breed these POKéMON.",
+  "evolutionChainId": 35,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "peck"
+      },
+      {
+        "level": 7,
+        "move": "sand-attack"
+      },
+      {
+        "level": 13,
+        "move": "leer"
+      },
+      {
+        "level": 19,
+        "move": "fury-attack"
+      },
+      {
+        "level": 25,
+        "move": "swords-dance"
+      },
+      {
+        "level": 31,
+        "move": "agility"
+      },
+      {
+        "level": 37,
+        "move": "slash"
+      },
+      {
+        "level": 44,
+        "move": "false-swipe"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "flail"
+      },
+      {
+        "move": "foresight"
+      },
+      {
+        "move": "gust"
+      },
+      {
+        "move": "mirror-move"
+      },
+      {
+        "move": "quick-attack"
+      }
+    ],
+    "tutor": []
+  }
+}

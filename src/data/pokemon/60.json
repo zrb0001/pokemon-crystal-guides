@@ -1,0 +1,180 @@
+{
+  "id": 60,
+  "nameEn": "poliwag",
+  "nameZh": "蚊香蝌蚪",
+  "genusZh": "蝌蚪宝可梦",
+  "johtoDex": 72,
+  "types": [
+    "water"
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 50,
+    "defense": 40,
+    "special-attack": 40,
+    "special-defense": 40,
+    "speed": 90
+  },
+  "height": 6,
+  "weight": 124,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "water1"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "The swirl on its belly is its insides showing through the skin. It looks clearer after it eats.",
+  "evolutionChainId": 26,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "bubble"
+      },
+      {
+        "level": 7,
+        "move": "hypnosis"
+      },
+      {
+        "level": 13,
+        "move": "water-gun"
+      },
+      {
+        "level": 19,
+        "move": "double-slap"
+      },
+      {
+        "level": 25,
+        "move": "rain-dance"
+      },
+      {
+        "level": 31,
+        "move": "body-slam"
+      },
+      {
+        "level": 37,
+        "move": "belly-drum"
+      },
+      {
+        "level": 43,
+        "move": "hydro-pump"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "bubble-beam"
+      },
+      {
+        "move": "haze"
+      },
+      {
+        "move": "mind-reader"
+      },
+      {
+        "move": "mist"
+      },
+      {
+        "move": "splash"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "id": 173,
+  "nameEn": "cleffa",
+  "nameZh": "皮宝宝",
+  "genusZh": "星形宝可梦",
+  "johtoDex": 40,
+  "types": [
+    "normal"
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 25,
+    "defense": 28,
+    "special-attack": 45,
+    "special-defense": 55,
+    "speed": 15
+  },
+  "height": 3,
+  "weight": 30,
+  "captureRate": 150,
+  "genderRate": 6,
+  "eggGroups": [
+    "no-eggs"
+  ],
+  "growthRate": "fast",
+  "flavorText": "If the impact site of a meteorite is found, this POKéMON is certain to be within the immediate area.",
+  "evolutionChainId": 14,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "charm"
+      },
+      {
+        "level": 1,
+        "move": "pound"
+      },
+      {
+        "level": 4,
+        "move": "encore"
+      },
+      {
+        "level": 8,
+        "move": "sing"
+      },
+      {
+        "level": 13,
+        "move": "sweet-kiss"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [
+      {
+        "move": "amnesia"
+      },
+      {
+        "move": "belly-drum"
+      },
+      {
+        "move": "metronome"
+      },
+      {
+        "move": "mimic"
+      },
+      {
+        "move": "present"
+      },
+      {
+        "move": "splash"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

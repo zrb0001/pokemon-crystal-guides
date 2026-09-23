@@ -1,0 +1,177 @@
+{
+  "id": 167,
+  "nameEn": "spinarak",
+  "nameZh": "圆丝蛛",
+  "genusZh": "吐丝宝可梦",
+  "johtoDex": 32,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 60,
+    "defense": 40,
+    "special-attack": 40,
+    "special-defense": 40,
+    "speed": 30
+  },
+  "height": 5,
+  "weight": 85,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "bug"
+  ],
+  "growthRate": "fast",
+  "flavorText": "If prey becomes ensnared in its nest of spun string, it waits motionlessly until it becomes dark.",
+  "evolutionChainId": 85,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "poison-sting"
+      },
+      {
+        "level": 1,
+        "move": "string-shot"
+      },
+      {
+        "level": 6,
+        "move": "scary-face"
+      },
+      {
+        "level": 11,
+        "move": "constrict"
+      },
+      {
+        "level": 17,
+        "move": "night-shade"
+      },
+      {
+        "level": 23,
+        "move": "leech-life"
+      },
+      {
+        "level": 30,
+        "move": "fury-swipes"
+      },
+      {
+        "level": 37,
+        "move": "spider-web"
+      },
+      {
+        "level": 45,
+        "move": "agility"
+      },
+      {
+        "level": 53,
+        "move": "psychic"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "baton-pass"
+      },
+      {
+        "move": "disable"
+      },
+      {
+        "move": "psybeam"
+      },
+      {
+        "move": "pursuit"
+      },
+      {
+        "move": "sonic-boom"
+      }
+    ],
+    "tutor": []
+  }
+}

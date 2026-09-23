@@ -1,0 +1,187 @@
+{
+  "id": 89,
+  "nameEn": "muk",
+  "nameZh": "臭臭泥",
+  "genusZh": "污泥宝可梦",
+  "johtoDex": 117,
+  "types": [
+    "poison"
+  ],
+  "stats": {
+    "hp": 105,
+    "attack": 105,
+    "defense": 75,
+    "special-attack": 65,
+    "special-defense": 100,
+    "speed": 50
+  },
+  "height": 12,
+  "weight": 300,
+  "captureRate": 75,
+  "genderRate": 4,
+  "eggGroups": [
+    "indeterminate"
+  ],
+  "growthRate": "medium",
+  "flavorText": "As it moves, a very strong poison leaks from it, making the ground there barren for three years.",
+  "evolutionChainId": 38,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "harden"
+      },
+      {
+        "level": 1,
+        "move": "poison-gas"
+      },
+      {
+        "level": 1,
+        "move": "pound"
+      },
+      {
+        "level": 23,
+        "move": "minimize"
+      },
+      {
+        "level": 31,
+        "move": "screech"
+      },
+      {
+        "level": 33,
+        "move": "harden"
+      },
+      {
+        "level": 37,
+        "move": "disable"
+      },
+      {
+        "level": 45,
+        "move": "acid-armor"
+      },
+      {
+        "level": 45,
+        "move": "sludge"
+      },
+      {
+        "level": 60,
+        "move": "sludge-bomb"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

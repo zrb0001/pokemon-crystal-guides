@@ -1,0 +1,232 @@
+{
+  "id": 250,
+  "nameEn": "ho-oh",
+  "nameZh": "凤王",
+  "genusZh": "虹色宝可梦",
+  "johtoDex": 248,
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "stats": {
+    "hp": 106,
+    "attack": 130,
+    "defense": 90,
+    "special-attack": 110,
+    "special-defense": 154,
+    "speed": 90
+  },
+  "height": 38,
+  "weight": 1990,
+  "captureRate": 3,
+  "genderRate": -1,
+  "eggGroups": [
+    "no-eggs"
+  ],
+  "growthRate": "slow",
+  "flavorText": "It will reveal itself before a pure-hearted trainer by shining its bright rain­ bow-colored wings.",
+  "evolutionChainId": 128,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "sacred-fire"
+      },
+      {
+        "level": 11,
+        "move": "safeguard"
+      },
+      {
+        "level": 22,
+        "move": "gust"
+      },
+      {
+        "level": 33,
+        "move": "recover"
+      },
+      {
+        "level": 44,
+        "move": "fire-blast"
+      },
+      {
+        "level": 55,
+        "move": "sunny-day"
+      },
+      {
+        "level": 66,
+        "move": "swift"
+      },
+      {
+        "level": 77,
+        "move": "whirlwind"
+      },
+      {
+        "level": 88,
+        "move": "ancient-power"
+      },
+      {
+        "level": 99,
+        "move": "future-sight"
+      }
+    ],
+    "machine": [
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dragon-breath",
+        "tm": "TM24"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

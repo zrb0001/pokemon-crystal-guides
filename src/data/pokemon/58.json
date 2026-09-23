@@ -1,0 +1,176 @@
+{
+  "id": 58,
+  "nameEn": "growlithe",
+  "nameZh": "卡蒂狗",
+  "genusZh": "小狗宝可梦",
+  "johtoDex": 127,
+  "types": [
+    "fire"
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 70,
+    "defense": 45,
+    "special-attack": 70,
+    "special-defense": 50,
+    "speed": 60
+  },
+  "height": 7,
+  "weight": 190,
+  "captureRate": 190,
+  "genderRate": 2,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "slow",
+  "flavorText": "It controls a big territory. If it detects an unknown smell, it roars loudly to force out the intruder.",
+  "evolutionChainId": 25,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "bite"
+      },
+      {
+        "level": 1,
+        "move": "roar"
+      },
+      {
+        "level": 9,
+        "move": "ember"
+      },
+      {
+        "level": 18,
+        "move": "leer"
+      },
+      {
+        "level": 26,
+        "move": "take-down"
+      },
+      {
+        "level": 34,
+        "move": "flame-wheel"
+      },
+      {
+        "level": 42,
+        "move": "agility"
+      },
+      {
+        "level": 50,
+        "move": "flamethrower"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dragon-breath",
+        "tm": "TM24"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "body-slam"
+      },
+      {
+        "move": "crunch"
+      },
+      {
+        "move": "fire-spin"
+      },
+      {
+        "move": "safeguard"
+      },
+      {
+        "move": "thrash"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

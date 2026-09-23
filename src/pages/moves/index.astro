@@ -1,0 +1,99 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Toc from '../../components/Toc.astro';
+import TypeBadge from '../../components/TypeBadge.astro';
+import { getAllMoves, getTypes, moveCategory, typeZh } from '../../lib/data';
+import type { Move } from '../../types';
+
+const moves = getAllMoves();
+const types = Object.keys(getTypes());
+
+const byType = new Map<string, Move[]>();
+for (const m of moves) {
+  const arr = byType.get(m.type) ?? [];
+  arr.push(m);
+  byType.set(m.type, arr);
+}
+const groups = [
+  ...types.filter((t) => byType.has(t)),
+  ...[...byType.keys()].filter((t) => !types.includes(t)),
+].map((t) => ({ type: t, moves: byType.get(t)! }));
+
+const typeLabel = (t: string) => (t === 'unknown' ? '???' : typeZh(t));
+
+const tocItems = groups.map((g) => ({
+  id: `type-${g.type}`,
+  label: `${typeLabel(g.type)}（${g.moves.length}）`,
+}));
+
+function fmt(v: number | null): string {
+  return v == null ? '—' : String(v);
+}
+---
+
+<Layout title="招式列表" description="宝可梦水晶版全部 251 个招式的属性、威力、命中、PP 数据">
+  <h1>招式列表（{moves.length}）</h1>
+
+  <Toc items={tocItems}>
+    {
+      groups.map((g) => (
+        <section class="panel" id={`type-${g.type}`}>
+          <h2 class="type-group-title">
+            <TypeBadge type={g.type} />
+            <span>{g.moves.length} 个招式</span>
+          </h2>
+          <div class="table-scroll">
+            <table class="move-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>招式</th>
+                  <th>分类</th>
+                  <th>威力</th>
+                  <th>命中</th>
+                  <th>PP</th>
+                  <th>TM/HM</th>
+                </tr>
+              </thead>
+              <tbody>
+                {
+                  g.moves.map((m) => {
+                    const cat = m.power == null ? '变化' : moveCategory(m.type);
+                    return (
+                      <tr>
+                        <td>{m.id}</td>
+                        <td>
+                          <a href={`/moves/${m.id}/`}>{m.nameZh ?? m.nameEn}</a>
+                        </td>
+                        <td>
+                          <span class="cat-badge" data-cat={cat}>{cat}</span>
+                        </td>
+                        <td>{m.nameEn === 'hidden-power' ? '不定' : fmt(m.power)}</td>
+                        <td>{fmt(m.accuracy)}</td>
+                        <td>{fmt(m.pp)}</td>
+                        <td>{m.machine ?? '—'}</td>
+                      </tr>
+                    );
+                  })
+                }
+              </tbody>
+            </table>
+          </div>
+        </section>
+      ))
+    }
+  </Toc>
+</Layout>
+
+<style>
+  .type-group-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .type-group-title span {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--muted);
+  }
+</style>

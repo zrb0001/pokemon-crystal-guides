@@ -1,0 +1,160 @@
+{
+  "id": 237,
+  "nameEn": "hitmontop",
+  "nameZh": "战舞郎",
+  "genusZh": "倒立宝可梦",
+  "johtoDex": 146,
+  "types": [
+    "fighting"
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 95,
+    "defense": 95,
+    "special-attack": 35,
+    "special-defense": 110,
+    "speed": 70
+  },
+  "height": 14,
+  "weight": 480,
+  "captureRate": 45,
+  "genderRate": 0,
+  "eggGroups": [
+    "humanshape"
+  ],
+  "growthRate": "medium",
+  "flavorText": "After doing a handstand to throw off the opponent's timing, it presents its fancy kick moves.",
+  "evolutionChainId": 47,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "rolling-kick"
+      },
+      {
+        "level": 7,
+        "move": "focus-energy"
+      },
+      {
+        "level": 13,
+        "move": "pursuit"
+      },
+      {
+        "level": 19,
+        "move": "quick-attack"
+      },
+      {
+        "level": 25,
+        "move": "rapid-spin"
+      },
+      {
+        "level": 31,
+        "move": "counter"
+      },
+      {
+        "level": 37,
+        "move": "agility"
+      },
+      {
+        "level": 43,
+        "move": "detect"
+      },
+      {
+        "level": 49,
+        "move": "triple-kick"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

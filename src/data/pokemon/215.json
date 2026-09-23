@@ -1,0 +1,237 @@
+{
+  "id": 215,
+  "nameEn": "sneasel",
+  "nameZh": "狃拉",
+  "genusZh": "钩爪宝可梦",
+  "johtoDex": 213,
+  "types": [
+    "dark",
+    "ice"
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 95,
+    "defense": 55,
+    "special-attack": 35,
+    "special-defense": 75,
+    "speed": 115
+  },
+  "height": 9,
+  "weight": 280,
+  "captureRate": 60,
+  "genderRate": 4,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "This cunning POKéMON hides under the cover of darkness, waiting to attack its prey.",
+  "evolutionChainId": 109,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "scratch"
+      },
+      {
+        "level": 9,
+        "move": "quick-attack"
+      },
+      {
+        "level": 17,
+        "move": "screech"
+      },
+      {
+        "level": 25,
+        "move": "feint-attack"
+      },
+      {
+        "level": 33,
+        "move": "fury-swipes"
+      },
+      {
+        "level": 41,
+        "move": "agility"
+      },
+      {
+        "level": 49,
+        "move": "slash"
+      },
+      {
+        "level": 57,
+        "move": "beat-up"
+      },
+      {
+        "level": 65,
+        "move": "metal-claw"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "bite"
+      },
+      {
+        "move": "counter"
+      },
+      {
+        "move": "foresight"
+      },
+      {
+        "move": "reflect"
+      },
+      {
+        "move": "spite"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

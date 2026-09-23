@@ -1,0 +1,212 @@
+{
+  "id": 157,
+  "nameEn": "typhlosion",
+  "nameZh": "火暴兽",
+  "genusZh": "火山宝可梦",
+  "johtoDex": 6,
+  "types": [
+    "fire"
+  ],
+  "stats": {
+    "hp": 78,
+    "attack": 84,
+    "defense": 78,
+    "special-attack": 109,
+    "special-defense": 85,
+    "speed": 100
+  },
+  "height": 17,
+  "weight": 795,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "When heat from its body causes the air around it to shimmer, this is a sign that it is ready to battle.",
+  "evolutionChainId": 80,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "ember"
+      },
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "smokescreen"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 6,
+        "move": "smokescreen"
+      },
+      {
+        "level": 12,
+        "move": "ember"
+      },
+      {
+        "level": 21,
+        "move": "quick-attack"
+      },
+      {
+        "level": 31,
+        "move": "flame-wheel"
+      },
+      {
+        "level": 45,
+        "move": "swift"
+      },
+      {
+        "level": 60,
+        "move": "flamethrower"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "id": 143,
+  "nameEn": "snorlax",
+  "nameZh": "卡比兽",
+  "genusZh": "瞌睡宝可梦",
+  "johtoDex": 225,
+  "types": [
+    "normal"
+  ],
+  "stats": {
+    "hp": 160,
+    "attack": 110,
+    "defense": 65,
+    "special-attack": 65,
+    "special-defense": 110,
+    "speed": 30
+  },
+  "height": 21,
+  "weight": 4600,
+  "captureRate": 25,
+  "genderRate": 1,
+  "eggGroups": [
+    "monster"
+  ],
+  "growthRate": "slow",
+  "flavorText": "This POKéMON's stomach is so strong, even eating moldy or rotten food will not affect it.",
+  "evolutionChainId": 72,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 8,
+        "move": "amnesia"
+      },
+      {
+        "level": 15,
+        "move": "defense-curl"
+      },
+      {
+        "level": 22,
+        "move": "belly-drum"
+      },
+      {
+        "level": 29,
+        "move": "headbutt"
+      },
+      {
+        "level": 36,
+        "move": "rest"
+      },
+      {
+        "level": 36,
+        "move": "snore"
+      },
+      {
+        "level": 43,
+        "move": "body-slam"
+      },
+      {
+        "level": 50,
+        "move": "rollout"
+      },
+      {
+        "level": 57,
+        "move": "hyper-beam"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [
+      {
+        "move": "lick"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      },
+      {
+        "move": "ice-beam"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "id": 151,
+  "nameEn": "mew",
+  "nameZh": "梦幻",
+  "genusZh": "新种宝可梦",
+  "johtoDex": 250,
+  "types": [
+    "psychic"
+  ],
+  "stats": {
+    "hp": 100,
+    "attack": 100,
+    "defense": 100,
+    "special-attack": 100,
+    "special-defense": 100,
+    "speed": 100
+  },
+  "height": 4,
+  "weight": 40,
+  "captureRate": 45,
+  "genderRate": -1,
+  "eggGroups": [
+    "no-eggs"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "Because it can learn any move, some people began research to see if it is the ancestor of all POKéMON.",
+  "evolutionChainId": 78,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "pound"
+      },
+      {
+        "level": 10,
+        "move": "transform"
+      },
+      {
+        "level": 20,
+        "move": "mega-punch"
+      },
+      {
+        "level": 30,
+        "move": "metronome"
+      },
+      {
+        "level": 40,
+        "move": "psychic"
+      },
+      {
+        "level": 50,
+        "move": "ancient-power"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dragon-breath",
+        "tm": "TM24"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      },
+      {
+        "move": "ice-beam"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

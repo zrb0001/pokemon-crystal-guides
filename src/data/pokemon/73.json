@@ -1,0 +1,173 @@
+{
+  "id": 73,
+  "nameEn": "tentacruel",
+  "nameZh": "毒刺水母",
+  "genusZh": "水母宝可梦",
+  "johtoDex": 163,
+  "types": [
+    "water",
+    "poison"
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 65,
+    "special-attack": 80,
+    "special-defense": 120,
+    "speed": 100
+  },
+  "height": 16,
+  "weight": 550,
+  "captureRate": 60,
+  "genderRate": 4,
+  "eggGroups": [
+    "water3"
+  ],
+  "growthRate": "slow",
+  "flavorText": "When its 80 feel­ ers absorb water, it stretches to become like a net to entangle its prey.",
+  "evolutionChainId": 30,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "constrict"
+      },
+      {
+        "level": 1,
+        "move": "poison-sting"
+      },
+      {
+        "level": 1,
+        "move": "supersonic"
+      },
+      {
+        "level": 6,
+        "move": "supersonic"
+      },
+      {
+        "level": 12,
+        "move": "constrict"
+      },
+      {
+        "level": 19,
+        "move": "acid"
+      },
+      {
+        "level": 25,
+        "move": "bubble-beam"
+      },
+      {
+        "level": 30,
+        "move": "wrap"
+      },
+      {
+        "level": 38,
+        "move": "barrier"
+      },
+      {
+        "level": 47,
+        "move": "screech"
+      },
+      {
+        "level": 55,
+        "move": "hydro-pump"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

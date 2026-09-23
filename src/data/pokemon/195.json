@@ -1,0 +1,198 @@
+{
+  "id": 195,
+  "nameEn": "quagsire",
+  "nameZh": "沼王",
+  "genusZh": "水鱼宝可梦",
+  "johtoDex": 57,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "stats": {
+    "hp": 95,
+    "attack": 85,
+    "defense": 85,
+    "special-attack": 65,
+    "special-defense": 65,
+    "speed": 35
+  },
+  "height": 14,
+  "weight": 750,
+  "captureRate": 90,
+  "genderRate": 4,
+  "eggGroups": [
+    "water1",
+    "ground"
+  ],
+  "growthRate": "medium",
+  "flavorText": "Its body is always slimy. It often bangs its head on the river bottom as it swims but seems not to care.",
+  "evolutionChainId": 96,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tail-whip"
+      },
+      {
+        "level": 1,
+        "move": "water-gun"
+      },
+      {
+        "level": 11,
+        "move": "slam"
+      },
+      {
+        "level": 23,
+        "move": "amnesia"
+      },
+      {
+        "level": 35,
+        "move": "earthquake"
+      },
+      {
+        "level": 47,
+        "move": "rain-dance"
+      },
+      {
+        "level": 59,
+        "move": "haze"
+      },
+      {
+        "level": 59,
+        "move": "mist"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

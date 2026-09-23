@@ -1,0 +1,189 @@
+{
+  "id": 153,
+  "nameEn": "bayleef",
+  "nameZh": "月桂叶",
+  "genusZh": "叶子宝可梦",
+  "johtoDex": 2,
+  "types": [
+    "grass"
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 62,
+    "defense": 80,
+    "special-attack": 63,
+    "special-defense": 80,
+    "speed": 60
+  },
+  "height": 12,
+  "weight": 158,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "monster",
+    "plant"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "The scent that wafts from the leaves on its neck causes anyone who smells it to become energetic.",
+  "evolutionChainId": 79,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "razor-leaf"
+      },
+      {
+        "level": 1,
+        "move": "reflect"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 8,
+        "move": "razor-leaf"
+      },
+      {
+        "level": 12,
+        "move": "reflect"
+      },
+      {
+        "level": 15,
+        "move": "poison-powder"
+      },
+      {
+        "level": 23,
+        "move": "synthesis"
+      },
+      {
+        "level": 31,
+        "move": "body-slam"
+      },
+      {
+        "level": 39,
+        "move": "light-screen"
+      },
+      {
+        "level": 47,
+        "move": "safeguard"
+      },
+      {
+        "level": 55,
+        "move": "solar-beam"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

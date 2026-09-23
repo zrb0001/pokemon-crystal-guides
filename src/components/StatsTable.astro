@@ -1,0 +1,49 @@
+---
+import { STAT_NAMES, STAT_ORDER } from '../lib/data';
+
+interface Props {
+  stats: Record<string, number>;
+}
+const { stats } = Astro.props;
+const total = STAT_ORDER.reduce((sum, k) => sum + (stats[k] ?? 0), 0);
+
+/** 每项种族值的专属色相 */
+const STAT_HUES: Record<string, number> = {
+  hp: 4, // 红
+  attack: 28, // 橙
+  defense: 45, // 金
+  'special-attack': 215, // 蓝
+  'special-defense': 140, // 绿
+  speed: 290, // 紫
+};
+
+/** 同一色相下，数值低 → 浅色，数值高 → 鲜亮 */
+function statColor(key: string, v: number): string {
+  const t = Math.min(1, v / 180);
+  const hue = STAT_HUES[key] ?? 215;
+  const sat = 62 + t * 23;
+  const light = 72 - t * 24; // 浅 → 亮
+  return `hsl(${hue} ${sat.toFixed(0)}% ${light.toFixed(0)}%)`;
+}
+---
+
+<div>
+  {
+    STAT_ORDER.map((key) => (
+      <div class="stat-row">
+        <span>{STAT_NAMES[key]}</span>
+        <span class="stat-num">{stats[key]}</span>
+        <div class="stat-bar">
+          <div
+            style={`width: ${Math.min(100, ((stats[key] ?? 0) / 255) * 100)}%; background: ${statColor(key, stats[key] ?? 0)}`}
+          />
+        </div>
+      </div>
+    ))
+  }
+  <div class="stat-row">
+    <span><strong>合计</strong></span>
+    <span class="stat-num"><strong>{total}</strong></span>
+    <span />
+  </div>
+</div>

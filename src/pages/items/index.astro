@@ -1,0 +1,156 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Toc from '../../components/Toc.astro';
+import {
+  getAllItems,
+  getAllMoves,
+  itemCategoryZh,
+} from '../../lib/data';
+import type { Item } from '../../types';
+
+const items = getAllItems();
+
+// 展示顺序：球类 → 消耗品 → 携带/强化 → 其他 → 剧情/活动 → 邮件/机器 → 特殊
+const CATEGORY_ORDER = [
+  'standard-balls', 'apricorn-balls', 'apricorns',
+  'healing', 'status-cures', 'revival', 'pp-recovery', 'vitamins',
+  'stat-boosts', 'held-items', 'species-specific', 'type-enhancement',
+  'evolution', 'training', 'berries', 'loot', 'spelunking',
+  'gameplay', 'plot-advancement', 'event-items', 'mail', 'all-machines', 'unused',
+];
+
+const byCategory = new Map<string, Item[]>();
+for (const it of items) {
+  const arr = byCategory.get(it.category) ?? [];
+  arr.push(it);
+  byCategory.set(it.category, arr);
+}
+const orderedCategories = [
+  ...CATEGORY_ORDER.filter((c) => byCategory.has(c)),
+  ...[...byCategory.keys()].filter((c) => !CATEGORY_ORDER.includes(c)),
+];
+const groups = orderedCategories.map((category) => ({
+  category,
+  items: byCategory.get(category)!.sort((a, b) => a.id - b.id),
+}));
+
+// 水晶版 TM/HM → 招式
+const moveByMachine = new Map(
+  getAllMoves()
+    .filter((m) => m.machine)
+    .map((m) => [m.machine!, m]),
+);
+
+const tocItems = groups.map((g) => ({
+  id: `cat-${g.category}`,
+  label: `${itemCategoryZh(g.category)}（${g.items.length}）`,
+}));
+---
+
+<Layout title="道具列表" description={`宝可梦水晶版全部 ${items.length} 个道具的用途、价格与说明`}>
+  <h1>道具列表（{items.length}）</h1>
+
+  <Toc items={tocItems}>
+  {
+    groups.map((g) => (
+      <section class="panel item-group" id={`cat-${g.category}`} data-category={g.category}>
+        <h2>{itemCategoryZh(g.category)}（{g.items.length}）</h2>
+        <table class="move-table item-table">
+          <tbody>
+            {g.items.map((it) => {
+              const move = it.category === 'all-machines'
+                ? moveByMachine.get(it.nameEn.toUpperCase())
+                : undefined;
+              return (
+                <tr
+                  class="item-row"
+                  data-name={`${it.nameZh ?? ''} ${it.nameEn}`.toLowerCase()}
+                  data-pocket={it.pocket}
+                >
+                  <td class="item-icon">
+                    {it.sprite ? (
+                      <img src={it.sprite} alt="" loading="lazy" />
+                    ) : (
+                      <span class="no-icon" aria-hidden="true" />
+                    )}
+                  </td>
+                  <td class="item-name">
+                    {move ? (
+                      <>
+                        <a href={`/moves/${move.id}/`}>
+                          {it.nameEn.toUpperCase()} {move.nameZh ?? move.nameEn}
+                        </a>
+                        <div class="sub">对应招式机器</div>
+                      </>
+                    ) : (
+                      <>
+                        {it.nameZh ?? it.nameEn}
+                        {it.nameZh && <div class="sub">{it.nameEn}</div>}
+                      </>
+                    )}
+                  </td>
+                  <td class="item-cost">{it.cost > 0 ? `${it.cost} 元` : '—'}</td>
+                  <td class="item-desc">{it.flavorZh ?? it.effect ?? ''}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </section>
+    ))
+  }
+  </Toc>
+</Layout>
+
+<style>
+  .item-table td {
+    white-space: normal;
+    vertical-align: top;
+  }
+  .item-icon {
+    width: 44px;
+    text-align: center;
+  }
+  .item-icon img {
+    width: 32px;
+    height: 32px;
+    image-rendering: pixelated;
+    object-fit: contain;
+    vertical-align: middle;
+  }
+  .no-icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border: 1px dashed var(--border);
+    border-radius: 6px;
+    vertical-align: middle;
+  }
+  .item-name {
+    width: 170px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .item-name .sub {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .item-cost {
+    width: 76px;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .item-desc {
+    color: var(--text);
+  }
+  @media (max-width: 640px) {
+    .item-name {
+      width: auto;
+    }
+    .item-cost {
+      display: none;
+    }
+  }
+</style>
+

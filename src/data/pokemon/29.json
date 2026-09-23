@@ -1,0 +1,187 @@
+{
+  "id": 29,
+  "nameEn": "nidoran-f",
+  "nameZh": "尼多兰",
+  "genusZh": "毒针宝可梦",
+  "johtoDex": 95,
+  "types": [
+    "poison"
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 47,
+    "defense": 52,
+    "special-attack": 40,
+    "special-defense": 40,
+    "speed": 41
+  },
+  "height": 4,
+  "weight": 70,
+  "captureRate": 235,
+  "genderRate": 8,
+  "eggGroups": [
+    "monster",
+    "ground"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "Small and very docile, it pro­ tects itself with its small, poison­ ous horn when attacked.",
+  "evolutionChainId": 12,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 8,
+        "move": "scratch"
+      },
+      {
+        "level": 12,
+        "move": "double-kick"
+      },
+      {
+        "level": 17,
+        "move": "poison-sting"
+      },
+      {
+        "level": 23,
+        "move": "tail-whip"
+      },
+      {
+        "level": 30,
+        "move": "bite"
+      },
+      {
+        "level": 38,
+        "move": "fury-swipes"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "beat-up"
+      },
+      {
+        "move": "charm"
+      },
+      {
+        "move": "counter"
+      },
+      {
+        "move": "disable"
+      },
+      {
+        "move": "focus-energy"
+      },
+      {
+        "move": "supersonic"
+      },
+      {
+        "move": "take-down"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

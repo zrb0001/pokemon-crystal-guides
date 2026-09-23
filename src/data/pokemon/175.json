@@ -1,0 +1,204 @@
+{
+  "id": 175,
+  "nameEn": "togepi",
+  "nameZh": "波克比",
+  "genusZh": "针球宝可梦",
+  "johtoDex": 46,
+  "types": [
+    "normal"
+  ],
+  "stats": {
+    "hp": 35,
+    "attack": 20,
+    "defense": 65,
+    "special-attack": 40,
+    "special-defense": 65,
+    "speed": 20
+  },
+  "height": 3,
+  "weight": 15,
+  "captureRate": 190,
+  "genderRate": 1,
+  "eggGroups": [
+    "no-eggs"
+  ],
+  "growthRate": "fast",
+  "flavorText": "It is considered to be a symbol of good luck. Its shell is said to be filled with happiness.",
+  "evolutionChainId": 87,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "charm"
+      },
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 7,
+        "move": "metronome"
+      },
+      {
+        "level": 18,
+        "move": "sweet-kiss"
+      },
+      {
+        "level": 25,
+        "move": "encore"
+      },
+      {
+        "level": 31,
+        "move": "safeguard"
+      },
+      {
+        "level": 38,
+        "move": "double-edge"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [
+      {
+        "move": "foresight"
+      },
+      {
+        "move": "future-sight"
+      },
+      {
+        "move": "mirror-move"
+      },
+      {
+        "move": "peck"
+      },
+      {
+        "move": "present"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "id": 230,
+  "nameEn": "kingdra",
+  "nameZh": "刺龙王",
+  "genusZh": "龙宝可梦",
+  "johtoDex": 188,
+  "types": [
+    "water",
+    "dragon"
+  ],
+  "stats": {
+    "hp": 75,
+    "attack": 95,
+    "defense": 95,
+    "special-attack": 95,
+    "special-defense": 95,
+    "speed": 85
+  },
+  "height": 18,
+  "weight": 1520,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "water1",
+    "dragon"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It stores energy by sleeping at underwater depths at which no other life forms can survive.",
+  "evolutionChainId": 54,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "bubble"
+      },
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "smokescreen"
+      },
+      {
+        "level": 1,
+        "move": "water-gun"
+      },
+      {
+        "level": 8,
+        "move": "smokescreen"
+      },
+      {
+        "level": 15,
+        "move": "leer"
+      },
+      {
+        "level": 22,
+        "move": "water-gun"
+      },
+      {
+        "level": 29,
+        "move": "twister"
+      },
+      {
+        "level": 40,
+        "move": "agility"
+      },
+      {
+        "level": 51,
+        "move": "hydro-pump"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dragon-breath",
+        "tm": "TM24"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

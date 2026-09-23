@@ -1,0 +1,43 @@
+{
+  "id": 10,
+  "nameEn": "caterpie",
+  "nameZh": "绿毛虫",
+  "genusZh": "虫宝宝宝可梦",
+  "johtoDex": 24,
+  "types": [
+    "bug"
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 35,
+    "special-attack": 20,
+    "special-defense": 20,
+    "speed": 45
+  },
+  "height": 3,
+  "weight": 29,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "bug"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It crawls into foliage where it camouflages itself among leaves that are the same color as its body.",
+  "evolutionChainId": 4,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "string-shot"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      }
+    ],
+    "machine": [],
+    "egg": [],
+    "tutor": []
+  }
+}

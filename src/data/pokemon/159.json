@@ -1,0 +1,201 @@
+{
+  "id": 159,
+  "nameEn": "croconaw",
+  "nameZh": "蓝鳄",
+  "genusZh": "大颚宝可梦",
+  "johtoDex": 8,
+  "types": [
+    "water"
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 80,
+    "defense": 80,
+    "special-attack": 59,
+    "special-defense": 63,
+    "speed": 58
+  },
+  "height": 11,
+  "weight": 250,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "monster",
+    "water1"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "The tips of its fangs are slanted backward. Once those fangs clamp down, the prey has no hope of escape.",
+  "evolutionChainId": 81,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "rage"
+      },
+      {
+        "level": 1,
+        "move": "scratch"
+      },
+      {
+        "level": 7,
+        "move": "rage"
+      },
+      {
+        "level": 13,
+        "move": "water-gun"
+      },
+      {
+        "level": 21,
+        "move": "bite"
+      },
+      {
+        "level": 28,
+        "move": "scary-face"
+      },
+      {
+        "level": 37,
+        "move": "slash"
+      },
+      {
+        "level": 45,
+        "move": "screech"
+      },
+      {
+        "level": 55,
+        "move": "hydro-pump"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": 82,
+  "nameEn": "magneton",
+  "nameZh": "三合一磁怪",
+  "genusZh": "磁铁宝可梦",
+  "johtoDex": 119,
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 60,
+    "defense": 95,
+    "special-attack": 120,
+    "special-defense": 70,
+    "speed": 70
+  },
+  "height": 10,
+  "weight": 600,
+  "captureRate": 60,
+  "genderRate": -1,
+  "eggGroups": [
+    "mineral"
+  ],
+  "growthRate": "medium",
+  "flavorText": "When many MAGNETON gather together, the resulting magnetic storm disrupts radio waves.",
+  "evolutionChainId": 34,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "sonic-boom"
+      },
+      {
+        "level": 1,
+        "move": "supersonic"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 1,
+        "move": "thunder-shock"
+      },
+      {
+        "level": 6,
+        "move": "thunder-shock"
+      },
+      {
+        "level": 11,
+        "move": "supersonic"
+      },
+      {
+        "level": 16,
+        "move": "sonic-boom"
+      },
+      {
+        "level": 21,
+        "move": "thunder-wave"
+      },
+      {
+        "level": 27,
+        "move": "lock-on"
+      },
+      {
+        "level": 35,
+        "move": "tri-attack"
+      },
+      {
+        "level": 43,
+        "move": "screech"
+      },
+      {
+        "level": 53,
+        "move": "zap-cannon"
+      }
+    ],
+    "machine": [
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

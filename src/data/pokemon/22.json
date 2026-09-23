@@ -1,0 +1,161 @@
+{
+  "id": 22,
+  "nameEn": "fearow",
+  "nameZh": "大嘴雀",
+  "genusZh": "鸟嘴宝可梦",
+  "johtoDex": 14,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 65,
+    "special-attack": 61,
+    "special-defense": 61,
+    "speed": 100
+  },
+  "height": 12,
+  "weight": 380,
+  "captureRate": 90,
+  "genderRate": 4,
+  "eggGroups": [
+    "flying"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It uses its long beak to attack. It has a surprisingly long reach, so it must be treated with caution.",
+  "evolutionChainId": 8,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "fury-attack"
+      },
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "peck"
+      },
+      {
+        "level": 7,
+        "move": "leer"
+      },
+      {
+        "level": 13,
+        "move": "fury-attack"
+      },
+      {
+        "level": 26,
+        "move": "pursuit"
+      },
+      {
+        "level": 32,
+        "move": "mirror-move"
+      },
+      {
+        "level": 40,
+        "move": "drill-peck"
+      },
+      {
+        "level": 47,
+        "move": "agility"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

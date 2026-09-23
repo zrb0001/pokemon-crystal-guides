@@ -1,0 +1,174 @@
+{
+  "id": 140,
+  "nameEn": "kabuto",
+  "nameZh": "化石盔",
+  "genusZh": "甲壳宝可梦",
+  "johtoDex": 222,
+  "types": [
+    "rock",
+    "water"
+  ],
+  "stats": {
+    "hp": 30,
+    "attack": 80,
+    "defense": 90,
+    "special-attack": 55,
+    "special-defense": 45,
+    "speed": 55
+  },
+  "height": 5,
+  "weight": 115,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "water1",
+    "water3"
+  ],
+  "growthRate": "medium",
+  "flavorText": "Three hundred million years ago, it hid on the sea floor. It also has eyes on its back that glow.",
+  "evolutionChainId": 70,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "harden"
+      },
+      {
+        "level": 1,
+        "move": "scratch"
+      },
+      {
+        "level": 10,
+        "move": "absorb"
+      },
+      {
+        "level": 19,
+        "move": "leer"
+      },
+      {
+        "level": 28,
+        "move": "sand-attack"
+      },
+      {
+        "level": 37,
+        "move": "endure"
+      },
+      {
+        "level": 46,
+        "move": "mega-drain"
+      },
+      {
+        "level": 55,
+        "move": "ancient-power"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "aurora-beam"
+      },
+      {
+        "move": "bubble-beam"
+      },
+      {
+        "move": "dig"
+      },
+      {
+        "move": "flail"
+      },
+      {
+        "move": "rapid-spin"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "id": 228,
+  "nameEn": "houndour",
+  "nameZh": "戴鲁比",
+  "genusZh": "阴暗宝可梦",
+  "johtoDex": 209,
+  "types": [
+    "dark",
+    "fire"
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 60,
+    "defense": 30,
+    "special-attack": 80,
+    "special-defense": 50,
+    "speed": 65
+  },
+  "height": 6,
+  "weight": 108,
+  "captureRate": 120,
+  "genderRate": 4,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "slow",
+  "flavorText": "Around dawn, its ominous howl echoes through the area to announce that this is its territory.",
+  "evolutionChainId": 118,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "ember"
+      },
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 7,
+        "move": "roar"
+      },
+      {
+        "level": 13,
+        "move": "smog"
+      },
+      {
+        "level": 20,
+        "move": "bite"
+      },
+      {
+        "level": 27,
+        "move": "feint-attack"
+      },
+      {
+        "level": 35,
+        "move": "flamethrower"
+      },
+      {
+        "level": 43,
+        "move": "crunch"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "beat-up"
+      },
+      {
+        "move": "counter"
+      },
+      {
+        "move": "fire-spin"
+      },
+      {
+        "move": "pursuit"
+      },
+      {
+        "move": "rage"
+      },
+      {
+        "move": "reversal"
+      },
+      {
+        "move": "spite"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

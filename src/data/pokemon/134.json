@@ -1,0 +1,192 @@
+{
+  "id": 134,
+  "nameEn": "vaporeon",
+  "nameZh": "水伊布",
+  "genusZh": "吐泡宝可梦",
+  "johtoDex": 181,
+  "types": [
+    "water"
+  ],
+  "stats": {
+    "hp": 130,
+    "attack": 65,
+    "defense": 60,
+    "special-attack": 110,
+    "special-defense": 95,
+    "speed": 65
+  },
+  "height": 10,
+  "weight": 290,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "medium",
+  "flavorText": "As it uses the fins on the tip of its tail to swim, it blends with the water perfectly.",
+  "evolutionChainId": 67,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 1,
+        "move": "tail-whip"
+      },
+      {
+        "level": 8,
+        "move": "sand-attack"
+      },
+      {
+        "level": 16,
+        "move": "water-gun"
+      },
+      {
+        "level": 23,
+        "move": "quick-attack"
+      },
+      {
+        "level": 30,
+        "move": "bite"
+      },
+      {
+        "level": 36,
+        "move": "aurora-beam"
+      },
+      {
+        "level": 42,
+        "move": "haze"
+      },
+      {
+        "level": 47,
+        "move": "acid-armor"
+      },
+      {
+        "level": 52,
+        "move": "hydro-pump"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

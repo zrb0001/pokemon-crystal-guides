@@ -1,0 +1,171 @@
+{
+  "id": 214,
+  "nameEn": "heracross",
+  "nameZh": "赫拉克罗斯",
+  "genusZh": "独角宝可梦",
+  "johtoDex": 113,
+  "types": [
+    "bug",
+    "fighting"
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 125,
+    "defense": 75,
+    "special-attack": 40,
+    "special-defense": 95,
+    "speed": 85
+  },
+  "height": 15,
+  "weight": 540,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "bug"
+  ],
+  "growthRate": "slow",
+  "flavorText": "With its Herculean powers, it can easily throw arou­ nd an object that is 100 times its own weight.",
+  "evolutionChainId": 108,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 6,
+        "move": "horn-attack"
+      },
+      {
+        "level": 12,
+        "move": "endure"
+      },
+      {
+        "level": 19,
+        "move": "fury-attack"
+      },
+      {
+        "level": 27,
+        "move": "counter"
+      },
+      {
+        "level": 35,
+        "move": "take-down"
+      },
+      {
+        "level": 44,
+        "move": "reversal"
+      },
+      {
+        "level": 54,
+        "move": "megahorn"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "bide"
+      },
+      {
+        "move": "flail"
+      },
+      {
+        "move": "harden"
+      }
+    ],
+    "tutor": []
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "id": 137,
+  "nameEn": "porygon",
+  "nameZh": "多边兽",
+  "genusZh": "虚拟宝可梦",
+  "johtoDex": 215,
+  "types": [
+    "normal"
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 60,
+    "defense": 70,
+    "special-attack": 85,
+    "special-defense": 75,
+    "speed": 40
+  },
+  "height": 8,
+  "weight": 365,
+  "captureRate": 45,
+  "genderRate": -1,
+  "eggGroups": [
+    "mineral"
+  ],
+  "growthRate": "medium",
+  "flavorText": "An artificial POKéMON created due to extensive research, it can perform only what is in its program.",
+  "evolutionChainId": 68,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "conversion"
+      },
+      {
+        "level": 1,
+        "move": "conversion-2"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 9,
+        "move": "agility"
+      },
+      {
+        "level": 12,
+        "move": "psybeam"
+      },
+      {
+        "level": 20,
+        "move": "recover"
+      },
+      {
+        "level": 24,
+        "move": "sharpen"
+      },
+      {
+        "level": 32,
+        "move": "lock-on"
+      },
+      {
+        "level": 36,
+        "move": "tri-attack"
+      },
+      {
+        "level": 44,
+        "move": "zap-cannon"
+      }
+    ],
+    "machine": [
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

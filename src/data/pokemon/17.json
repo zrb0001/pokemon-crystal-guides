@@ -1,0 +1,157 @@
+{
+  "id": 17,
+  "nameEn": "pidgeotto",
+  "nameZh": "比比鸟",
+  "genusZh": "鸟宝可梦",
+  "johtoDex": 11,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "stats": {
+    "hp": 63,
+    "attack": 60,
+    "defense": 55,
+    "special-attack": 50,
+    "special-defense": 50,
+    "speed": 71
+  },
+  "height": 11,
+  "weight": 300,
+  "captureRate": 120,
+  "genderRate": 4,
+  "eggGroups": [
+    "flying"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "It slowly flies in a circular pat­ tern, all the while keeping a sharp lookout for prey.",
+  "evolutionChainId": 6,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "gust"
+      },
+      {
+        "level": 1,
+        "move": "sand-attack"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 5,
+        "move": "sand-attack"
+      },
+      {
+        "level": 9,
+        "move": "gust"
+      },
+      {
+        "level": 15,
+        "move": "quick-attack"
+      },
+      {
+        "level": 23,
+        "move": "whirlwind"
+      },
+      {
+        "level": 33,
+        "move": "wing-attack"
+      },
+      {
+        "level": 43,
+        "move": "agility"
+      },
+      {
+        "level": 55,
+        "move": "mirror-move"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "id": 249,
+  "nameEn": "lugia",
+  "nameZh": "洛奇亚",
+  "genusZh": "潜水宝可梦",
+  "johtoDex": 247,
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "stats": {
+    "hp": 106,
+    "attack": 90,
+    "defense": 130,
+    "special-attack": 90,
+    "special-defense": 154,
+    "speed": 110
+  },
+  "height": 52,
+  "weight": 2160,
+  "captureRate": 3,
+  "genderRate": -1,
+  "eggGroups": [
+    "no-eggs"
+  ],
+  "growthRate": "slow",
+  "flavorText": "It has an incred­ ible ability to calm raging sto­ rms. It is said that LUGIA appears when storms start.",
+  "evolutionChainId": 127,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "aeroblast"
+      },
+      {
+        "level": 11,
+        "move": "safeguard"
+      },
+      {
+        "level": 22,
+        "move": "gust"
+      },
+      {
+        "level": 33,
+        "move": "recover"
+      },
+      {
+        "level": 44,
+        "move": "hydro-pump"
+      },
+      {
+        "level": 55,
+        "move": "rain-dance"
+      },
+      {
+        "level": 66,
+        "move": "swift"
+      },
+      {
+        "level": 77,
+        "move": "whirlwind"
+      },
+      {
+        "level": 88,
+        "move": "ancient-power"
+      },
+      {
+        "level": 99,
+        "move": "future-sight"
+      }
+    ],
+    "machine": [
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dragon-breath",
+        "tm": "TM24"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

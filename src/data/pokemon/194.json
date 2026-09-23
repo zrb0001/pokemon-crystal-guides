@@ -1,0 +1,200 @@
+{
+  "id": 194,
+  "nameEn": "wooper",
+  "nameZh": "乌波",
+  "genusZh": "水鱼宝可梦",
+  "johtoDex": 56,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 45,
+    "defense": 45,
+    "special-attack": 25,
+    "special-defense": 25,
+    "speed": 15
+  },
+  "height": 4,
+  "weight": 85,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "water1",
+    "ground"
+  ],
+  "growthRate": "medium",
+  "flavorText": "A mucous membrane covers its body. Touching it barehanded will cause a shooting pain.",
+  "evolutionChainId": 96,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tail-whip"
+      },
+      {
+        "level": 1,
+        "move": "water-gun"
+      },
+      {
+        "level": 11,
+        "move": "slam"
+      },
+      {
+        "level": 21,
+        "move": "amnesia"
+      },
+      {
+        "level": 31,
+        "move": "earthquake"
+      },
+      {
+        "level": 41,
+        "move": "rain-dance"
+      },
+      {
+        "level": 51,
+        "move": "haze"
+      },
+      {
+        "level": 51,
+        "move": "mist"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "ancient-power"
+      },
+      {
+        "move": "body-slam"
+      },
+      {
+        "move": "safeguard"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

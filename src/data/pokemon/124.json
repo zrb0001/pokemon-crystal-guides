@@ -1,0 +1,201 @@
+{
+  "id": 124,
+  "nameEn": "jynx",
+  "nameZh": "迷唇姐",
+  "genusZh": "人形宝可梦",
+  "johtoDex": 153,
+  "types": [
+    "ice",
+    "psychic"
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 50,
+    "defense": 35,
+    "special-attack": 115,
+    "special-defense": 95,
+    "speed": 95
+  },
+  "height": 14,
+  "weight": 406,
+  "captureRate": 45,
+  "genderRate": 8,
+  "eggGroups": [
+    "humanshape"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It has several different cry pat­ terns, each of which seems to have its own meaning.",
+  "evolutionChainId": 59,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "lick"
+      },
+      {
+        "level": 1,
+        "move": "lovely-kiss"
+      },
+      {
+        "level": 1,
+        "move": "pound"
+      },
+      {
+        "level": 1,
+        "move": "powder-snow"
+      },
+      {
+        "level": 9,
+        "move": "lovely-kiss"
+      },
+      {
+        "level": 13,
+        "move": "powder-snow"
+      },
+      {
+        "level": 21,
+        "move": "double-slap"
+      },
+      {
+        "level": 25,
+        "move": "ice-punch"
+      },
+      {
+        "level": 35,
+        "move": "mean-look"
+      },
+      {
+        "level": 41,
+        "move": "body-slam"
+      },
+      {
+        "level": 51,
+        "move": "perish-song"
+      },
+      {
+        "level": 57,
+        "move": "blizzard"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

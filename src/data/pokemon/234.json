@@ -1,0 +1,188 @@
+{
+  "id": 234,
+  "nameEn": "stantler",
+  "nameZh": "惊角鹿",
+  "genusZh": "大角宝可梦",
+  "johtoDex": 129,
+  "types": [
+    "normal"
+  ],
+  "stats": {
+    "hp": 73,
+    "attack": 95,
+    "defense": 62,
+    "special-attack": 85,
+    "special-defense": 65,
+    "speed": 85
+  },
+  "height": 14,
+  "weight": 712,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "slow",
+  "flavorText": "The round balls found on the fallen antlers can be ground into a powder that aids in sleeping.",
+  "evolutionChainId": 120,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 8,
+        "move": "leer"
+      },
+      {
+        "level": 15,
+        "move": "hypnosis"
+      },
+      {
+        "level": 23,
+        "move": "stomp"
+      },
+      {
+        "level": 31,
+        "move": "sand-attack"
+      },
+      {
+        "level": 40,
+        "move": "take-down"
+      },
+      {
+        "level": 49,
+        "move": "confuse-ray"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "bite"
+      },
+      {
+        "move": "disable"
+      },
+      {
+        "move": "light-screen"
+      },
+      {
+        "move": "reflect"
+      },
+      {
+        "move": "spite"
+      }
+    ],
+    "tutor": []
+  }
+}

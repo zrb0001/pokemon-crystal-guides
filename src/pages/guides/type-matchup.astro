@@ -1,0 +1,161 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Toc from '../../components/Toc.astro';
+import { getTypes, typeZh, TYPE_CHART } from '../../lib/data';
+
+const types = Object.keys(getTypes());
+const typeNames = Object.fromEntries(types.map((t) => [t, typeZh(t)]));
+---
+
+<Layout
+  title="属性打击模拟器"
+  description="宝可梦水晶版（第二世代）属性相克查询：选攻击属性看对各属性的伤害倍率，选防守属性看被各属性攻击的承受倍率"
+>
+  <h1>属性打击模拟器</h1>
+
+  <Toc
+    items={[
+      { id: 'attack', label: '攻击方视角' },
+      { id: 'defense', label: '防守方视角' },
+    ]}
+  >
+    <section class="panel" id="attack">
+      <h2>攻击方视角</h2>
+      <p class="hint">选择攻击招式的属性，查看它攻击各属性防守方时的伤害倍率。</p>
+      <div class="type-filter" id="atk-chips" role="group" aria-label="选择攻击属性">
+        {
+          types.map((t) => (
+            <button
+              type="button"
+              class={`type-chip type-${t}`}
+              data-type={t}
+              aria-pressed={t === 'fire' ? 'true' : 'false'}
+            >
+              {typeZh(t)}
+            </button>
+          ))
+        }
+      </div>
+      <div class="mult-result" id="atk-result" aria-live="polite"></div>
+    </section>
+
+    <section class="panel" id="defense">
+      <h2>防守方视角</h2>
+      <p class="hint">选择防守方的属性，查看它被各属性招式攻击时的承受倍率。</p>
+      <div class="type-filter" id="def-chips" role="group" aria-label="选择防守属性">
+        {
+          types.map((t) => (
+            <button
+              type="button"
+              class={`type-chip type-${t}`}
+              data-type={t}
+              aria-pressed={t === 'steel' ? 'true' : 'false'}
+            >
+              {typeZh(t)}
+            </button>
+          ))
+        }
+      </div>
+      <div class="mult-result" id="def-result" aria-live="polite"></div>
+    </section>
+  </Toc>
+</Layout>
+
+<style is:global>
+  .hint {
+    margin: 0 0 14px;
+    font-size: 13.5px;
+    color: var(--muted);
+  }
+  .mult-result {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .tier {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+  }
+  .tier-label {
+    flex-shrink: 0;
+    width: 104px;
+    text-align: center;
+    padding: 3px 0;
+    border-radius: 999px;
+    font-size: 12.5px;
+    font-weight: 600;
+  }
+  .tier-2 { background: #e2f5e9; color: #15803d; }
+  .tier-1 { background: #eceff3; color: #687385; }
+  .tier-half { background: #fdf0e3; color: #c07a1f; }
+  .tier-0 { background: #fae3e3; color: #b3352c; }
+  .tier-types {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+  }
+  @media (max-width: 640px) {
+    .tier {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+    }
+    .tier-label { width: auto; padding: 3px 12px; }
+  }
+</style>
+
+<script define:vars={{ chart: TYPE_CHART, typeList: types, typeNames }}>
+  const TIERS = [
+    { mult: 2, label: '效果绝佳 ×2', cls: 'tier-2' },
+    { mult: 1, label: '效果一般 ×1', cls: 'tier-1' },
+    { mult: 0.5, label: '效果不佳 ×½', cls: 'tier-half' },
+    { mult: 0, label: '无效 ×0', cls: 'tier-0' },
+  ];
+
+  function renderTiers(container, multOf) {
+    container.innerHTML = '';
+    for (const tier of TIERS) {
+      const matched = typeList.filter((t) => multOf(t) === tier.mult);
+      if (matched.length === 0) continue;
+      const row = document.createElement('div');
+      row.className = 'tier';
+      const label = document.createElement('span');
+      label.className = `tier-label ${tier.cls}`;
+      label.textContent = tier.label;
+      const list = document.createElement('div');
+      list.className = 'tier-types';
+      for (const t of matched) {
+        const badge = document.createElement('span');
+        badge.className = `type-badge type-${t}`;
+        badge.textContent = typeNames[t];
+        list.appendChild(badge);
+      }
+      row.appendChild(label);
+      row.appendChild(list);
+      container.appendChild(row);
+    }
+  }
+
+  function setup(chipsId, resultId, multOf, initial) {
+    const chipsBox = document.getElementById(chipsId);
+    const result = document.getElementById(resultId);
+    const chips = Array.from(chipsBox.querySelectorAll('.type-chip'));
+    let current = initial;
+
+    const update = () => renderTiers(result, multOf(current));
+    for (const chip of chips) {
+      chip.addEventListener('click', () => {
+        current = chip.dataset.type;
+        for (const c of chips) c.setAttribute('aria-pressed', String(c === chip));
+        update();
+      });
+    }
+    update();
+  }
+
+  setup('atk-chips', 'atk-result', (atk) => (def) => chart[atk]?.[def] ?? 1, 'fire');
+  setup('def-chips', 'def-result', (def) => (atk) => chart[atk]?.[def] ?? 1, 'steel');
+</script>

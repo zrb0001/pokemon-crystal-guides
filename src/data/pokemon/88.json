@@ -1,0 +1,189 @@
+{
+  "id": 88,
+  "nameEn": "grimer",
+  "nameZh": "臭泥",
+  "genusZh": "污泥宝可梦",
+  "johtoDex": 116,
+  "types": [
+    "poison"
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 80,
+    "defense": 50,
+    "special-attack": 40,
+    "special-defense": 50,
+    "speed": 25
+  },
+  "height": 9,
+  "weight": 300,
+  "captureRate": 190,
+  "genderRate": 4,
+  "eggGroups": [
+    "indeterminate"
+  ],
+  "growthRate": "medium",
+  "flavorText": "When two of these POKéMON's bodies are combined together, new poisons are created.",
+  "evolutionChainId": 38,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "poison-gas"
+      },
+      {
+        "level": 1,
+        "move": "pound"
+      },
+      {
+        "level": 5,
+        "move": "harden"
+      },
+      {
+        "level": 10,
+        "move": "disable"
+      },
+      {
+        "level": 16,
+        "move": "sludge"
+      },
+      {
+        "level": 23,
+        "move": "minimize"
+      },
+      {
+        "level": 31,
+        "move": "screech"
+      },
+      {
+        "level": 40,
+        "move": "acid-armor"
+      },
+      {
+        "level": 50,
+        "move": "sludge-bomb"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [
+      {
+        "move": "haze"
+      },
+      {
+        "move": "lick"
+      },
+      {
+        "move": "mean-look"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

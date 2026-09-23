@@ -1,0 +1,204 @@
+{
+  "id": 161,
+  "nameEn": "sentret",
+  "nameZh": "尾立",
+  "genusZh": "放哨宝可梦",
+  "johtoDex": 19,
+  "types": [
+    "normal"
+  ],
+  "stats": {
+    "hp": 35,
+    "attack": 46,
+    "defense": 34,
+    "special-attack": 35,
+    "special-defense": 45,
+    "speed": 20
+  },
+  "height": 8,
+  "weight": 60,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "medium",
+  "flavorText": "When acting as a lookout, it warns others of danger by screeching and hitting the ground with its tail.",
+  "evolutionChainId": 82,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 5,
+        "move": "defense-curl"
+      },
+      {
+        "level": 11,
+        "move": "quick-attack"
+      },
+      {
+        "level": 17,
+        "move": "fury-swipes"
+      },
+      {
+        "level": 25,
+        "move": "slam"
+      },
+      {
+        "level": 33,
+        "move": "rest"
+      },
+      {
+        "level": 41,
+        "move": "amnesia"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "double-edge"
+      },
+      {
+        "move": "focus-energy"
+      },
+      {
+        "move": "pursuit"
+      },
+      {
+        "move": "reversal"
+      },
+      {
+        "move": "slash"
+      }
+    ],
+    "tutor": []
+  }
+}

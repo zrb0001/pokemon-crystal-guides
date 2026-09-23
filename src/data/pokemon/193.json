@@ -1,0 +1,167 @@
+{
+  "id": 193,
+  "nameEn": "yanma",
+  "nameZh": "蜻蜻蜓",
+  "genusZh": "薄翼宝可梦",
+  "johtoDex": 101,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 65,
+    "defense": 45,
+    "special-attack": 75,
+    "special-defense": 45,
+    "speed": 95
+  },
+  "height": 12,
+  "weight": 380,
+  "captureRate": 75,
+  "genderRate": 4,
+  "eggGroups": [
+    "bug"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It can see in all directions without moving its big eyes, helping it spot attackers and food right away.",
+  "evolutionChainId": 95,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "foresight"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 7,
+        "move": "quick-attack"
+      },
+      {
+        "level": 13,
+        "move": "double-team"
+      },
+      {
+        "level": 19,
+        "move": "sonic-boom"
+      },
+      {
+        "level": 25,
+        "move": "detect"
+      },
+      {
+        "level": 31,
+        "move": "supersonic"
+      },
+      {
+        "level": 37,
+        "move": "wing-attack"
+      },
+      {
+        "level": 43,
+        "move": "screech"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "leech-life"
+      },
+      {
+        "move": "reversal"
+      },
+      {
+        "move": "whirlwind"
+      }
+    ],
+    "tutor": []
+  }
+}

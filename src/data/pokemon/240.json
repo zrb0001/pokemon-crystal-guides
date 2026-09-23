@@ -1,0 +1,188 @@
+{
+  "id": 240,
+  "nameEn": "magby",
+  "nameZh": "鸭嘴宝宝",
+  "genusZh": "火种宝可梦",
+  "johtoDex": 150,
+  "types": [
+    "fire"
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 75,
+    "defense": 37,
+    "special-attack": 70,
+    "special-defense": 55,
+    "speed": 83
+  },
+  "height": 7,
+  "weight": 214,
+  "captureRate": 45,
+  "genderRate": 2,
+  "eggGroups": [
+    "no-eggs"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It naturally spits an 1100-degree flame. It is said when many appear, it heralds a volcanic eruption.",
+  "evolutionChainId": 61,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "ember"
+      },
+      {
+        "level": 7,
+        "move": "leer"
+      },
+      {
+        "level": 13,
+        "move": "smog"
+      },
+      {
+        "level": 19,
+        "move": "fire-punch"
+      },
+      {
+        "level": 25,
+        "move": "smokescreen"
+      },
+      {
+        "level": 31,
+        "move": "sunny-day"
+      },
+      {
+        "level": 37,
+        "move": "flamethrower"
+      },
+      {
+        "level": 43,
+        "move": "confuse-ray"
+      },
+      {
+        "level": 49,
+        "move": "fire-blast"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "barrier"
+      },
+      {
+        "move": "cross-chop"
+      },
+      {
+        "move": "karate-chop"
+      },
+      {
+        "move": "mega-punch"
+      },
+      {
+        "move": "screech"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

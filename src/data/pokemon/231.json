@@ -1,0 +1,173 @@
+{
+  "id": 231,
+  "nameEn": "phanpy",
+  "nameZh": "小小象",
+  "genusZh": "长鼻宝可梦",
+  "johtoDex": 195,
+  "types": [
+    "ground"
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 60,
+    "defense": 60,
+    "special-attack": 40,
+    "special-defense": 40,
+    "speed": 40
+  },
+  "height": 5,
+  "weight": 335,
+  "captureRate": 120,
+  "genderRate": 4,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "medium",
+  "flavorText": "During the desert­ ed morning hours, it comes ashore where it deftly uses its trunk to take a shower.",
+  "evolutionChainId": 119,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 9,
+        "move": "defense-curl"
+      },
+      {
+        "level": 17,
+        "move": "flail"
+      },
+      {
+        "level": 25,
+        "move": "take-down"
+      },
+      {
+        "level": 33,
+        "move": "rollout"
+      },
+      {
+        "level": 41,
+        "move": "endure"
+      },
+      {
+        "level": 49,
+        "move": "double-edge"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "ancient-power"
+      },
+      {
+        "move": "body-slam"
+      },
+      {
+        "move": "focus-energy"
+      },
+      {
+        "move": "water-gun"
+      }
+    ],
+    "tutor": []
+  }
+}

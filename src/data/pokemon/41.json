@@ -1,0 +1,157 @@
+{
+  "id": 41,
+  "nameEn": "zubat",
+  "nameZh": "超音蝠",
+  "genusZh": "蝙蝠宝可梦",
+  "johtoDex": 37,
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 35,
+    "special-attack": 30,
+    "special-defense": 40,
+    "speed": 55
+  },
+  "height": 8,
+  "weight": 75,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "flying"
+  ],
+  "growthRate": "medium",
+  "flavorText": "During the day, it gathers with others and hangs from the ceilings of old buildings and caves.",
+  "evolutionChainId": 17,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "leech-life"
+      },
+      {
+        "level": 6,
+        "move": "supersonic"
+      },
+      {
+        "level": 12,
+        "move": "bite"
+      },
+      {
+        "level": 19,
+        "move": "confuse-ray"
+      },
+      {
+        "level": 27,
+        "move": "wing-attack"
+      },
+      {
+        "level": 36,
+        "move": "mean-look"
+      },
+      {
+        "level": 46,
+        "move": "haze"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "feint-attack"
+      },
+      {
+        "move": "gust"
+      },
+      {
+        "move": "pursuit"
+      },
+      {
+        "move": "quick-attack"
+      },
+      {
+        "move": "whirlwind"
+      }
+    ],
+    "tutor": []
+  }
+}

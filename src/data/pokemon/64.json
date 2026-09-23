@@ -1,0 +1,192 @@
+{
+  "id": 64,
+  "nameEn": "kadabra",
+  "nameZh": "勇基拉",
+  "genusZh": "念力宝可梦",
+  "johtoDex": 90,
+  "types": [
+    "psychic"
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 35,
+    "defense": 30,
+    "special-attack": 120,
+    "special-defense": 70,
+    "speed": 105
+  },
+  "height": 13,
+  "weight": 565,
+  "captureRate": 100,
+  "genderRate": 2,
+  "eggGroups": [
+    "humanshape"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "When it closes its eyes, twice as many alpha parti­ cles come out of the surface of its body.",
+  "evolutionChainId": 27,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "confusion"
+      },
+      {
+        "level": 1,
+        "move": "kinesis"
+      },
+      {
+        "level": 1,
+        "move": "teleport"
+      },
+      {
+        "level": 16,
+        "move": "confusion"
+      },
+      {
+        "level": 18,
+        "move": "disable"
+      },
+      {
+        "level": 21,
+        "move": "psybeam"
+      },
+      {
+        "level": 26,
+        "move": "recover"
+      },
+      {
+        "level": 31,
+        "move": "future-sight"
+      },
+      {
+        "level": 38,
+        "move": "psychic"
+      },
+      {
+        "level": 45,
+        "move": "reflect"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

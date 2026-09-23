@@ -1,0 +1,219 @@
+{
+  "id": 216,
+  "nameEn": "teddiursa",
+  "nameZh": "熊宝宝",
+  "genusZh": "小熊宝可梦",
+  "johtoDex": 193,
+  "types": [
+    "normal"
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 80,
+    "defense": 50,
+    "special-attack": 50,
+    "special-defense": 50,
+    "speed": 40
+  },
+  "height": 6,
+  "weight": 88,
+  "captureRate": 120,
+  "genderRate": 4,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It always licks honey. Its palm tastes sweet because of all the honey it has absorbed.",
+  "evolutionChainId": 110,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "scratch"
+      },
+      {
+        "level": 8,
+        "move": "lick"
+      },
+      {
+        "level": 15,
+        "move": "fury-swipes"
+      },
+      {
+        "level": 22,
+        "move": "feint-attack"
+      },
+      {
+        "level": 29,
+        "move": "rest"
+      },
+      {
+        "level": 36,
+        "move": "slash"
+      },
+      {
+        "level": 43,
+        "move": "snore"
+      },
+      {
+        "level": 50,
+        "move": "thrash"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [
+      {
+        "move": "counter"
+      },
+      {
+        "move": "crunch"
+      },
+      {
+        "move": "focus-energy"
+      },
+      {
+        "move": "metal-claw"
+      },
+      {
+        "move": "seismic-toss"
+      },
+      {
+        "move": "take-down"
+      }
+    ],
+    "tutor": []
+  }
+}

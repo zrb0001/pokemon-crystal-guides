@@ -1,0 +1,189 @@
+{
+  "id": 166,
+  "nameEn": "ledian",
+  "nameZh": "安瓢虫",
+  "genusZh": "五星宝可梦",
+  "johtoDex": 31,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 35,
+    "defense": 50,
+    "special-attack": 55,
+    "special-defense": 110,
+    "speed": 85
+  },
+  "height": 14,
+  "weight": 356,
+  "captureRate": 90,
+  "genderRate": 4,
+  "eggGroups": [
+    "bug"
+  ],
+  "growthRate": "fast",
+  "flavorText": "In the daytime when it gets warm, it curls up inside a big leaf and drifts off into a deep slumber.",
+  "evolutionChainId": 84,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "supersonic"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 8,
+        "move": "supersonic"
+      },
+      {
+        "level": 15,
+        "move": "comet-punch"
+      },
+      {
+        "level": 24,
+        "move": "light-screen"
+      },
+      {
+        "level": 24,
+        "move": "reflect"
+      },
+      {
+        "level": 24,
+        "move": "safeguard"
+      },
+      {
+        "level": 33,
+        "move": "baton-pass"
+      },
+      {
+        "level": 42,
+        "move": "swift"
+      },
+      {
+        "level": 51,
+        "move": "agility"
+      },
+      {
+        "level": 60,
+        "move": "double-edge"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

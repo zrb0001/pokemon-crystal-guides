@@ -1,0 +1,188 @@
+{
+  "id": 114,
+  "nameEn": "tangela",
+  "nameZh": "蔓藤怪",
+  "genusZh": "藤蔓状宝可梦",
+  "johtoDex": 179,
+  "types": [
+    "grass"
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 55,
+    "defense": 115,
+    "special-attack": 100,
+    "special-defense": 40,
+    "speed": 60
+  },
+  "height": 10,
+  "weight": 350,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "plant"
+  ],
+  "growthRate": "medium",
+  "flavorText": "During battle, it constantly moves the vines that cover its body in order to annoy its opponent.",
+  "evolutionChainId": 52,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "constrict"
+      },
+      {
+        "level": 4,
+        "move": "sleep-powder"
+      },
+      {
+        "level": 10,
+        "move": "absorb"
+      },
+      {
+        "level": 13,
+        "move": "poison-powder"
+      },
+      {
+        "level": 19,
+        "move": "vine-whip"
+      },
+      {
+        "level": 25,
+        "move": "bind"
+      },
+      {
+        "level": 31,
+        "move": "mega-drain"
+      },
+      {
+        "level": 34,
+        "move": "stun-spore"
+      },
+      {
+        "level": 40,
+        "move": "slam"
+      },
+      {
+        "level": 46,
+        "move": "growth"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "amnesia"
+      },
+      {
+        "move": "confusion"
+      },
+      {
+        "move": "flail"
+      },
+      {
+        "move": "mega-drain"
+      },
+      {
+        "move": "reflect"
+      }
+    ],
+    "tutor": []
+  }
+}

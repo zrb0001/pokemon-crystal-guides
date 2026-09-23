@@ -1,0 +1,200 @@
+{
+  "id": 125,
+  "nameEn": "electabuzz",
+  "nameZh": "电击兽",
+  "genusZh": "电击宝可梦",
+  "johtoDex": 155,
+  "types": [
+    "electric"
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 83,
+    "defense": 57,
+    "special-attack": 95,
+    "special-defense": 85,
+    "speed": 105
+  },
+  "height": 11,
+  "weight": 300,
+  "captureRate": 45,
+  "genderRate": 2,
+  "eggGroups": [
+    "humanshape"
+  ],
+  "growthRate": "medium",
+  "flavorText": "When two ELECTABUZZ touch, they control the electric currents to communicate their feelings.",
+  "evolutionChainId": 60,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "quick-attack"
+      },
+      {
+        "level": 1,
+        "move": "thunder-punch"
+      },
+      {
+        "level": 9,
+        "move": "thunder-punch"
+      },
+      {
+        "level": 17,
+        "move": "light-screen"
+      },
+      {
+        "level": 25,
+        "move": "swift"
+      },
+      {
+        "level": 36,
+        "move": "screech"
+      },
+      {
+        "level": 47,
+        "move": "thunderbolt"
+      },
+      {
+        "level": 58,
+        "move": "thunder"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

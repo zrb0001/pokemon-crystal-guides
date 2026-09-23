@@ -1,0 +1,187 @@
+{
+  "id": 155,
+  "nameEn": "cyndaquil",
+  "nameZh": "火球鼠",
+  "genusZh": "火鼠宝可梦",
+  "johtoDex": 4,
+  "types": [
+    "fire"
+  ],
+  "stats": {
+    "hp": 39,
+    "attack": 52,
+    "defense": 43,
+    "special-attack": 60,
+    "special-defense": 50,
+    "speed": 65
+  },
+  "height": 5,
+  "weight": 79,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "The fire that spouts from its back burns hottest when it is angry. The flaring flames intimidate foes.",
+  "evolutionChainId": 80,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 6,
+        "move": "smokescreen"
+      },
+      {
+        "level": 12,
+        "move": "ember"
+      },
+      {
+        "level": 19,
+        "move": "quick-attack"
+      },
+      {
+        "level": 27,
+        "move": "flame-wheel"
+      },
+      {
+        "level": 36,
+        "move": "swift"
+      },
+      {
+        "level": 46,
+        "move": "flamethrower"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "foresight"
+      },
+      {
+        "move": "fury-swipes"
+      },
+      {
+        "move": "quick-attack"
+      },
+      {
+        "move": "reversal"
+      },
+      {
+        "move": "submission"
+      },
+      {
+        "move": "thrash"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

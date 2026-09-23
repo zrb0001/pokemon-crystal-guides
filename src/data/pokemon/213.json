@@ -1,0 +1,169 @@
+{
+  "id": 213,
+  "nameEn": "shuckle",
+  "nameZh": "壶壶",
+  "genusZh": "发酵宝可梦",
+  "johtoDex": 166,
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "stats": {
+    "hp": 20,
+    "attack": 10,
+    "defense": 230,
+    "special-attack": 10,
+    "special-defense": 230,
+    "speed": 5
+  },
+  "height": 6,
+  "weight": 205,
+  "captureRate": 190,
+  "genderRate": 4,
+  "eggGroups": [
+    "bug"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "The fluid secreted by its toes carves holes in rocks for nesting and can be mixed with BERRIES to make a drink.",
+  "evolutionChainId": 107,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "constrict"
+      },
+      {
+        "level": 1,
+        "move": "withdraw"
+      },
+      {
+        "level": 9,
+        "move": "wrap"
+      },
+      {
+        "level": 14,
+        "move": "encore"
+      },
+      {
+        "level": 23,
+        "move": "safeguard"
+      },
+      {
+        "level": 28,
+        "move": "bide"
+      },
+      {
+        "level": 37,
+        "move": "rest"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "sweet-scent"
+      }
+    ],
+    "tutor": []
+  }
+}

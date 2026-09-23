@@ -1,0 +1,196 @@
+{
+  "id": 239,
+  "nameEn": "elekid",
+  "nameZh": "电击怪",
+  "genusZh": "电气宝可梦",
+  "johtoDex": 154,
+  "types": [
+    "electric"
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 63,
+    "defense": 37,
+    "special-attack": 65,
+    "special-defense": 55,
+    "speed": 95
+  },
+  "height": 6,
+  "weight": 235,
+  "captureRate": 45,
+  "genderRate": 2,
+  "eggGroups": [
+    "no-eggs"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It loves violent thunder. The space between its horns flickers bluish- white when it is charging energy.",
+  "evolutionChainId": 60,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "quick-attack"
+      },
+      {
+        "level": 9,
+        "move": "thunder-punch"
+      },
+      {
+        "level": 17,
+        "move": "light-screen"
+      },
+      {
+        "level": 25,
+        "move": "swift"
+      },
+      {
+        "level": 33,
+        "move": "screech"
+      },
+      {
+        "level": 41,
+        "move": "thunderbolt"
+      },
+      {
+        "level": 49,
+        "move": "thunder"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [
+      {
+        "move": "barrier"
+      },
+      {
+        "move": "cross-chop"
+      },
+      {
+        "move": "karate-chop"
+      },
+      {
+        "move": "meditate"
+      },
+      {
+        "move": "rolling-kick"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

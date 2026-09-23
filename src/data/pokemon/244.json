@@ -1,0 +1,196 @@
+{
+  "id": 244,
+  "nameEn": "entei",
+  "nameZh": "炎帝",
+  "genusZh": "火山宝可梦",
+  "johtoDex": 239,
+  "types": [
+    "fire"
+  ],
+  "stats": {
+    "hp": 115,
+    "attack": 115,
+    "defense": 85,
+    "special-attack": 90,
+    "special-defense": 75,
+    "speed": 100
+  },
+  "height": 21,
+  "weight": 1980,
+  "captureRate": 3,
+  "genderRate": -1,
+  "eggGroups": [
+    "no-eggs"
+  ],
+  "growthRate": "slow",
+  "flavorText": "This brawny POKéMON courses around the earth, spouting flames hotter than a volcano's magma.",
+  "evolutionChainId": 124,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "bite"
+      },
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 11,
+        "move": "ember"
+      },
+      {
+        "level": 21,
+        "move": "roar"
+      },
+      {
+        "level": 31,
+        "move": "fire-spin"
+      },
+      {
+        "level": 41,
+        "move": "stomp"
+      },
+      {
+        "level": 51,
+        "move": "flamethrower"
+      },
+      {
+        "level": 61,
+        "move": "swagger"
+      },
+      {
+        "level": 71,
+        "move": "fire-blast"
+      }
+    ],
+    "machine": [
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

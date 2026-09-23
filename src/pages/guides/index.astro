@@ -1,0 +1,79 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const guides = [
+  {
+    href: '/guides/move-tutor/',
+    title: '招式传授 NPC',
+    desc: '水晶版唯一的招式教学：金黄市游戏角落门口的教学大叔（喷射火焰/十万伏特/冰冻光束），出现条件、收费，附神速迷你龙与遗忘爷爷。',
+  },
+  {
+    href: '/guides/type-matchup/',
+    title: '属性打击模拟器',
+    desc: '第二世代属性相克速查：选攻击属性看对各属性的伤害倍率，选防守属性看承受各属性攻击的倍率。',
+  },
+  {
+    href: '/guides/npc-trades/',
+    title: 'NPC 交换一览',
+    desc: '水晶版全部 7 处游戏内 NPC 交换：地点、交换条件、携带道具与捕捉提示。化石翼龙的唯一获取途径就在这里。',
+  },
+  {
+    href: '/guides/week-siblings/',
+    title: '星期家族：出现时间与位置',
+    desc: '按星期几出没的七姐弟：每人每周一天、全天出现，首次见面赠送属性强化道具（威力 +10%）。附每人的精确站位与到达方式。',
+  },
+  {
+    href: '/guides/phone-rematches/',
+    title: '电话约战 NPC 一览',
+    desc: '水晶版全部 28 位可登记电话的训练家：初遇与最强再战队伍、约战机制、赠送道具与大量出现等特殊来电。',
+  },
+];
+---
+
+<Layout title="攻略" description="宝可梦水晶版各类实用小攻略">
+  <h1>攻略</h1>
+  <div class="guide-list">
+    {
+      guides.map((g) => (
+        <a class="guide-card" href={g.href}>
+          <h2>{g.title}</h2>
+          <p>{g.desc}</p>
+        </a>
+      ))
+    }
+  </div>
+</Layout>
+
+<style>
+  .guide-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 14px;
+  }
+  .guide-card {
+    display: block;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    padding: 18px 22px;
+    color: var(--text);
+    transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+  }
+  .guide-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+    text-decoration: none;
+    box-shadow: var(--shadow-md);
+  }
+  .guide-card h2 {
+    margin: 0 0 8px;
+    font-size: 17px;
+    color: var(--accent);
+  }
+  .guide-card p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--muted);
+  }
+</style>

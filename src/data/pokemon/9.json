@@ -1,0 +1,225 @@
+{
+  "id": 9,
+  "nameEn": "blastoise",
+  "nameZh": "水箭龟",
+  "genusZh": "甲壳宝可梦",
+  "johtoDex": 234,
+  "types": [
+    "water"
+  ],
+  "stats": {
+    "hp": 79,
+    "attack": 83,
+    "defense": 100,
+    "special-attack": 85,
+    "special-defense": 105,
+    "speed": 78
+  },
+  "height": 16,
+  "weight": 855,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "monster",
+    "water1"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "It firmly plants its feet on the ground before shooting water from the jets on its back.",
+  "evolutionChainId": 3,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "bubble"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 1,
+        "move": "tail-whip"
+      },
+      {
+        "level": 1,
+        "move": "withdraw"
+      },
+      {
+        "level": 4,
+        "move": "tail-whip"
+      },
+      {
+        "level": 7,
+        "move": "bubble"
+      },
+      {
+        "level": 10,
+        "move": "withdraw"
+      },
+      {
+        "level": 13,
+        "move": "water-gun"
+      },
+      {
+        "level": 19,
+        "move": "bite"
+      },
+      {
+        "level": 25,
+        "move": "rapid-spin"
+      },
+      {
+        "level": 31,
+        "move": "protect"
+      },
+      {
+        "level": 42,
+        "move": "rain-dance"
+      },
+      {
+        "level": 55,
+        "move": "skull-bash"
+      },
+      {
+        "level": 68,
+        "move": "hydro-pump"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

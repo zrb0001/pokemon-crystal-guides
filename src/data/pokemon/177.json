@@ -1,0 +1,177 @@
+{
+  "id": 177,
+  "nameEn": "natu",
+  "nameZh": "天然雀",
+  "genusZh": "小鸟宝可梦",
+  "johtoDex": 159,
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 50,
+    "defense": 45,
+    "special-attack": 70,
+    "special-defense": 45,
+    "speed": 70
+  },
+  "height": 2,
+  "weight": 20,
+  "captureRate": 190,
+  "genderRate": 4,
+  "eggGroups": [
+    "flying"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees.",
+  "evolutionChainId": 88,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "peck"
+      },
+      {
+        "level": 10,
+        "move": "night-shade"
+      },
+      {
+        "level": 20,
+        "move": "teleport"
+      },
+      {
+        "level": 30,
+        "move": "future-sight"
+      },
+      {
+        "level": 40,
+        "move": "confuse-ray"
+      },
+      {
+        "level": 50,
+        "move": "psychic"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "drill-peck"
+      },
+      {
+        "move": "feint-attack"
+      },
+      {
+        "move": "haze"
+      },
+      {
+        "move": "quick-attack"
+      },
+      {
+        "move": "steel-wing"
+      }
+    ],
+    "tutor": []
+  }
+}

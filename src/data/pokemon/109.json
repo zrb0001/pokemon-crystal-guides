@@ -1,0 +1,175 @@
+{
+  "id": 109,
+  "nameEn": "koffing",
+  "nameZh": "瓦斯弹",
+  "genusZh": "毒气宝可梦",
+  "johtoDex": 114,
+  "types": [
+    "poison"
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 65,
+    "defense": 95,
+    "special-attack": 60,
+    "special-defense": 45,
+    "speed": 35
+  },
+  "height": 6,
+  "weight": 10,
+  "captureRate": 190,
+  "genderRate": 4,
+  "eggGroups": [
+    "indeterminate"
+  ],
+  "growthRate": "medium",
+  "flavorText": "If one gets close enough to it when it expels poison­ ous gas, the gas swirling inside it can be seen.",
+  "evolutionChainId": 49,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "poison-gas"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 9,
+        "move": "smog"
+      },
+      {
+        "level": 17,
+        "move": "self-destruct"
+      },
+      {
+        "level": 21,
+        "move": "sludge"
+      },
+      {
+        "level": 25,
+        "move": "smokescreen"
+      },
+      {
+        "level": 33,
+        "move": "haze"
+      },
+      {
+        "level": 41,
+        "move": "explosion"
+      },
+      {
+        "level": 45,
+        "move": "destiny-bond"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [
+      {
+        "move": "destiny-bond"
+      },
+      {
+        "move": "pain-split"
+      },
+      {
+        "move": "psybeam"
+      },
+      {
+        "move": "psywave"
+      },
+      {
+        "move": "screech"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

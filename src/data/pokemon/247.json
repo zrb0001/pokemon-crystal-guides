@@ -1,0 +1,173 @@
+{
+  "id": 247,
+  "nameEn": "pupitar",
+  "nameZh": "沙基拉斯",
+  "genusZh": "子弹宝可梦",
+  "johtoDex": 245,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 84,
+    "defense": 70,
+    "special-attack": 65,
+    "special-defense": 70,
+    "speed": 51
+  },
+  "height": 12,
+  "weight": 1520,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "monster"
+  ],
+  "growthRate": "slow",
+  "flavorText": "It will not stay still, even while it's a pupa. It already has arms and legs under its solid shell.",
+  "evolutionChainId": 126,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "bite"
+      },
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "sandstorm"
+      },
+      {
+        "level": 1,
+        "move": "screech"
+      },
+      {
+        "level": 8,
+        "move": "sandstorm"
+      },
+      {
+        "level": 15,
+        "move": "screech"
+      },
+      {
+        "level": 22,
+        "move": "rock-slide"
+      },
+      {
+        "level": 29,
+        "move": "thrash"
+      },
+      {
+        "level": 38,
+        "move": "scary-face"
+      },
+      {
+        "level": 47,
+        "move": "crunch"
+      },
+      {
+        "level": 56,
+        "move": "earthquake"
+      },
+      {
+        "level": 65,
+        "move": "hyper-beam"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

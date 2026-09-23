@@ -1,0 +1,215 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Toc from '../../components/Toc.astro';
+import { getItem } from '../../lib/data';
+
+interface Sibling {
+  day: string;
+  name: string;
+  location: string;
+  position: string;
+  itemName: string;
+  boostType: string;
+  note?: string;
+}
+
+const siblings: Sibling[] = [
+  {
+    day: '星期一',
+    name: 'Monica',
+    location: '40 号水路',
+    position: '从浅葱市宝可梦中心沿海岸向西走到对战塔入口，转向南，她站在碎岩旁的沙滩上（步行可达，不需要冲浪）。',
+    itemName: 'sharp-beak',
+    boostType: '飞行',
+  },
+  {
+    day: '星期二',
+    name: 'Tuscany',
+    location: '29 号道路',
+    position: '若叶镇往西，穿过大片草丛后，出现在北侧台地上。',
+    itemName: 'pink-bow',
+    boostType: '一般',
+    note: '需要获得桔梗市道馆的飞翼徽章后才会出现。',
+  },
+  {
+    day: '星期三',
+    name: 'Wesley',
+    location: '愤怒之湖',
+    position: '湖的西北角，藏在湖西侧小树林的尽头，路上有两棵小树挡路（需要居合斩）。',
+    itemName: 'black-belt',
+    boostType: '格斗',
+  },
+  {
+    day: '星期四',
+    name: 'Arthur',
+    location: '36 号道路',
+    position: '阿露福遗迹入口以北的空地上徘徊。从桔梗市北闸门进入 36 号道路沿路走即可遇到，不需要移除胡说树。',
+    itemName: 'hard-stone',
+    boostType: '岩石',
+  },
+  {
+    day: '星期五',
+    name: 'Frieda',
+    location: '32 号道路',
+    position: '道路南段宝可梦中心（连通洞窟入口旁）北面的树丛之间。',
+    itemName: 'poison-barb',
+    boostType: '毒',
+  },
+  {
+    day: '星期六',
+    name: 'Santos',
+    location: '烟墨市',
+    position: '道馆东南方，跳下台地后就能看到他望着城区。',
+    itemName: 'spell-tag',
+    boostType: '幽灵',
+  },
+  {
+    day: '星期日',
+    name: 'Sunny',
+    location: '37 号道路',
+    position: '圆朱市南出口进入 37 号道路后立刻向东南跳下台地，他在长着三棵球果树的草地上。',
+    itemName: 'magnet',
+    boostType: '电',
+  },
+];
+
+// 英文名 → 中文名（水晶版无官方中译，本站自译）
+const NAME_ZH: Record<string, string> = {
+  Monica: '莫妮卡', Tuscany: '托斯卡妮', Wesley: '韦斯利', Arthur: '亚瑟',
+  Frieda: '弗丽达', Santos: '桑托斯', Sunny: '桑妮',
+};
+
+const item = (name: string) => getItem(name)!;
+---
+
+<Layout title="星期家族" description="宝可梦水晶版星期家族（Week Siblings）七人出现的时间、地点与赠送道具">
+  <h1>星期家族：出现时间与位置</h1>
+
+  <Toc
+    items={[
+      { id: 'mechanism', label: '机制说明' },
+      { id: 'table', label: '出现时间一览' },
+      { id: 'notes', label: '补充说明' },
+    ]}
+  >
+  <section class="panel" id="mechanism">
+    <p style="margin: 0">
+      星期家族（Week Siblings）是散落城都各地的七姐弟，每人只在<strong>每周固定的星期几</strong>出现
+      （按游戏内时钟判定，当天全天都在）。第一次见面会赠送一个<strong>属性强化携带道具</strong>，
+      携带后对应属性招式威力提升 <strong>10%</strong>；每件道具每个存档只能获得一次。
+      他们的家在 26 号道路，屋内的便条写着全员的出没日程。七人的名字都与对应的星期谐音
+      （莫妮卡 Monica = Monday 等）；水晶版没有官方中文版，人名均为本站自译，英文原名附在中文名下方。
+    </p>
+  </section>
+
+  <section class="panel" id="table">
+    <div class="table-scroll">
+    <table class="week-table">
+      <thead>
+        <tr>
+          <th>星期</th>
+          <th>人物</th>
+          <th>地点</th>
+          <th>具体位置</th>
+          <th>赠送道具</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          siblings.map((s) => {
+            const it = item(s.itemName);
+            return (
+              <tr>
+                <td>{s.day}</td>
+                <td>
+                  {NAME_ZH[s.name] ?? s.name}
+                  <div class="note">{s.name}</div>
+                </td>
+                <td>{s.location}</td>
+                <td class="pos">
+                  {s.position}
+                  {s.note && <div class="note">{s.note}</div>}
+                </td>
+                <td>
+                  <span class="item-cell">
+                    {it.sprite && <img src={it.sprite} alt={it.nameZh ?? it.nameEn} />}
+                    {it.nameZh ?? it.nameEn}
+                    <span class="boost">（{s.boostType}属性招式威力提升）</span>
+                  </span>
+                </td>
+              </tr>
+            );
+          })
+        }
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <section class="panel" id="notes">
+    <h2>补充说明</h2>
+    <ul class="notes">
+      <li>第二世代属性强化道具的加成是 <strong>10%</strong>（第四世代起才改为 20%），与本站道具数据库引用的后世代英文描述不同，以本页为准。</li>
+      <li>送过道具之后，每周对应的日子仍能遇到本人，但只会打招呼，不会再送礼物。</li>
+      <li>七人中只有托斯卡妮有徽章门槛（飞翼徽章），其他人所在区域本身就要推进主线才能到达：愤怒之湖需经过 43 号道路，烟墨市需穿过冰雪小径。</li>
+      <li>Pink Bow（粉红缎带）无官方中文名，效果为一般属性招式威力提升 10%，是本作中该道具的唯一获取途径。</li>
+    </ul>
+  </section>
+  </Toc>
+</Layout>
+
+<style>
+  .week-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  .week-table th,
+  .week-table td {
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+    vertical-align: top;
+  }
+  .week-table th {
+    color: var(--muted);
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .week-table td {
+    white-space: nowrap;
+  }
+  .week-table td.pos {
+    white-space: normal;
+    min-width: 240px;
+  }
+  .note {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+  .item-cell {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    white-space: normal;
+  }
+  .item-cell img {
+    width: 24px;
+    height: 24px;
+    image-rendering: pixelated;
+    object-fit: contain;
+  }
+  .boost {
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .notes {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  .notes li {
+    margin: 6px 0;
+  }
+</style>

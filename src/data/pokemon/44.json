@@ -1,0 +1,157 @@
+{
+  "id": 44,
+  "nameEn": "gloom",
+  "nameZh": "臭臭花",
+  "genusZh": "杂草宝可梦",
+  "johtoDex": 84,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 65,
+    "defense": 70,
+    "special-attack": 85,
+    "special-defense": 75,
+    "speed": 40
+  },
+  "height": 8,
+  "weight": 86,
+  "captureRate": 120,
+  "genderRate": 4,
+  "eggGroups": [
+    "plant"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "The smell from its drool-like syrup and the pollen on its petals is so bad, it may make opponents faint.",
+  "evolutionChainId": 18,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "absorb"
+      },
+      {
+        "level": 1,
+        "move": "poison-powder"
+      },
+      {
+        "level": 1,
+        "move": "sweet-scent"
+      },
+      {
+        "level": 7,
+        "move": "sweet-scent"
+      },
+      {
+        "level": 14,
+        "move": "poison-powder"
+      },
+      {
+        "level": 16,
+        "move": "stun-spore"
+      },
+      {
+        "level": 18,
+        "move": "sleep-powder"
+      },
+      {
+        "level": 24,
+        "move": "acid"
+      },
+      {
+        "level": 35,
+        "move": "moonlight"
+      },
+      {
+        "level": 44,
+        "move": "petal-dance"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

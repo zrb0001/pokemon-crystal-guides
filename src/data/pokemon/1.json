@@ -1,0 +1,190 @@
+{
+  "id": 1,
+  "nameEn": "bulbasaur",
+  "nameZh": "妙蛙种子",
+  "genusZh": "种子宝可梦",
+  "johtoDex": 226,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 49,
+    "defense": 49,
+    "special-attack": 65,
+    "special-defense": 65,
+    "speed": 45
+  },
+  "height": 7,
+  "weight": 69,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "monster",
+    "plant"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "While it is young, it uses the nutrients that are stored in the seeds on its back in order to grow.",
+  "evolutionChainId": 1,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 4,
+        "move": "growl"
+      },
+      {
+        "level": 7,
+        "move": "leech-seed"
+      },
+      {
+        "level": 10,
+        "move": "vine-whip"
+      },
+      {
+        "level": 15,
+        "move": "poison-powder"
+      },
+      {
+        "level": 15,
+        "move": "sleep-powder"
+      },
+      {
+        "level": 20,
+        "move": "razor-leaf"
+      },
+      {
+        "level": 25,
+        "move": "sweet-scent"
+      },
+      {
+        "level": 32,
+        "move": "growth"
+      },
+      {
+        "level": 39,
+        "move": "synthesis"
+      },
+      {
+        "level": 46,
+        "move": "solar-beam"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "light-screen"
+      },
+      {
+        "move": "petal-dance"
+      },
+      {
+        "move": "razor-wind"
+      },
+      {
+        "move": "safeguard"
+      },
+      {
+        "move": "skull-bash"
+      }
+    ],
+    "tutor": []
+  }
+}

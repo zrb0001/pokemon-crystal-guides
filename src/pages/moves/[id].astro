@@ -1,0 +1,175 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Toc from '../../components/Toc.astro';
+import TypeBadge from '../../components/TypeBadge.astro';
+import {
+  getAllMoves,
+  getMoveById,
+  getPokemon,
+  learnersOf,
+  moveCategory,
+  TARGET_NAMES,
+} from '../../lib/data';
+import type { GetStaticPaths } from 'astro';
+
+export const getStaticPaths = (() =>
+  getAllMoves().map((m) => ({ params: { id: String(m.id) } }))) satisfies GetStaticPaths;
+
+const id = Number(Astro.params.id);
+const m = getMoveById(id)!;
+const prev = getMoveById(id - 1);
+const next = getMoveById(id + 1);
+const learners = learnersOf(m.nameEn);
+
+const tocItems = [
+  { id: 'data', label: '数据' },
+  ...(learners.levelUp.length > 0 ? [{ id: 'level-up', label: `升级习得（${learners.levelUp.length}）` }] : []),
+  ...(learners.machine.length > 0 ? [{ id: 'machine', label: `TM / HM 习得（${learners.machine.length}）` }] : []),
+  ...(learners.egg.length > 0 ? [{ id: 'egg', label: `遗传习得（${learners.egg.length}）` }] : []),
+  ...(learners.tutor.length > 0 ? [{ id: 'tutor', label: `教学习得（${learners.tutor.length}）` }] : []),
+];
+
+function fmt(v: number | null): string {
+  return v == null ? '—' : String(v);
+}
+---
+
+<Layout title={`${m.nameZh ?? m.nameEn} 招式`} description={m.flavorZh ?? m.effect ?? undefined}>
+  <nav class="pager">
+    {prev ? <a href={`/moves/${prev.id}/`}>← {prev.nameZh}</a> : <span />}
+    {next ? <a href={`/moves/${next.id}/`}>{next.nameZh} →</a> : <span />}
+  </nav>
+
+  <Toc items={tocItems}>
+    <section class="panel" id="data">
+      <h1 style="margin-top: 0">
+        {m.nameZh ?? m.nameEn}
+        <small style="color: var(--muted); font-size: 16px; font-weight: 400"> No.{m.id} {m.nameEn}</small>
+      </h1>
+      <div style="margin-bottom: 12px"><TypeBadge type={m.type} /></div>
+      {m.flavorZh && <p>{m.flavorZh}</p>}
+      {m.effect && <p class="flavor">{m.effect}</p>}
+
+      <h2 style="margin-top: 20px">数据（水晶版）</h2>
+      <table class="info-table">
+        <tr><th>分类</th><td>{m.power == null ? '变化' : moveCategory(m.type)}（第二世代按属性划分）</td></tr>
+        <tr><th>威力</th><td>{m.nameEn === 'hidden-power' ? '不定（31–70）' : fmt(m.power)}</td></tr>
+        <tr><th>命中</th><td>{fmt(m.accuracy)}</td></tr>
+        <tr><th>PP</th><td>{fmt(m.pp)}</td></tr>
+        <tr><th>优先度</th><td>{m.priority}</td></tr>
+        {m.effectChance != null && <tr><th>追加效果几率</th><td>{m.effectChance}%</td></tr>}
+        {m.target && <tr><th>目标</th><td>{TARGET_NAMES[m.target] ?? m.target}</td></tr>}
+        {m.machine && <tr><th>技能机器</th><td>{m.machine}</td></tr>}
+      </table>
+    </section>
+
+    {
+      learners.levelUp.length > 0 && (
+        <section class="panel" id="level-up">
+          <h2>升级习得（{learners.levelUp.length}）</h2>
+          <div class="table-scroll">
+            <table class="move-table">
+              <thead>
+                <tr><th>宝可梦</th><th>等级</th></tr>
+              </thead>
+              <tbody>
+                {[...learners.levelUp].sort((a, b) => a.id - b.id || a.level - b.level).map((l) => {
+                  const p = getPokemon(l.id)!;
+                  return (
+                    <tr>
+                      <td>
+                        <a href={`/pokemon/${l.id}/`} class="learner-link">
+                          <img class="learner-sprite" src={`/sprites/normal/${l.id}.png`} alt="" loading="lazy" />
+                          {p.nameZh}
+                        </a>
+                      </td>
+                      <td>{l.level === 0 ? '—' : `Lv.${l.level}`}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )
+    }
+
+    {
+      learners.machine.length > 0 && (
+        <section class="panel" id="machine">
+          <h2>TM / HM 习得（{learners.machine.length}）</h2>
+          <div class="learner-grid">
+            {[...learners.machine].sort((a, b) => a.id - b.id).map((l) => {
+              const p = getPokemon(l.id)!;
+              return (
+                <a href={`/pokemon/${l.id}/`} class="learner-link">
+                  <img class="learner-sprite" src={`/sprites/normal/${l.id}.png`} alt="" loading="lazy" />
+                  {p.nameZh}
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      )
+    }
+
+    {
+      learners.egg.length > 0 && (
+        <section class="panel" id="egg">
+          <h2>遗传习得（{learners.egg.length}）</h2>
+          <div class="learner-grid">
+            {learners.egg.map((l) => {
+              const p = getPokemon(l.id)!;
+              return (
+                <a href={`/pokemon/${l.id}/`} class="learner-link">
+                  <img class="learner-sprite" src={`/sprites/normal/${l.id}.png`} alt="" loading="lazy" />
+                  {p.nameZh}
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      )
+    }
+
+    {
+      learners.tutor.length > 0 && (
+        <section class="panel" id="tutor">
+          <h2>教学习得（{learners.tutor.length}）</h2>
+          <div class="learner-grid">
+            {learners.tutor.map((l) => {
+              const p = getPokemon(l.id)!;
+              return (
+                <a href={`/pokemon/${l.id}/`} class="learner-link">
+                  <img class="learner-sprite" src={`/sprites/normal/${l.id}.png`} alt="" loading="lazy" />
+                  {p.nameZh}
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      )
+    }
+  </Toc>
+</Layout>
+
+<style>
+  .learner-sprite {
+    width: 40px;
+    height: 40px;
+    image-rendering: pixelated;
+    object-fit: contain;
+    vertical-align: middle;
+  }
+  .learner-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--text);
+  }
+  .learner-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 4px 12px;
+  }
+</style>

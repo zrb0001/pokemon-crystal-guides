@@ -1,0 +1,196 @@
+{
+  "id": 53,
+  "nameEn": "persian",
+  "nameZh": "猫老大",
+  "genusZh": "暹罗猫宝可梦",
+  "johtoDex": 137,
+  "types": [
+    "normal"
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 70,
+    "defense": 60,
+    "special-attack": 65,
+    "special-defense": 65,
+    "speed": 115
+  },
+  "height": 10,
+  "weight": 320,
+  "captureRate": 90,
+  "genderRate": 4,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "medium",
+  "flavorText": "Behind its lithe, elegant appearance lies a barbaric side. It will tear apart its prey on a mere whim.",
+  "evolutionChainId": 22,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "bite"
+      },
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "scratch"
+      },
+      {
+        "level": 11,
+        "move": "bite"
+      },
+      {
+        "level": 20,
+        "move": "pay-day"
+      },
+      {
+        "level": 29,
+        "move": "feint-attack"
+      },
+      {
+        "level": 38,
+        "move": "screech"
+      },
+      {
+        "level": 46,
+        "move": "fury-swipes"
+      },
+      {
+        "level": 53,
+        "move": "slash"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

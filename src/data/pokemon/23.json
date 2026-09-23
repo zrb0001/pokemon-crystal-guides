@@ -1,0 +1,169 @@
+{
+  "id": 23,
+  "nameEn": "ekans",
+  "nameZh": "阿柏蛇",
+  "genusZh": "蛇宝可梦",
+  "johtoDex": 50,
+  "types": [
+    "poison"
+  ],
+  "stats": {
+    "hp": 35,
+    "attack": 60,
+    "defense": 44,
+    "special-attack": 40,
+    "special-defense": 54,
+    "speed": 55
+  },
+  "height": 20,
+  "weight": 69,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "ground",
+    "dragon"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It flutters the tip of its tongue to seek out the scent of prey, then swallows the prey whole.",
+  "evolutionChainId": 9,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "wrap"
+      },
+      {
+        "level": 9,
+        "move": "poison-sting"
+      },
+      {
+        "level": 15,
+        "move": "bite"
+      },
+      {
+        "level": 23,
+        "move": "glare"
+      },
+      {
+        "level": 29,
+        "move": "screech"
+      },
+      {
+        "level": 37,
+        "move": "acid"
+      },
+      {
+        "level": 43,
+        "move": "haze"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "beat-up"
+      },
+      {
+        "move": "crunch"
+      },
+      {
+        "move": "pursuit"
+      },
+      {
+        "move": "slam"
+      },
+      {
+        "move": "spite"
+      }
+    ],
+    "tutor": []
+  }
+}

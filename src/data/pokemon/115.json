@@ -1,0 +1,242 @@
+{
+  "id": 115,
+  "nameEn": "kangaskhan",
+  "nameZh": "袋兽",
+  "genusZh": "亲子宝可梦",
+  "johtoDex": 205,
+  "types": [
+    "normal"
+  ],
+  "stats": {
+    "hp": 105,
+    "attack": 95,
+    "defense": 80,
+    "special-attack": 40,
+    "special-defense": 80,
+    "speed": 90
+  },
+  "height": 22,
+  "weight": 800,
+  "captureRate": 45,
+  "genderRate": 8,
+  "eggGroups": [
+    "monster"
+  ],
+  "growthRate": "medium",
+  "flavorText": "To avoid crushing the baby it carries in its pouch, it always sleeps standing up.",
+  "evolutionChainId": 53,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "comet-punch"
+      },
+      {
+        "level": 7,
+        "move": "leer"
+      },
+      {
+        "level": 13,
+        "move": "bite"
+      },
+      {
+        "level": 19,
+        "move": "tail-whip"
+      },
+      {
+        "level": 25,
+        "move": "mega-punch"
+      },
+      {
+        "level": 31,
+        "move": "rage"
+      },
+      {
+        "level": 37,
+        "move": "endure"
+      },
+      {
+        "level": 43,
+        "move": "dizzy-punch"
+      },
+      {
+        "level": 49,
+        "move": "reversal"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [
+      {
+        "move": "disable"
+      },
+      {
+        "move": "focus-energy"
+      },
+      {
+        "move": "foresight"
+      },
+      {
+        "move": "safeguard"
+      },
+      {
+        "move": "stomp"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      },
+      {
+        "move": "ice-beam"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

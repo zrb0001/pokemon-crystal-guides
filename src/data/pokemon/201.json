@@ -1,0 +1,39 @@
+{
+  "id": 201,
+  "nameEn": "unown",
+  "nameZh": "未知图腾",
+  "genusZh": "象征宝可梦",
+  "johtoDex": 61,
+  "types": [
+    "psychic"
+  ],
+  "stats": {
+    "hp": 48,
+    "attack": 72,
+    "defense": 48,
+    "special-attack": 72,
+    "special-defense": 48,
+    "speed": 48
+  },
+  "height": 5,
+  "weight": 50,
+  "captureRate": 225,
+  "genderRate": -1,
+  "eggGroups": [
+    "no-eggs"
+  ],
+  "growthRate": "medium",
+  "flavorText": "Because different types of UNOWN exist, it is said that they must have a variety of abilities.",
+  "evolutionChainId": 99,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "hidden-power"
+      }
+    ],
+    "machine": [],
+    "egg": [],
+    "tutor": []
+  }
+}

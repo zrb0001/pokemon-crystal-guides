@@ -1,0 +1,216 @@
+{
+  "id": 57,
+  "nameEn": "primeape",
+  "nameZh": "火暴猴",
+  "genusZh": "猪猴宝可梦",
+  "johtoDex": 135,
+  "types": [
+    "fighting"
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 105,
+    "defense": 60,
+    "special-attack": 60,
+    "special-defense": 70,
+    "speed": 95
+  },
+  "height": 10,
+  "weight": 320,
+  "captureRate": 75,
+  "genderRate": 4,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It will beat up anyone who makes it mad, even if it has to chase them until the end of the world.",
+  "evolutionChainId": 24,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "low-kick"
+      },
+      {
+        "level": 1,
+        "move": "rage"
+      },
+      {
+        "level": 1,
+        "move": "scratch"
+      },
+      {
+        "level": 9,
+        "move": "low-kick"
+      },
+      {
+        "level": 15,
+        "move": "karate-chop"
+      },
+      {
+        "level": 21,
+        "move": "fury-swipes"
+      },
+      {
+        "level": 27,
+        "move": "focus-energy"
+      },
+      {
+        "level": 28,
+        "move": "rage"
+      },
+      {
+        "level": 36,
+        "move": "seismic-toss"
+      },
+      {
+        "level": 45,
+        "move": "cross-chop"
+      },
+      {
+        "level": 54,
+        "move": "screech"
+      },
+      {
+        "level": 63,
+        "move": "thrash"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

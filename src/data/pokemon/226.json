@@ -1,0 +1,174 @@
+{
+  "id": 226,
+  "nameEn": "mantine",
+  "nameZh": "巨翅飞鱼",
+  "genusZh": "风筝宝可梦",
+  "johtoDex": 197,
+  "types": [
+    "water",
+    "flying"
+  ],
+  "stats": {
+    "hp": 85,
+    "attack": 40,
+    "defense": 70,
+    "special-attack": 80,
+    "special-defense": 140,
+    "speed": 70
+  },
+  "height": 21,
+  "weight": 2200,
+  "captureRate": 25,
+  "genderRate": 4,
+  "eggGroups": [
+    "water1"
+  ],
+  "growthRate": "slow",
+  "flavorText": "It swims along freely, eating things that swim into its mouth. Its whole body is very coarse.",
+  "evolutionChainId": 116,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "bubble"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 10,
+        "move": "supersonic"
+      },
+      {
+        "level": 18,
+        "move": "bubble-beam"
+      },
+      {
+        "level": 25,
+        "move": "take-down"
+      },
+      {
+        "level": 32,
+        "move": "agility"
+      },
+      {
+        "level": 40,
+        "move": "wing-attack"
+      },
+      {
+        "level": 49,
+        "move": "confuse-ray"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "haze"
+      },
+      {
+        "move": "hydro-pump"
+      },
+      {
+        "move": "slam"
+      },
+      {
+        "move": "twister"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

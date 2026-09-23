@@ -1,0 +1,196 @@
+{
+  "id": 243,
+  "nameEn": "raikou",
+  "nameZh": "雷公",
+  "genusZh": "天雷宝可梦",
+  "johtoDex": 238,
+  "types": [
+    "electric"
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 85,
+    "defense": 75,
+    "special-attack": 115,
+    "special-defense": 100,
+    "speed": 115
+  },
+  "height": 19,
+  "weight": 1780,
+  "captureRate": 3,
+  "genderRate": -1,
+  "eggGroups": [
+    "no-eggs"
+  ],
+  "growthRate": "slow",
+  "flavorText": "This rough POKéMON stores energy inside its body, then sweeps across the land, shooting off electricity.",
+  "evolutionChainId": 123,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "bite"
+      },
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 11,
+        "move": "thunder-shock"
+      },
+      {
+        "level": 21,
+        "move": "roar"
+      },
+      {
+        "level": 31,
+        "move": "quick-attack"
+      },
+      {
+        "level": 41,
+        "move": "spark"
+      },
+      {
+        "level": 51,
+        "move": "reflect"
+      },
+      {
+        "level": 61,
+        "move": "crunch"
+      },
+      {
+        "level": 71,
+        "move": "thunder"
+      }
+    ],
+    "machine": [
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

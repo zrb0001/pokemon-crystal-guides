@@ -1,0 +1,173 @@
+{
+  "id": 205,
+  "nameEn": "forretress",
+  "nameZh": "佛烈托斯",
+  "genusZh": "蓑衣虫宝可梦",
+  "johtoDex": 94,
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "stats": {
+    "hp": 75,
+    "attack": 90,
+    "defense": 140,
+    "special-attack": 60,
+    "special-defense": 60,
+    "speed": 40
+  },
+  "height": 12,
+  "weight": 1258,
+  "captureRate": 75,
+  "genderRate": 4,
+  "eggGroups": [
+    "bug"
+  ],
+  "growthRate": "medium",
+  "flavorText": "Usually found hanging on to a fat tree trunk. It shoots out bits of its shell when it sees action.",
+  "evolutionChainId": 102,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "protect"
+      },
+      {
+        "level": 1,
+        "move": "self-destruct"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 8,
+        "move": "self-destruct"
+      },
+      {
+        "level": 15,
+        "move": "take-down"
+      },
+      {
+        "level": 22,
+        "move": "rapid-spin"
+      },
+      {
+        "level": 29,
+        "move": "bide"
+      },
+      {
+        "level": 39,
+        "move": "explosion"
+      },
+      {
+        "level": 49,
+        "move": "spikes"
+      },
+      {
+        "level": 59,
+        "move": "double-edge"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

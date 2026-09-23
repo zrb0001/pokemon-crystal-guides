@@ -1,0 +1,248 @@
+{
+  "id": 108,
+  "nameEn": "lickitung",
+  "nameZh": "大舌头",
+  "genusZh": "舔舔宝可梦",
+  "johtoDex": 178,
+  "types": [
+    "normal"
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 55,
+    "defense": 75,
+    "special-attack": 60,
+    "special-defense": 75,
+    "speed": 30
+  },
+  "height": 12,
+  "weight": 655,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "monster"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It has a tongue that is over 6’6’’ long. It uses this long tongue to lick its body clean.",
+  "evolutionChainId": 48,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "lick"
+      },
+      {
+        "level": 7,
+        "move": "supersonic"
+      },
+      {
+        "level": 13,
+        "move": "defense-curl"
+      },
+      {
+        "level": 19,
+        "move": "stomp"
+      },
+      {
+        "level": 25,
+        "move": "wrap"
+      },
+      {
+        "level": 31,
+        "move": "disable"
+      },
+      {
+        "level": 37,
+        "move": "slam"
+      },
+      {
+        "level": 43,
+        "move": "screech"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "belly-drum"
+      },
+      {
+        "move": "body-slam"
+      },
+      {
+        "move": "magnitude"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      },
+      {
+        "move": "ice-beam"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

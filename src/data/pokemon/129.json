@@ -1,0 +1,48 @@
+{
+  "id": 129,
+  "nameEn": "magikarp",
+  "nameZh": "鲤鱼王",
+  "genusZh": "鱼宝可梦",
+  "johtoDex": 76,
+  "types": [
+    "water"
+  ],
+  "stats": {
+    "hp": 20,
+    "attack": 10,
+    "defense": 55,
+    "special-attack": 15,
+    "special-defense": 20,
+    "speed": 80
+  },
+  "height": 9,
+  "weight": 100,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "water2",
+    "dragon"
+  ],
+  "growthRate": "slow",
+  "flavorText": "This weak and pathetic POKéMON gets easily pushed along rivers when there are strong currents.",
+  "evolutionChainId": 64,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "splash"
+      },
+      {
+        "level": 15,
+        "move": "tackle"
+      },
+      {
+        "level": 30,
+        "move": "flail"
+      }
+    ],
+    "machine": [],
+    "egg": [],
+    "tutor": []
+  }
+}

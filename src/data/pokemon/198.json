@@ -1,0 +1,180 @@
+{
+  "id": 198,
+  "nameEn": "murkrow",
+  "nameZh": "黑暗鸦",
+  "genusZh": "黑暗宝可梦",
+  "johtoDex": 208,
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 42,
+    "special-attack": 85,
+    "special-defense": 42,
+    "speed": 91
+  },
+  "height": 5,
+  "weight": 21,
+  "captureRate": 30,
+  "genderRate": 4,
+  "eggGroups": [
+    "flying"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "It hides any shiny object it finds in a secret location. MURKROW and MEOWTH loot one another's stashes.",
+  "evolutionChainId": 97,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "peck"
+      },
+      {
+        "level": 11,
+        "move": "pursuit"
+      },
+      {
+        "level": 16,
+        "move": "haze"
+      },
+      {
+        "level": 26,
+        "move": "night-shade"
+      },
+      {
+        "level": 31,
+        "move": "feint-attack"
+      },
+      {
+        "level": 41,
+        "move": "mean-look"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "drill-peck"
+      },
+      {
+        "move": "mirror-move"
+      },
+      {
+        "move": "quick-attack"
+      },
+      {
+        "move": "sky-attack"
+      },
+      {
+        "move": "whirlwind"
+      },
+      {
+        "move": "wing-attack"
+      }
+    ],
+    "tutor": []
+  }
+}

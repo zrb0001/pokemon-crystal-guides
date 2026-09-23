@@ -1,0 +1,137 @@
+{
+  "id": 71,
+  "nameEn": "victreebel",
+  "nameZh": "大食花",
+  "genusZh": "捕蝇宝可梦",
+  "johtoDex": 66,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 105,
+    "defense": 65,
+    "special-attack": 100,
+    "special-defense": 70,
+    "speed": 70
+  },
+  "height": 17,
+  "weight": 155,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "plant"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "Once ingested into this POKéMON's body, even the hardest object will melt into nothing.",
+  "evolutionChainId": 29,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "razor-leaf"
+      },
+      {
+        "level": 1,
+        "move": "sleep-powder"
+      },
+      {
+        "level": 1,
+        "move": "sweet-scent"
+      },
+      {
+        "level": 1,
+        "move": "vine-whip"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

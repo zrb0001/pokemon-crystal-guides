@@ -1,0 +1,226 @@
+{
+  "id": 79,
+  "nameEn": "slowpoke",
+  "nameZh": "呆呆兽",
+  "genusZh": "憨憨宝可梦",
+  "johtoDex": 80,
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 65,
+    "defense": 65,
+    "special-attack": 40,
+    "special-defense": 40,
+    "speed": 15
+  },
+  "height": 12,
+  "weight": 360,
+  "captureRate": 190,
+  "genderRate": 4,
+  "eggGroups": [
+    "monster",
+    "water1"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It is always so absent-minded that it won't react, even if its flavorful tail is bitten.",
+  "evolutionChainId": 33,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "curse"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 6,
+        "move": "growl"
+      },
+      {
+        "level": 15,
+        "move": "water-gun"
+      },
+      {
+        "level": 20,
+        "move": "confusion"
+      },
+      {
+        "level": 29,
+        "move": "disable"
+      },
+      {
+        "level": 34,
+        "move": "headbutt"
+      },
+      {
+        "level": 43,
+        "move": "amnesia"
+      },
+      {
+        "level": 48,
+        "move": "psychic"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [
+      {
+        "move": "belly-drum"
+      },
+      {
+        "move": "future-sight"
+      },
+      {
+        "move": "safeguard"
+      },
+      {
+        "move": "stomp"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      },
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

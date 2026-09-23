@@ -1,0 +1,177 @@
+{
+  "id": 72,
+  "nameEn": "tentacool",
+  "nameZh": "玛瑙水母",
+  "genusZh": "水母宝可梦",
+  "johtoDex": 162,
+  "types": [
+    "water",
+    "poison"
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 35,
+    "special-attack": 50,
+    "special-defense": 100,
+    "speed": 70
+  },
+  "height": 9,
+  "weight": 455,
+  "captureRate": 190,
+  "genderRate": 4,
+  "eggGroups": [
+    "water3"
+  ],
+  "growthRate": "slow",
+  "flavorText": "As it floats along on the waves, it uses its toxic feelers to stab anything it touches.",
+  "evolutionChainId": 30,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "poison-sting"
+      },
+      {
+        "level": 6,
+        "move": "supersonic"
+      },
+      {
+        "level": 12,
+        "move": "constrict"
+      },
+      {
+        "level": 19,
+        "move": "acid"
+      },
+      {
+        "level": 25,
+        "move": "bubble-beam"
+      },
+      {
+        "level": 30,
+        "move": "wrap"
+      },
+      {
+        "level": 36,
+        "move": "barrier"
+      },
+      {
+        "level": 43,
+        "move": "screech"
+      },
+      {
+        "level": 49,
+        "move": "hydro-pump"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "aurora-beam"
+      },
+      {
+        "move": "haze"
+      },
+      {
+        "move": "mirror-coat"
+      },
+      {
+        "move": "rapid-spin"
+      },
+      {
+        "move": "safeguard"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

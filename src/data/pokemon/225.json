@@ -1,0 +1,150 @@
+{
+  "id": 225,
+  "nameEn": "delibird",
+  "nameZh": "信使鸟",
+  "genusZh": "搬运宝可梦",
+  "johtoDex": 190,
+  "types": [
+    "ice",
+    "flying"
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 55,
+    "defense": 45,
+    "special-attack": 65,
+    "special-defense": 45,
+    "speed": 75
+  },
+  "height": 9,
+  "weight": 160,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "water1",
+    "ground"
+  ],
+  "growthRate": "fast",
+  "flavorText": "It always carries its food with it, wherever it goes. If attacked, it throws its food at the opponent.",
+  "evolutionChainId": 115,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "present"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "aurora-beam"
+      },
+      {
+        "move": "future-sight"
+      },
+      {
+        "move": "quick-attack"
+      },
+      {
+        "move": "rapid-spin"
+      },
+      {
+        "move": "splash"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "id": 93,
+  "nameEn": "haunter",
+  "nameZh": "鬼斯通",
+  "genusZh": "气体状宝可梦",
+  "johtoDex": 59,
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 50,
+    "defense": 45,
+    "special-attack": 115,
+    "special-defense": 55,
+    "speed": 95
+  },
+  "height": 16,
+  "weight": 1,
+  "captureRate": 90,
+  "genderRate": 4,
+  "eggGroups": [
+    "indeterminate"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "It hides in the dark, planning to take the life of the next living thing that wanders close by.",
+  "evolutionChainId": 40,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "hypnosis"
+      },
+      {
+        "level": 1,
+        "move": "lick"
+      },
+      {
+        "level": 1,
+        "move": "spite"
+      },
+      {
+        "level": 8,
+        "move": "spite"
+      },
+      {
+        "level": 13,
+        "move": "mean-look"
+      },
+      {
+        "level": 16,
+        "move": "curse"
+      },
+      {
+        "level": 21,
+        "move": "night-shade"
+      },
+      {
+        "level": 31,
+        "move": "confuse-ray"
+      },
+      {
+        "level": 39,
+        "move": "dream-eater"
+      },
+      {
+        "level": 48,
+        "move": "destiny-bond"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "id": 7,
+  "nameEn": "squirtle",
+  "nameZh": "杰尼龟",
+  "genusZh": "小龟宝可梦",
+  "johtoDex": 232,
+  "types": [
+    "water"
+  ],
+  "stats": {
+    "hp": 44,
+    "attack": 48,
+    "defense": 65,
+    "special-attack": 50,
+    "special-defense": 64,
+    "speed": 43
+  },
+  "height": 5,
+  "weight": 90,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "monster",
+    "water1"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "When it feels threatened, it draws its legs inside its shell and sprays water from its mouth.",
+  "evolutionChainId": 3,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 4,
+        "move": "tail-whip"
+      },
+      {
+        "level": 7,
+        "move": "bubble"
+      },
+      {
+        "level": 10,
+        "move": "withdraw"
+      },
+      {
+        "level": 13,
+        "move": "water-gun"
+      },
+      {
+        "level": 18,
+        "move": "bite"
+      },
+      {
+        "level": 23,
+        "move": "rapid-spin"
+      },
+      {
+        "level": 28,
+        "move": "protect"
+      },
+      {
+        "level": 33,
+        "move": "rain-dance"
+      },
+      {
+        "level": 40,
+        "move": "skull-bash"
+      },
+      {
+        "level": 47,
+        "move": "hydro-pump"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "confusion"
+      },
+      {
+        "move": "flail"
+      },
+      {
+        "move": "foresight"
+      },
+      {
+        "move": "haze"
+      },
+      {
+        "move": "mirror-coat"
+      },
+      {
+        "move": "mist"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

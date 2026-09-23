@@ -1,0 +1,228 @@
+{
+  "id": 112,
+  "nameEn": "rhydon",
+  "nameZh": "钻角犀兽",
+  "genusZh": "钻锥宝可梦",
+  "johtoDex": 207,
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "stats": {
+    "hp": 105,
+    "attack": 130,
+    "defense": 120,
+    "special-attack": 45,
+    "special-defense": 45,
+    "speed": 40
+  },
+  "height": 19,
+  "weight": 1200,
+  "captureRate": 60,
+  "genderRate": 4,
+  "eggGroups": [
+    "monster",
+    "ground"
+  ],
+  "growthRate": "slow",
+  "flavorText": "By lightly spin­ ning its drill- like horn, it can easily shatter even a diamond in the rough.",
+  "evolutionChainId": 50,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "fury-attack"
+      },
+      {
+        "level": 1,
+        "move": "horn-attack"
+      },
+      {
+        "level": 1,
+        "move": "stomp"
+      },
+      {
+        "level": 1,
+        "move": "tail-whip"
+      },
+      {
+        "level": 13,
+        "move": "stomp"
+      },
+      {
+        "level": 19,
+        "move": "fury-attack"
+      },
+      {
+        "level": 31,
+        "move": "scary-face"
+      },
+      {
+        "level": 37,
+        "move": "horn-drill"
+      },
+      {
+        "level": 54,
+        "move": "take-down"
+      },
+      {
+        "level": 65,
+        "move": "earthquake"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      },
+      {
+        "move": "ice-beam"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

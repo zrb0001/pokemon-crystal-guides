@@ -1,0 +1,217 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Toc from '../../components/Toc.astro';
+import { getPokemon } from '../../lib/data';
+
+interface Trade {
+  location: string;
+  region: '城都' | '关都';
+  giveId: number;
+  receiveId: number;
+  receiveGender?: '♂' | '♀';
+  nickname: string;
+  heldItem: string;
+  position: string;
+  tip?: string;
+}
+
+const trades: Trade[] = [
+  {
+    location: '桔梗市',
+    region: '城都',
+    giveId: 69,
+    receiveId: 95,
+    receiveGender: '♂',
+    nickname: 'ROCKY',
+    heldItem: 'Bitter Berry（混乱时自动治愈）',
+    position: '宝可梦中心西南方的小屋，找屋内右侧的小孩。',
+    tip: '桔梗市东边的 31 号道路全天都能在草丛里抓到喇叭芽。',
+  },
+  {
+    location: '满金百货店 5F',
+    region: '城都',
+    giveId: 63,
+    receiveId: 66,
+    receiveGender: '♀',
+    nickname: 'MUSCLE',
+    heldItem: 'Gold Berry（HP 低于一半时回复 30）',
+    position: '满金市宝可梦中心对面的百货店，乘电梯到 5F，找柜台左侧穿蓝衣服的男子。',
+    tip: '满金市南边的 34 号道路和北边的 35 号道路都有野生凯西。',
+  },
+  {
+    location: '浅葱市',
+    region: '城都',
+    giveId: 98,
+    receiveId: 100,
+    nickname: 'VOLTY',
+    heldItem: 'PRZCureBerry（麻痹时自动治愈）',
+    position: '宝可梦中心东北方、灯塔后面靠水的第一间小屋，找屋内的钓客。',
+    tip: '在浅葱市用好钓竿钓鱼很容易钓到大钳蟹；好钓竿就在宝可梦中心后面的屋子里拿。',
+  },
+  {
+    location: '烟墨市',
+    region: '城都',
+    giveId: 148,
+    receiveId: 85,
+    receiveGender: '♀',
+    nickname: 'DORIS',
+    heldItem: '烟雾球（从野生宝可梦战斗中必定逃脱成功）',
+    position: '宝可梦中心东北方的小屋，找穿绿衣服的训练家。注意：必须用雌性的哈克龙交换。',
+    tip: '在龙穴（道馆后面过河）或 45 号道路用超级钓竿可以钓到哈克龙；也可以在龙穴抓迷你龙练到 30 级进化。',
+  },
+  {
+    location: '无人发电厂',
+    region: '关都',
+    giveId: 51,
+    receiveId: 82,
+    nickname: 'MAGGIE',
+    heldItem: '金属膜（钢属性招式威力提升；大岩蛇/飞天螳螂通信进化道具）',
+    position: '华蓝市东边经 9、10 号道路冲浪到达。找屋内第三位工程师。',
+    tip: '枯叶市东边的地鼠洞里有大量三地鼠。发电厂旁的草丛是全游戏唯一能抓电击兽的地方。',
+  },
+  {
+    location: '14 号道路',
+    region: '关都',
+    giveId: 113,
+    receiveId: 142,
+    receiveGender: '♂',
+    nickname: 'AEROY',
+    heldItem: 'Gold Berry（HP 低于一半时回复 30）',
+    position: '浅红市出发经 15 号道路进入 14 号道路后向北，大片草丛附近找穿绿衣服的训练家。',
+    tip: '同一片草丛就能抓吉利蛋，但遭遇率只有 1%。这是水晶版中获得化石翼龙的唯一途径。',
+  },
+  {
+    location: '深灰市',
+    region: '关都',
+    giveId: 93,
+    receiveId: 178,
+    receiveGender: '♂',
+    nickname: 'PAUL',
+    heldItem: 'MysteryBerry（PP 不足时自动恢复 5 点）',
+    position: '深灰市宝可梦中心内，找电脑旁的中年男子。',
+    tip: '鬼斯通在 8 号道路和岩山隧道出现，但只在夜晚（18:00–次日 4:00）。',
+  },
+];
+
+const poke = (id: number) => getPokemon(id)!;
+---
+
+<Layout title="NPC 交换一览" description="宝可梦水晶版全部 7 处游戏内 NPC 交换地点、条件与提示">
+  <h1>NPC 交换一览（全 7 处）</h1>
+
+  <Toc
+    items={[
+      { id: 'intro', label: '机制说明' },
+      ...trades.map((t, i) => ({ id: `trade-${i + 1}`, label: `${i + 1}. ${t.location}` })),
+    ]}
+  >
+  <section class="panel" id="intro">
+    <p style="margin: 0">
+      水晶版共有 <strong>7</strong> 位 NPC 愿意用自己的宝可梦和玩家交换：城都地区 4 处、关都地区 3 处。
+      换到的宝可梦<strong>等级与交出的宝可梦相同</strong>，昵称和携带道具固定；
+      交换来的宝可梦对战获得的经验值有 1.5 倍加成。
+      其中<strong>化石翼龙只能通过交换获得</strong>，是完成图鉴的必经之处。
+    </p>
+  </section>
+
+  {
+    trades.map((t, i) => {
+      const give = poke(t.giveId);
+      const receive = poke(t.receiveId);
+      return (
+        <section class="panel trade-card" id={`trade-${i + 1}`}>
+          <h2>
+            {i + 1}. {t.location}
+            <span class="region-tag">{t.region}</span>
+          </h2>
+          <div class="trade-body">
+            <div class="trade-pair">
+              <div class="trade-poke">
+                <span class="trade-label">你交出</span>
+                <a href={`/pokemon/${give.id}/`}>
+                  <img src={`/sprites/normal/${give.id}.png`} alt={give.nameZh ?? ''} />
+                </a>
+                <a href={`/pokemon/${give.id}/`}>{give.nameZh}</a>
+                {t.giveId === 148 && <span class="trade-note">（雌性）</span>}
+              </div>
+              <div class="trade-arrow">⇄</div>
+              <div class="trade-poke">
+                <span class="trade-label">换到</span>
+                <a href={`/pokemon/${receive.id}/`}>
+                  <img src={`/sprites/normal/${receive.id}.png`} alt={receive.nameZh ?? ''} />
+                </a>
+                <a href={`/pokemon/${receive.id}/`}>
+                  {receive.nameZh}
+                  {t.receiveGender}
+                </a>
+                <span class="trade-note">昵称 {t.nickname}</span>
+              </div>
+            </div>
+            <div class="trade-info">
+              <p><strong>携带道具：</strong>{t.heldItem}</p>
+              <p><strong>位置：</strong>{t.position}</p>
+              {t.tip && <p><strong>提示：</strong>{t.tip}</p>}
+            </div>
+          </div>
+        </section>
+      );
+    })
+  }
+  </Toc>
+</Layout>
+
+<style>
+  .region-tag {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 1px 10px;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+  .trade-body {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .trade-pair {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .trade-poke {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .trade-poke img {
+    width: 96px;
+    height: 96px;
+    image-rendering: pixelated;
+    object-fit: contain;
+  }
+  .trade-label {
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .trade-note {
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .trade-arrow {
+    font-size: 24px;
+    color: var(--accent);
+  }
+  .trade-info {
+    flex: 1;
+    min-width: 260px;
+    font-size: 14px;
+  }
+  .trade-info p {
+    margin: 4px 0;
+  }
+</style>

@@ -1,0 +1,166 @@
+{
+  "id": 227,
+  "nameEn": "skarmory",
+  "nameZh": "盔甲鸟",
+  "genusZh": "钢甲鸟宝可梦",
+  "johtoDex": 198,
+  "types": [
+    "steel",
+    "flying"
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 80,
+    "defense": 140,
+    "special-attack": 40,
+    "special-defense": 70,
+    "speed": 70
+  },
+  "height": 17,
+  "weight": 505,
+  "captureRate": 25,
+  "genderRate": 4,
+  "eggGroups": [
+    "flying"
+  ],
+  "growthRate": "slow",
+  "flavorText": "The feathers that it sheds are very sharp. It is said that people once used the feathers as swords.",
+  "evolutionChainId": 117,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "peck"
+      },
+      {
+        "level": 13,
+        "move": "sand-attack"
+      },
+      {
+        "level": 19,
+        "move": "swift"
+      },
+      {
+        "level": 25,
+        "move": "agility"
+      },
+      {
+        "level": 37,
+        "move": "fury-attack"
+      },
+      {
+        "level": 49,
+        "move": "steel-wing"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "drill-peck"
+      },
+      {
+        "move": "pursuit"
+      },
+      {
+        "move": "sky-attack"
+      },
+      {
+        "move": "whirlwind"
+      }
+    ],
+    "tutor": []
+  }
+}

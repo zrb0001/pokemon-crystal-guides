@@ -1,0 +1,231 @@
+{
+  "id": 248,
+  "nameEn": "tyranitar",
+  "nameZh": "班基拉斯",
+  "genusZh": "铠甲宝可梦",
+  "johtoDex": 246,
+  "types": [
+    "rock",
+    "dark"
+  ],
+  "stats": {
+    "hp": 100,
+    "attack": 134,
+    "defense": 110,
+    "special-attack": 95,
+    "special-defense": 100,
+    "speed": 61
+  },
+  "height": 20,
+  "weight": 2020,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "monster"
+  ],
+  "growthRate": "slow",
+  "flavorText": "In just one of its mighty hands, it has the power to make the ground shake and moun­ tains crumble.",
+  "evolutionChainId": 126,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "bite"
+      },
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "sandstorm"
+      },
+      {
+        "level": 1,
+        "move": "screech"
+      },
+      {
+        "level": 8,
+        "move": "sandstorm"
+      },
+      {
+        "level": 15,
+        "move": "screech"
+      },
+      {
+        "level": 22,
+        "move": "rock-slide"
+      },
+      {
+        "level": 29,
+        "move": "thrash"
+      },
+      {
+        "level": 38,
+        "move": "scary-face"
+      },
+      {
+        "level": 47,
+        "move": "crunch"
+      },
+      {
+        "level": 61,
+        "move": "earthquake"
+      },
+      {
+        "level": 75,
+        "move": "hyper-beam"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dragon-breath",
+        "tm": "TM24"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      },
+      {
+        "move": "ice-beam"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

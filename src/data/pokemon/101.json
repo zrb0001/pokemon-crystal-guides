@@ -1,0 +1,168 @@
+{
+  "id": 101,
+  "nameEn": "electrode",
+  "nameZh": "顽皮雷弹",
+  "genusZh": "球宝可梦",
+  "johtoDex": 121,
+  "types": [
+    "electric"
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 70,
+    "special-attack": 80,
+    "special-defense": 80,
+    "speed": 150
+  },
+  "height": 12,
+  "weight": 666,
+  "captureRate": 60,
+  "genderRate": -1,
+  "eggGroups": [
+    "mineral"
+  ],
+  "growthRate": "medium",
+  "flavorText": "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
+  "evolutionChainId": 44,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "screech"
+      },
+      {
+        "level": 1,
+        "move": "self-destruct"
+      },
+      {
+        "level": 1,
+        "move": "sonic-boom"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 9,
+        "move": "screech"
+      },
+      {
+        "level": 17,
+        "move": "sonic-boom"
+      },
+      {
+        "level": 23,
+        "move": "self-destruct"
+      },
+      {
+        "level": 29,
+        "move": "rollout"
+      },
+      {
+        "level": 34,
+        "move": "light-screen"
+      },
+      {
+        "level": 40,
+        "move": "swift"
+      },
+      {
+        "level": 44,
+        "move": "explosion"
+      },
+      {
+        "level": 48,
+        "move": "mirror-coat"
+      }
+    ],
+    "machine": [
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": 191,
+  "nameEn": "sunkern",
+  "nameZh": "向日种子",
+  "genusZh": "种子宝可梦",
+  "johtoDex": 102,
+  "types": [
+    "grass"
+  ],
+  "stats": {
+    "hp": 30,
+    "attack": 30,
+    "defense": 30,
+    "special-attack": 30,
+    "special-defense": 30,
+    "speed": 30
+  },
+  "height": 3,
+  "weight": 18,
+  "captureRate": 235,
+  "genderRate": 4,
+  "eggGroups": [
+    "plant"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "It is very weak. Its only means of defense is to shake its leaves desperately at its attacker.",
+  "evolutionChainId": 94,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "absorb"
+      },
+      {
+        "level": 4,
+        "move": "growth"
+      },
+      {
+        "level": 10,
+        "move": "mega-drain"
+      },
+      {
+        "level": 19,
+        "move": "sunny-day"
+      },
+      {
+        "level": 31,
+        "move": "synthesis"
+      },
+      {
+        "level": 46,
+        "move": "giga-drain"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "id": 236,
+  "nameEn": "tyrogue",
+  "nameZh": "无畏小子",
+  "genusZh": "打斗宝可梦",
+  "johtoDex": 143,
+  "types": [
+    "fighting"
+  ],
+  "stats": {
+    "hp": 35,
+    "attack": 35,
+    "defense": 35,
+    "special-attack": 35,
+    "special-defense": 35,
+    "speed": 35
+  },
+  "height": 7,
+  "weight": 210,
+  "captureRate": 75,
+  "genderRate": 0,
+  "eggGroups": [
+    "no-eggs"
+  ],
+  "growthRate": "medium",
+  "flavorText": "To brush up on its fighting skills, it will challenge anyone. It has a very strong com­ petitive spirit.",
+  "evolutionChainId": 47,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "high-jump-kick"
+      },
+      {
+        "move": "mach-punch"
+      },
+      {
+        "move": "mind-reader"
+      },
+      {
+        "move": "rapid-spin"
+      }
+    ],
+    "tutor": []
+  }
+}

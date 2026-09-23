@@ -1,0 +1,201 @@
+{
+  "id": 66,
+  "nameEn": "machop",
+  "nameZh": "腕力",
+  "genusZh": "怪力宝可梦",
+  "johtoDex": 140,
+  "types": [
+    "fighting"
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 80,
+    "defense": 50,
+    "special-attack": 35,
+    "special-defense": 35,
+    "speed": 35
+  },
+  "height": 8,
+  "weight": 195,
+  "captureRate": 180,
+  "genderRate": 2,
+  "eggGroups": [
+    "humanshape"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "It trains by lifting rocks in the mountains. It can even pick up a GRAVELER with ease.",
+  "evolutionChainId": 28,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "low-kick"
+      },
+      {
+        "level": 7,
+        "move": "focus-energy"
+      },
+      {
+        "level": 13,
+        "move": "karate-chop"
+      },
+      {
+        "level": 19,
+        "move": "seismic-toss"
+      },
+      {
+        "level": 25,
+        "move": "foresight"
+      },
+      {
+        "level": 31,
+        "move": "vital-throw"
+      },
+      {
+        "level": 37,
+        "move": "cross-chop"
+      },
+      {
+        "level": 43,
+        "move": "scary-face"
+      },
+      {
+        "level": 49,
+        "move": "submission"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "encore"
+      },
+      {
+        "move": "light-screen"
+      },
+      {
+        "move": "meditate"
+      },
+      {
+        "move": "rolling-kick"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "id": 87,
+  "nameEn": "dewgong",
+  "nameZh": "白海狮",
+  "genusZh": "海狮宝可梦",
+  "johtoDex": 177,
+  "types": [
+    "water",
+    "ice"
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 70,
+    "defense": 80,
+    "special-attack": 70,
+    "special-defense": 95,
+    "speed": 70
+  },
+  "height": 17,
+  "weight": 1200,
+  "captureRate": 75,
+  "genderRate": 4,
+  "eggGroups": [
+    "water1",
+    "ground"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It sleeps under shallow ocean waters during the day, then looks for food at night when it's cold.",
+  "evolutionChainId": 37,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "aurora-beam"
+      },
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "headbutt"
+      },
+      {
+        "level": 5,
+        "move": "growl"
+      },
+      {
+        "level": 16,
+        "move": "aurora-beam"
+      },
+      {
+        "level": 21,
+        "move": "rest"
+      },
+      {
+        "level": 32,
+        "move": "take-down"
+      },
+      {
+        "level": 43,
+        "move": "ice-beam"
+      },
+      {
+        "level": 60,
+        "move": "safeguard"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

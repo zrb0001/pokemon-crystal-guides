@@ -1,0 +1,183 @@
+{
+  "id": 120,
+  "nameEn": "staryu",
+  "nameZh": "海星星",
+  "genusZh": "星形宝可梦",
+  "johtoDex": 167,
+  "types": [
+    "water"
+  ],
+  "stats": {
+    "hp": 30,
+    "attack": 45,
+    "defense": 55,
+    "special-attack": 70,
+    "special-defense": 55,
+    "speed": 85
+  },
+  "height": 8,
+  "weight": 345,
+  "captureRate": 225,
+  "genderRate": -1,
+  "eggGroups": [
+    "water3"
+  ],
+  "growthRate": "slow",
+  "flavorText": "When the stars twinkle at night, it floats up from the sea floor, and its body's center core flickers.",
+  "evolutionChainId": 56,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "harden"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 7,
+        "move": "water-gun"
+      },
+      {
+        "level": 13,
+        "move": "rapid-spin"
+      },
+      {
+        "level": 19,
+        "move": "recover"
+      },
+      {
+        "level": 25,
+        "move": "swift"
+      },
+      {
+        "level": 31,
+        "move": "bubble-beam"
+      },
+      {
+        "level": 37,
+        "move": "minimize"
+      },
+      {
+        "level": 43,
+        "move": "light-screen"
+      },
+      {
+        "level": 50,
+        "move": "hydro-pump"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

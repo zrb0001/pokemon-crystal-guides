@@ -1,0 +1,187 @@
+{
+  "id": 19,
+  "nameEn": "rattata",
+  "nameZh": "小拉达",
+  "genusZh": "鼠宝可梦",
+  "johtoDex": 17,
+  "types": [
+    "normal"
+  ],
+  "stats": {
+    "hp": 30,
+    "attack": 56,
+    "defense": 35,
+    "special-attack": 25,
+    "special-defense": 35,
+    "speed": 72
+  },
+  "height": 3,
+  "weight": 35,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "medium",
+  "flavorText": "This POKéMON's impressive vital­ ity allows it to live anywhere. It also multiplies very quickly.",
+  "evolutionChainId": 7,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 1,
+        "move": "tail-whip"
+      },
+      {
+        "level": 7,
+        "move": "quick-attack"
+      },
+      {
+        "level": 13,
+        "move": "hyper-fang"
+      },
+      {
+        "level": 20,
+        "move": "focus-energy"
+      },
+      {
+        "level": 27,
+        "move": "pursuit"
+      },
+      {
+        "level": 34,
+        "move": "super-fang"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "bite"
+      },
+      {
+        "move": "counter"
+      },
+      {
+        "move": "flame-wheel"
+      },
+      {
+        "move": "fury-swipes"
+      },
+      {
+        "move": "reversal"
+      },
+      {
+        "move": "screech"
+      }
+    ],
+    "tutor": []
+  }
+}

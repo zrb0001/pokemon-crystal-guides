@@ -1,0 +1,165 @@
+{
+  "id": 18,
+  "nameEn": "pidgeot",
+  "nameZh": "大比鸟",
+  "genusZh": "鸟宝可梦",
+  "johtoDex": 12,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "stats": {
+    "hp": 83,
+    "attack": 80,
+    "defense": 75,
+    "special-attack": 70,
+    "special-defense": 70,
+    "speed": 101
+  },
+  "height": 15,
+  "weight": 395,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "flying"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "Its outstanding vision allows it to spot splashing MAGIKARP, even while flying at 3300 feet.",
+  "evolutionChainId": 6,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "gust"
+      },
+      {
+        "level": 1,
+        "move": "quick-attack"
+      },
+      {
+        "level": 1,
+        "move": "sand-attack"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 5,
+        "move": "sand-attack"
+      },
+      {
+        "level": 9,
+        "move": "gust"
+      },
+      {
+        "level": 15,
+        "move": "quick-attack"
+      },
+      {
+        "level": 23,
+        "move": "whirlwind"
+      },
+      {
+        "level": 33,
+        "move": "wing-attack"
+      },
+      {
+        "level": 46,
+        "move": "agility"
+      },
+      {
+        "level": 61,
+        "move": "mirror-move"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

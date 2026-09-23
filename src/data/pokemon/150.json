@@ -1,0 +1,242 @@
+{
+  "id": 150,
+  "nameEn": "mewtwo",
+  "nameZh": "超梦",
+  "genusZh": "基因宝可梦",
+  "johtoDex": 249,
+  "types": [
+    "psychic"
+  ],
+  "stats": {
+    "hp": 106,
+    "attack": 110,
+    "defense": 90,
+    "special-attack": 154,
+    "special-defense": 90,
+    "speed": 130
+  },
+  "height": 20,
+  "weight": 1220,
+  "captureRate": 3,
+  "genderRate": -1,
+  "eggGroups": [
+    "no-eggs"
+  ],
+  "growthRate": "slow",
+  "flavorText": "Said to rest qui­ etly in an undiscovered cave, this POKéMON was created solely for battling.",
+  "evolutionChainId": 77,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "confusion"
+      },
+      {
+        "level": 1,
+        "move": "disable"
+      },
+      {
+        "level": 11,
+        "move": "barrier"
+      },
+      {
+        "level": 22,
+        "move": "swift"
+      },
+      {
+        "level": 33,
+        "move": "psych-up"
+      },
+      {
+        "level": 44,
+        "move": "future-sight"
+      },
+      {
+        "level": 55,
+        "move": "mist"
+      },
+      {
+        "level": 66,
+        "move": "psychic"
+      },
+      {
+        "level": 77,
+        "move": "amnesia"
+      },
+      {
+        "level": 88,
+        "move": "recover"
+      },
+      {
+        "level": 99,
+        "move": "safeguard"
+      }
+    ],
+    "machine": [
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      },
+      {
+        "move": "ice-beam"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

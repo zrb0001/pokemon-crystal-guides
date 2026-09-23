@@ -1,0 +1,164 @@
+{
+  "id": 37,
+  "nameEn": "vulpix",
+  "nameZh": "六尾",
+  "genusZh": "狐狸宝可梦",
+  "johtoDex": 125,
+  "types": [
+    "fire"
+  ],
+  "stats": {
+    "hp": 38,
+    "attack": 41,
+    "defense": 40,
+    "special-attack": 50,
+    "special-defense": 65,
+    "speed": 65
+  },
+  "height": 6,
+  "weight": 99,
+  "captureRate": 190,
+  "genderRate": 6,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "medium",
+  "flavorText": "As its body grows larger, its six warm tails become more beautiful, with a more luxur­ ious coat of fur.",
+  "evolutionChainId": 15,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "ember"
+      },
+      {
+        "level": 1,
+        "move": "tail-whip"
+      },
+      {
+        "level": 7,
+        "move": "quick-attack"
+      },
+      {
+        "level": 13,
+        "move": "roar"
+      },
+      {
+        "level": 19,
+        "move": "confuse-ray"
+      },
+      {
+        "level": 25,
+        "move": "safeguard"
+      },
+      {
+        "level": 31,
+        "move": "flamethrower"
+      },
+      {
+        "level": 37,
+        "move": "fire-spin"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "disable"
+      },
+      {
+        "move": "feint-attack"
+      },
+      {
+        "move": "flail"
+      },
+      {
+        "move": "hypnosis"
+      },
+      {
+        "move": "spite"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

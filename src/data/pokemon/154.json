@@ -1,0 +1,197 @@
+{
+  "id": 154,
+  "nameEn": "meganium",
+  "nameZh": "大竺葵",
+  "genusZh": "芳草宝可梦",
+  "johtoDex": 3,
+  "types": [
+    "grass"
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 100,
+    "special-attack": 83,
+    "special-defense": 100,
+    "speed": 80
+  },
+  "height": 18,
+  "weight": 1005,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "monster",
+    "plant"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "Anyone who stands beside it becomes refreshed, just as if they were relaxing in a sunny forest.",
+  "evolutionChainId": 79,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "razor-leaf"
+      },
+      {
+        "level": 1,
+        "move": "reflect"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 8,
+        "move": "razor-leaf"
+      },
+      {
+        "level": 12,
+        "move": "reflect"
+      },
+      {
+        "level": 15,
+        "move": "poison-powder"
+      },
+      {
+        "level": 23,
+        "move": "synthesis"
+      },
+      {
+        "level": 31,
+        "move": "body-slam"
+      },
+      {
+        "level": 41,
+        "move": "light-screen"
+      },
+      {
+        "level": 51,
+        "move": "safeguard"
+      },
+      {
+        "level": 61,
+        "move": "solar-beam"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "id": 186,
+  "nameEn": "politoed",
+  "nameZh": "蚊香蛙皇",
+  "genusZh": "蛙宝可梦",
+  "johtoDex": 75,
+  "types": [
+    "water"
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 75,
+    "defense": 75,
+    "special-attack": 90,
+    "special-defense": 100,
+    "speed": 70
+  },
+  "height": 11,
+  "weight": 339,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "water1"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "When it expands its throat to croak out a tune, nearby POLIWAG and POLIWHIRL gather immediately.",
+  "evolutionChainId": 26,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "double-slap"
+      },
+      {
+        "level": 1,
+        "move": "hypnosis"
+      },
+      {
+        "level": 1,
+        "move": "perish-song"
+      },
+      {
+        "level": 1,
+        "move": "water-gun"
+      },
+      {
+        "level": 35,
+        "move": "perish-song"
+      },
+      {
+        "level": 51,
+        "move": "swagger"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "id": 188,
+  "nameEn": "skiploom",
+  "nameZh": "毽子花",
+  "genusZh": "棉草宝可梦",
+  "johtoDex": 68,
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 45,
+    "defense": 50,
+    "special-attack": 45,
+    "special-defense": 65,
+    "speed": 80
+  },
+  "height": 6,
+  "weight": 10,
+  "captureRate": 120,
+  "genderRate": 4,
+  "eggGroups": [
+    "fairy",
+    "plant"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "As soon as it rains, it closes its flower and hides in the shade of a tree to avoid getting wet.",
+  "evolutionChainId": 92,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "splash"
+      },
+      {
+        "level": 1,
+        "move": "synthesis"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 1,
+        "move": "tail-whip"
+      },
+      {
+        "level": 5,
+        "move": "synthesis"
+      },
+      {
+        "level": 5,
+        "move": "tail-whip"
+      },
+      {
+        "level": 10,
+        "move": "tackle"
+      },
+      {
+        "level": 13,
+        "move": "poison-powder"
+      },
+      {
+        "level": 15,
+        "move": "stun-spore"
+      },
+      {
+        "level": 17,
+        "move": "sleep-powder"
+      },
+      {
+        "level": 22,
+        "move": "leech-seed"
+      },
+      {
+        "level": 29,
+        "move": "cotton-spore"
+      },
+      {
+        "level": 36,
+        "move": "mega-drain"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

@@ -1,0 +1,133 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getAllPokemon, getAllMoves, getAllItems, getTypes, typeZh } from '../lib/data';
+
+const pokemon = getAllPokemon();
+const moveCount = getAllMoves().length;
+const itemCount = getAllItems().length;
+
+const typeCounts = new Map<string, number>();
+for (const p of pokemon) {
+  for (const t of p.types) typeCounts.set(t, (typeCounts.get(t) ?? 0) + 1);
+}
+const typeDist = Object.keys(getTypes())
+  .filter((t) => t !== 'unknown')
+  .map((t) => ({ type: t, count: typeCounts.get(t) ?? 0 }))
+  .sort((a, b) => b.count - a.count);
+const maxTypeCount = typeDist[0]?.count ?? 1;
+
+const stats = [
+  { href: '/pokemon/', num: pokemon.length, label: '宝可梦', desc: '城都图鉴全收录' },
+  { href: '/moves/', num: moveCount, label: '招式', desc: '数值以水晶版为准' },
+  { href: '/items/', num: itemCount, label: '道具', desc: '含树果与邮件' },
+  { href: '/guides/', num: 5, label: '攻略', desc: '属性相克 · 招式传授 · NPC 交换等' },
+];
+---
+
+<Layout title="首页" description="宝可梦水晶版（第二世代）中文攻略图鉴：全 251 只宝可梦、招式与道具数据">
+  <section class="panel hero">
+    <h1>宝可梦水晶版攻略</h1>
+    <p>
+      收录 Game Boy Color《宝可梦 水晶》（第二世代）的图鉴、招式与道具数据：
+      属性按第二世代换算，招式数值、TM/HM 编号与习得表均以水晶版为准。
+    </p>
+  </section>
+
+  <div class="stat-grid">
+    {
+      stats.map((s) => (
+        <a class="stat-card" href={s.href}>
+          <div class="stat-value">{s.num}</div>
+          <div class="stat-label">{s.label}</div>
+          <div class="stat-desc">{s.desc}</div>
+        </a>
+      ))
+    }
+  </div>
+
+  <section class="panel">
+    <h2>属性分布（{pokemon.length} 只，含双属性重复计数）</h2>
+    <div class="type-dist">
+      {
+        typeDist.map((d) => (
+          <div class="type-row">
+            <span class="type-name">{typeZh(d.type)}</span>
+            <div class="type-bar">
+              <div
+                class={`type-${d.type}`}
+                style={`width: ${(d.count / maxTypeCount) * 100}%`}
+              />
+            </div>
+            <span class="type-count">{d.count}</span>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .hero h1 { margin: 0 0 10px; }
+  .hero p { margin: 0; color: var(--muted); }
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 14px;
+    margin-bottom: 20px;
+  }
+  .stat-card {
+    display: block;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    padding: 18px 20px;
+    color: var(--text);
+    transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+  }
+  .stat-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+    box-shadow: var(--shadow-md);
+    text-decoration: none;
+  }
+  .stat-card .stat-value {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    line-height: 1.2;
+  }
+  .stat-card .stat-label { font-weight: 600; margin-top: 2px; }
+  .stat-card .stat-desc {
+    font-size: 12.5px;
+    color: var(--muted);
+    margin-top: 6px;
+  }
+
+  .type-dist {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 6px 24px;
+  }
+  .type-row {
+    display: grid;
+    grid-template-columns: 48px 1fr 28px;
+    align-items: center;
+    gap: 10px;
+    font-size: 13.5px;
+  }
+  .type-bar {
+    height: 8px;
+    background: var(--accent-soft);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .type-bar > div { height: 100%; border-radius: 999px; }
+  .type-count {
+    text-align: right;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+</style>

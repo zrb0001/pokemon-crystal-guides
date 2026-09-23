@@ -1,0 +1,170 @@
+{
+  "id": 170,
+  "nameEn": "chinchou",
+  "nameZh": "灯笼鱼",
+  "genusZh": "琵琶鱼宝可梦",
+  "johtoDex": 174,
+  "types": [
+    "water",
+    "electric"
+  ],
+  "stats": {
+    "hp": 75,
+    "attack": 38,
+    "defense": 38,
+    "special-attack": 56,
+    "special-defense": 56,
+    "speed": 67
+  },
+  "height": 5,
+  "weight": 120,
+  "captureRate": 190,
+  "genderRate": 4,
+  "eggGroups": [
+    "water2"
+  ],
+  "growthRate": "slow",
+  "flavorText": "Its antennae, whi­ ch evolved from a fin, have both po­ sitive and neg­ ative charges flo­ wing through them.",
+  "evolutionChainId": 86,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "bubble"
+      },
+      {
+        "level": 1,
+        "move": "thunder-wave"
+      },
+      {
+        "level": 5,
+        "move": "supersonic"
+      },
+      {
+        "level": 13,
+        "move": "flail"
+      },
+      {
+        "level": 17,
+        "move": "water-gun"
+      },
+      {
+        "level": 25,
+        "move": "spark"
+      },
+      {
+        "level": 29,
+        "move": "confuse-ray"
+      },
+      {
+        "level": 37,
+        "move": "take-down"
+      },
+      {
+        "level": 41,
+        "move": "hydro-pump"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [
+      {
+        "move": "flail"
+      },
+      {
+        "move": "screech"
+      },
+      {
+        "move": "supersonic"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

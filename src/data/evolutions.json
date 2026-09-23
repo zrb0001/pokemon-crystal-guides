@@ -1,0 +1,4640 @@
+{
+  "1": {
+    "id": 1,
+    "name": "bulbasaur",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 2,
+        "name": "ivysaur",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 16,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 3,
+            "name": "venusaur",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": 32,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "id": 4,
+    "name": "charmander",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 5,
+        "name": "charmeleon",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 16,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 6,
+            "name": "charizard",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": 36,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "id": 7,
+    "name": "squirtle",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 8,
+        "name": "wartortle",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 16,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 9,
+            "name": "blastoise",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": 36,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "id": 10,
+    "name": "caterpie",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 11,
+        "name": "metapod",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 7,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 12,
+            "name": "butterfree",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": 10,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "id": 13,
+    "name": "weedle",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 14,
+        "name": "kakuna",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 7,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 15,
+            "name": "beedrill",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": 10,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "id": 16,
+    "name": "pidgey",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 17,
+        "name": "pidgeotto",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 18,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 18,
+            "name": "pidgeot",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": 36,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "id": 19,
+    "name": "rattata",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 20,
+        "name": "raticate",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 20,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": 20,
+            "minHappiness": null,
+            "timeOfDay": "night",
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "8": {
+    "id": 21,
+    "name": "spearow",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 22,
+        "name": "fearow",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 20,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "9": {
+    "id": 23,
+    "name": "ekans",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 24,
+        "name": "arbok",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 22,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "10": {
+    "id": 172,
+    "name": "pichu",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 25,
+        "name": "pikachu",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": 220,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 26,
+            "name": "raichu",
+            "conditions": [
+              {
+                "trigger": "use-item",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": "thunder-stone",
+                "itemZh": "雷之石",
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              },
+              {
+                "trigger": "use-item",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": "thunder-stone",
+                "itemZh": "雷之石",
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "11": {
+    "id": 27,
+    "name": "sandshrew",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 28,
+        "name": "sandslash",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 22,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "ice-stone",
+            "itemZh": "冰之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "12": {
+    "id": 29,
+    "name": "nidoran-f",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 30,
+        "name": "nidorina",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 16,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 31,
+            "name": "nidoqueen",
+            "conditions": [
+              {
+                "trigger": "use-item",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": "moon-stone",
+                "itemZh": "月之石",
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "13": {
+    "id": 32,
+    "name": "nidoran-m",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 33,
+        "name": "nidorino",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 16,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 34,
+            "name": "nidoking",
+            "conditions": [
+              {
+                "trigger": "use-item",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": "moon-stone",
+                "itemZh": "月之石",
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "14": {
+    "id": 173,
+    "name": "cleffa",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 35,
+        "name": "clefairy",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": 160,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 36,
+            "name": "clefable",
+            "conditions": [
+              {
+                "trigger": "use-item",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": "moon-stone",
+                "itemZh": "月之石",
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "15": {
+    "id": 37,
+    "name": "vulpix",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 38,
+        "name": "ninetales",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "fire-stone",
+            "itemZh": "火之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "ice-stone",
+            "itemZh": "冰之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "16": {
+    "id": 174,
+    "name": "igglybuff",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 39,
+        "name": "jigglypuff",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": 160,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 40,
+            "name": "wigglytuff",
+            "conditions": [
+              {
+                "trigger": "use-item",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": "moon-stone",
+                "itemZh": "月之石",
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "17": {
+    "id": 41,
+    "name": "zubat",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 42,
+        "name": "golbat",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 22,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 169,
+            "name": "crobat",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": null,
+                "minHappiness": 160,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "18": {
+    "id": 43,
+    "name": "oddish",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 44,
+        "name": "gloom",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 21,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 45,
+            "name": "vileplume",
+            "conditions": [
+              {
+                "trigger": "use-item",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": "leaf-stone",
+                "itemZh": "叶之石",
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          },
+          {
+            "id": 182,
+            "name": "bellossom",
+            "conditions": [
+              {
+                "trigger": "use-item",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": "sun-stone",
+                "itemZh": "日之石",
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "19": {
+    "id": 46,
+    "name": "paras",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 47,
+        "name": "parasect",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 24,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "20": {
+    "id": 48,
+    "name": "venonat",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 49,
+        "name": "venomoth",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 31,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "21": {
+    "id": 50,
+    "name": "diglett",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 51,
+        "name": "dugtrio",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 26,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": 26,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "22": {
+    "id": 52,
+    "name": "meowth",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 53,
+        "name": "persian",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 28,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": 160,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      },
+      {
+        "id": 863,
+        "name": "perrserker",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 28,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "23": {
+    "id": 54,
+    "name": "psyduck",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 55,
+        "name": "golduck",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 33,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "24": {
+    "id": 56,
+    "name": "mankey",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 57,
+        "name": "primeape",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 28,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 979,
+            "name": "annihilape",
+            "conditions": [
+              {
+                "trigger": "use-move",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "25": {
+    "id": 58,
+    "name": "growlithe",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 59,
+        "name": "arcanine",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "fire-stone",
+            "itemZh": "火之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "fire-stone",
+            "itemZh": "火之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "26": {
+    "id": 60,
+    "name": "poliwag",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 61,
+        "name": "poliwhirl",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 25,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 62,
+            "name": "poliwrath",
+            "conditions": [
+              {
+                "trigger": "use-item",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": "water-stone",
+                "itemZh": "水之石",
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          },
+          {
+            "id": 186,
+            "name": "politoed",
+            "conditions": [
+              {
+                "trigger": "trade",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": "kings-rock",
+                "heldItemZh": "王者之证",
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "27": {
+    "id": 63,
+    "name": "abra",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 64,
+        "name": "kadabra",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 16,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 65,
+            "name": "alakazam",
+            "conditions": [
+              {
+                "trigger": "trade",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "28": {
+    "id": 66,
+    "name": "machop",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 67,
+        "name": "machoke",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 28,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 68,
+            "name": "machamp",
+            "conditions": [
+              {
+                "trigger": "trade",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "29": {
+    "id": 69,
+    "name": "bellsprout",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 70,
+        "name": "weepinbell",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 21,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 71,
+            "name": "victreebel",
+            "conditions": [
+              {
+                "trigger": "use-item",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": "leaf-stone",
+                "itemZh": "叶之石",
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "30": {
+    "id": 72,
+    "name": "tentacool",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 73,
+        "name": "tentacruel",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 30,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "31": {
+    "id": 74,
+    "name": "geodude",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 75,
+        "name": "graveler",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 25,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": 25,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 76,
+            "name": "golem",
+            "conditions": [
+              {
+                "trigger": "trade",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              },
+              {
+                "trigger": "trade",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "32": {
+    "id": 77,
+    "name": "ponyta",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 78,
+        "name": "rapidash",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 40,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": 40,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "33": {
+    "id": 79,
+    "name": "slowpoke",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 80,
+        "name": "slowbro",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 37,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "galarica-cuff",
+            "itemZh": "伽勒豆蔻手环",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      },
+      {
+        "id": 199,
+        "name": "slowking",
+        "conditions": [
+          {
+            "trigger": "trade",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": "kings-rock",
+            "heldItemZh": "王者之证",
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "galarica-wreath",
+            "itemZh": "伽勒豆蔻花圈",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "34": {
+    "id": 81,
+    "name": "magnemite",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 82,
+        "name": "magneton",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 30,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 462,
+            "name": "magnezone",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              },
+              {
+                "trigger": "level-up",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              },
+              {
+                "trigger": "level-up",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              },
+              {
+                "trigger": "level-up",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              },
+              {
+                "trigger": "level-up",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              },
+              {
+                "trigger": "use-item",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": "thunder-stone",
+                "itemZh": "雷之石",
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              },
+              {
+                "trigger": "level-up",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "35": {
+    "id": 83,
+    "name": "farfetchd",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 865,
+        "name": "sirfetchd",
+        "conditions": [
+          {
+            "trigger": "three-critical-hits",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "36": {
+    "id": 84,
+    "name": "doduo",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 85,
+        "name": "dodrio",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 31,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "37": {
+    "id": 86,
+    "name": "seel",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 87,
+        "name": "dewgong",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 34,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "38": {
+    "id": 88,
+    "name": "grimer",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 89,
+        "name": "muk",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 38,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": 38,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "39": {
+    "id": 90,
+    "name": "shellder",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 91,
+        "name": "cloyster",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "water-stone",
+            "itemZh": "水之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "40": {
+    "id": 92,
+    "name": "gastly",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 93,
+        "name": "haunter",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 25,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 94,
+            "name": "gengar",
+            "conditions": [
+              {
+                "trigger": "trade",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "41": {
+    "id": 95,
+    "name": "onix",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 208,
+        "name": "steelix",
+        "conditions": [
+          {
+            "trigger": "trade",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": "metal-coat",
+            "heldItemZh": "金属膜",
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "42": {
+    "id": 96,
+    "name": "drowzee",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 97,
+        "name": "hypno",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 26,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "43": {
+    "id": 98,
+    "name": "krabby",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 99,
+        "name": "kingler",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 28,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "44": {
+    "id": 100,
+    "name": "voltorb",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 101,
+        "name": "electrode",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 30,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "leaf-stone",
+            "itemZh": "叶之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "45": {
+    "id": 102,
+    "name": "exeggcute",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 103,
+        "name": "exeggutor",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "leaf-stone",
+            "itemZh": "叶之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "leaf-stone",
+            "itemZh": "叶之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "46": {
+    "id": 104,
+    "name": "cubone",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 105,
+        "name": "marowak",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 28,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": 28,
+            "minHappiness": null,
+            "timeOfDay": "night",
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "47": {
+    "id": 236,
+    "name": "tyrogue",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 106,
+        "name": "hitmonlee",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 20,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": 1,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      },
+      {
+        "id": 107,
+        "name": "hitmonchan",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 20,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": -1,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      },
+      {
+        "id": 237,
+        "name": "hitmontop",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 20,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": 0,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "48": {
+    "id": 108,
+    "name": "lickitung",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 463,
+        "name": "lickilicky",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": "rollout",
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "49": {
+    "id": 109,
+    "name": "koffing",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 110,
+        "name": "weezing",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 35,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": 35,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "50": {
+    "id": 111,
+    "name": "rhyhorn",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 112,
+        "name": "rhydon",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 42,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 464,
+            "name": "rhyperior",
+            "conditions": [
+              {
+                "trigger": "trade",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": "protector",
+                "heldItemZh": "护具",
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "51": {
+    "id": 440,
+    "name": "happiny",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 113,
+        "name": "chansey",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": "day",
+            "item": null,
+            "itemZh": null,
+            "heldItem": "oval-stone",
+            "heldItemZh": "浑圆之石",
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 242,
+            "name": "blissey",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": null,
+                "minHappiness": 160,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "52": {
+    "id": 114,
+    "name": "tangela",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 465,
+        "name": "tangrowth",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": "ancient-power",
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "53": {
+    "id": 115,
+    "name": "kangaskhan",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "54": {
+    "id": 116,
+    "name": "horsea",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 117,
+        "name": "seadra",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 32,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 230,
+            "name": "kingdra",
+            "conditions": [
+              {
+                "trigger": "trade",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": "dragon-scale",
+                "heldItemZh": "龙之鳞片",
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "55": {
+    "id": 118,
+    "name": "goldeen",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 119,
+        "name": "seaking",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 33,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "56": {
+    "id": 120,
+    "name": "staryu",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 121,
+        "name": "starmie",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "water-stone",
+            "itemZh": "水之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "57": {
+    "id": 439,
+    "name": "mime-jr",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 122,
+        "name": "mr-mime",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": "mimic",
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": "mimic",
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 866,
+            "name": "mr-rime",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": 42,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "58": {
+    "id": 123,
+    "name": "scyther",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 212,
+        "name": "scizor",
+        "conditions": [
+          {
+            "trigger": "trade",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": "metal-coat",
+            "heldItemZh": "金属膜",
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      },
+      {
+        "id": 900,
+        "name": "kleavor",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "black-augurite",
+            "itemZh": "黑奇石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "59": {
+    "id": 238,
+    "name": "smoochum",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 124,
+        "name": "jynx",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 30,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "60": {
+    "id": 239,
+    "name": "elekid",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 125,
+        "name": "electabuzz",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 30,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 466,
+            "name": "electivire",
+            "conditions": [
+              {
+                "trigger": "trade",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": "electirizer",
+                "heldItemZh": "电力增幅器",
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "61": {
+    "id": 240,
+    "name": "magby",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 126,
+        "name": "magmar",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 30,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 467,
+            "name": "magmortar",
+            "conditions": [
+              {
+                "trigger": "trade",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": "magmarizer",
+                "heldItemZh": "熔岩增幅器",
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "62": {
+    "id": 127,
+    "name": "pinsir",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "63": {
+    "id": 128,
+    "name": "tauros",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "64": {
+    "id": 129,
+    "name": "magikarp",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 130,
+        "name": "gyarados",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 20,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "65": {
+    "id": 131,
+    "name": "lapras",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "66": {
+    "id": 132,
+    "name": "ditto",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "67": {
+    "id": 133,
+    "name": "eevee",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 134,
+        "name": "vaporeon",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "water-stone",
+            "itemZh": "水之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      },
+      {
+        "id": 135,
+        "name": "jolteon",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "thunder-stone",
+            "itemZh": "雷之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      },
+      {
+        "id": 136,
+        "name": "flareon",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "fire-stone",
+            "itemZh": "火之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      },
+      {
+        "id": 196,
+        "name": "espeon",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": 160,
+            "timeOfDay": "day",
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      },
+      {
+        "id": 197,
+        "name": "umbreon",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": 160,
+            "timeOfDay": "night",
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      },
+      {
+        "id": 470,
+        "name": "leafeon",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "leaf-stone",
+            "itemZh": "叶之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      },
+      {
+        "id": 471,
+        "name": "glaceon",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "ice-stone",
+            "itemZh": "冰之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      },
+      {
+        "id": 700,
+        "name": "sylveon",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": 160,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "68": {
+    "id": 137,
+    "name": "porygon",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 233,
+        "name": "porygon2",
+        "conditions": [
+          {
+            "trigger": "trade",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": "up-grade",
+            "heldItemZh": "升级数据",
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 474,
+            "name": "porygon-z",
+            "conditions": [
+              {
+                "trigger": "trade",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": "dubious-disc",
+                "heldItemZh": "可疑补丁",
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "69": {
+    "id": 138,
+    "name": "omanyte",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 139,
+        "name": "omastar",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 40,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "70": {
+    "id": 140,
+    "name": "kabuto",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 141,
+        "name": "kabutops",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 40,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "71": {
+    "id": 142,
+    "name": "aerodactyl",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "72": {
+    "id": 446,
+    "name": "munchlax",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 143,
+        "name": "snorlax",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": 160,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "73": {
+    "id": 144,
+    "name": "articuno",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "74": {
+    "id": 145,
+    "name": "zapdos",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "75": {
+    "id": 146,
+    "name": "moltres",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "76": {
+    "id": 147,
+    "name": "dratini",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 148,
+        "name": "dragonair",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 30,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 149,
+            "name": "dragonite",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": 55,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "77": {
+    "id": 150,
+    "name": "mewtwo",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "78": {
+    "id": 151,
+    "name": "mew",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "79": {
+    "id": 152,
+    "name": "chikorita",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 153,
+        "name": "bayleef",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 16,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 154,
+            "name": "meganium",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": 32,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "80": {
+    "id": 155,
+    "name": "cyndaquil",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 156,
+        "name": "quilava",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 14,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": 17,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 157,
+            "name": "typhlosion",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": 36,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              },
+              {
+                "trigger": "level-up",
+                "minLevel": 36,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "81": {
+    "id": 158,
+    "name": "totodile",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 159,
+        "name": "croconaw",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 18,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 160,
+            "name": "feraligatr",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": 30,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "82": {
+    "id": 161,
+    "name": "sentret",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 162,
+        "name": "furret",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 15,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "83": {
+    "id": 163,
+    "name": "hoothoot",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 164,
+        "name": "noctowl",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 20,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "84": {
+    "id": 165,
+    "name": "ledyba",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 166,
+        "name": "ledian",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 18,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "85": {
+    "id": 167,
+    "name": "spinarak",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 168,
+        "name": "ariados",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 22,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "86": {
+    "id": 170,
+    "name": "chinchou",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 171,
+        "name": "lanturn",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 27,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "87": {
+    "id": 175,
+    "name": "togepi",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 176,
+        "name": "togetic",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": 160,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 468,
+            "name": "togekiss",
+            "conditions": [
+              {
+                "trigger": "use-item",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": "shiny-stone",
+                "itemZh": "光之石",
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "88": {
+    "id": 177,
+    "name": "natu",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 178,
+        "name": "xatu",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 25,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "89": {
+    "id": 179,
+    "name": "mareep",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 180,
+        "name": "flaaffy",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 15,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 181,
+            "name": "ampharos",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": 30,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "90": {
+    "id": 298,
+    "name": "azurill",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 183,
+        "name": "marill",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": 160,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 184,
+            "name": "azumarill",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": 18,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "91": {
+    "id": 438,
+    "name": "bonsly",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 185,
+        "name": "sudowoodo",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": "mimic",
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "92": {
+    "id": 187,
+    "name": "hoppip",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 188,
+        "name": "skiploom",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 18,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 189,
+            "name": "jumpluff",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": 27,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "93": {
+    "id": 190,
+    "name": "aipom",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 424,
+        "name": "ambipom",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": "double-hit",
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "94": {
+    "id": 191,
+    "name": "sunkern",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 192,
+        "name": "sunflora",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "sun-stone",
+            "itemZh": "日之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "95": {
+    "id": 193,
+    "name": "yanma",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 469,
+        "name": "yanmega",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": "ancient-power",
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "96": {
+    "id": 194,
+    "name": "wooper",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 195,
+        "name": "quagsire",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 20,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      },
+      {
+        "id": 980,
+        "name": "clodsire",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 20,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "97": {
+    "id": 198,
+    "name": "murkrow",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 430,
+        "name": "honchkrow",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "dusk-stone",
+            "itemZh": "暗之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "98": {
+    "id": 200,
+    "name": "misdreavus",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 429,
+        "name": "mismagius",
+        "conditions": [
+          {
+            "trigger": "use-item",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": "dusk-stone",
+            "itemZh": "暗之石",
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "99": {
+    "id": 201,
+    "name": "unown",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "100": {
+    "id": 360,
+    "name": "wynaut",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 202,
+        "name": "wobbuffet",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 15,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "101": {
+    "id": 203,
+    "name": "girafarig",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 981,
+        "name": "farigiraf",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": "twin-beam",
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "102": {
+    "id": 204,
+    "name": "pineco",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 205,
+        "name": "forretress",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 31,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "103": {
+    "id": 206,
+    "name": "dunsparce",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 982,
+        "name": "dudunsparce",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": "hyper-drill",
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": "hyper-drill",
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "104": {
+    "id": 207,
+    "name": "gligar",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 472,
+        "name": "gliscor",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": "night",
+            "item": null,
+            "itemZh": null,
+            "heldItem": "razor-fang",
+            "heldItemZh": "锐利之牙",
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "105": {
+    "id": 209,
+    "name": "snubbull",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 210,
+        "name": "granbull",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 23,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "106": {
+    "id": 211,
+    "name": "qwilfish",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 904,
+        "name": "overqwil",
+        "conditions": [
+          {
+            "trigger": "strong-style-move",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": "barb-barrage",
+            "tradeSpecies": null
+          },
+          {
+            "trigger": "use-move",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "107": {
+    "id": 213,
+    "name": "shuckle",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "108": {
+    "id": 214,
+    "name": "heracross",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "109": {
+    "id": 215,
+    "name": "sneasel",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 461,
+        "name": "weavile",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": "night",
+            "item": null,
+            "itemZh": null,
+            "heldItem": "razor-claw",
+            "heldItemZh": "锐利之爪",
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      },
+      {
+        "id": 903,
+        "name": "sneasler",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": "day",
+            "item": null,
+            "itemZh": null,
+            "heldItem": "razor-claw",
+            "heldItemZh": "锐利之爪",
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "110": {
+    "id": 216,
+    "name": "teddiursa",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 217,
+        "name": "ursaring",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 30,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 901,
+            "name": "ursaluna",
+            "conditions": [
+              {
+                "trigger": "use-item",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": "full-moon",
+                "item": "peat-block",
+                "itemZh": "泥炭块",
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "111": {
+    "id": 218,
+    "name": "slugma",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 219,
+        "name": "magcargo",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 38,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "112": {
+    "id": 220,
+    "name": "swinub",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 221,
+        "name": "piloswine",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 33,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 473,
+            "name": "mamoswine",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": null,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": "ancient-power",
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "113": {
+    "id": 222,
+    "name": "corsola",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 864,
+        "name": "cursola",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 38,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "114": {
+    "id": 223,
+    "name": "remoraid",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 224,
+        "name": "octillery",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 25,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "115": {
+    "id": 225,
+    "name": "delibird",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "116": {
+    "id": 458,
+    "name": "mantyke",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 226,
+        "name": "mantine",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "117": {
+    "id": 227,
+    "name": "skarmory",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "118": {
+    "id": 228,
+    "name": "houndour",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 229,
+        "name": "houndoom",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 24,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "119": {
+    "id": 231,
+    "name": "phanpy",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 232,
+        "name": "donphan",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 25,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "120": {
+    "id": 234,
+    "name": "stantler",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 899,
+        "name": "wyrdeer",
+        "conditions": [
+          {
+            "trigger": "agile-style-move",
+            "minLevel": null,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": []
+      }
+    ]
+  },
+  "121": {
+    "id": 235,
+    "name": "smeargle",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "122": {
+    "id": 241,
+    "name": "miltank",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "123": {
+    "id": 243,
+    "name": "raikou",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "124": {
+    "id": 244,
+    "name": "entei",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "125": {
+    "id": 245,
+    "name": "suicune",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "126": {
+    "id": 246,
+    "name": "larvitar",
+    "conditions": [],
+    "evolvesTo": [
+      {
+        "id": 247,
+        "name": "pupitar",
+        "conditions": [
+          {
+            "trigger": "level-up",
+            "minLevel": 30,
+            "minHappiness": null,
+            "timeOfDay": null,
+            "item": null,
+            "itemZh": null,
+            "heldItem": null,
+            "heldItemZh": null,
+            "relativePhysicalStats": null,
+            "knownMove": null,
+            "tradeSpecies": null
+          }
+        ],
+        "evolvesTo": [
+          {
+            "id": 248,
+            "name": "tyranitar",
+            "conditions": [
+              {
+                "trigger": "level-up",
+                "minLevel": 55,
+                "minHappiness": null,
+                "timeOfDay": null,
+                "item": null,
+                "itemZh": null,
+                "heldItem": null,
+                "heldItemZh": null,
+                "relativePhysicalStats": null,
+                "knownMove": null,
+                "tradeSpecies": null
+              }
+            ],
+            "evolvesTo": []
+          }
+        ]
+      }
+    ]
+  },
+  "127": {
+    "id": 249,
+    "name": "lugia",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "128": {
+    "id": 250,
+    "name": "ho-oh",
+    "conditions": [],
+    "evolvesTo": []
+  },
+  "129": {
+    "id": 251,
+    "name": "celebi",
+    "conditions": [],
+    "evolvesTo": []
+  }
+}

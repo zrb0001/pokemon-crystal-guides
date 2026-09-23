@@ -1,0 +1,223 @@
+{
+  "id": 105,
+  "nameEn": "marowak",
+  "nameZh": "嘎啦嘎啦",
+  "genusZh": "爱骨宝可梦",
+  "johtoDex": 204,
+  "types": [
+    "ground"
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 80,
+    "defense": 110,
+    "special-attack": 50,
+    "special-defense": 80,
+    "speed": 45
+  },
+  "height": 10,
+  "weight": 450,
+  "captureRate": 75,
+  "genderRate": 4,
+  "eggGroups": [
+    "monster"
+  ],
+  "growthRate": "medium",
+  "flavorText": "Somewhere in the world is a ceme­ tery just for MAROWAK. It gets its bones from those graves.",
+  "evolutionChainId": 46,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "bone-club"
+      },
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "headbutt"
+      },
+      {
+        "level": 1,
+        "move": "tail-whip"
+      },
+      {
+        "level": 5,
+        "move": "tail-whip"
+      },
+      {
+        "level": 9,
+        "move": "bone-club"
+      },
+      {
+        "level": 13,
+        "move": "headbutt"
+      },
+      {
+        "level": 17,
+        "move": "leer"
+      },
+      {
+        "level": 21,
+        "move": "focus-energy"
+      },
+      {
+        "level": 25,
+        "move": "bonemerang"
+      },
+      {
+        "level": 32,
+        "move": "rage"
+      },
+      {
+        "level": 39,
+        "move": "false-swipe"
+      },
+      {
+        "level": 46,
+        "move": "thrash"
+      },
+      {
+        "level": 53,
+        "move": "bone-rush"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      },
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "id": 81,
+  "nameEn": "magnemite",
+  "nameZh": "小磁怪",
+  "genusZh": "磁铁宝可梦",
+  "johtoDex": 118,
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "stats": {
+    "hp": 25,
+    "attack": 35,
+    "defense": 70,
+    "special-attack": 95,
+    "special-defense": 55,
+    "speed": 45
+  },
+  "height": 3,
+  "weight": 60,
+  "captureRate": 190,
+  "genderRate": -1,
+  "eggGroups": [
+    "mineral"
+  ],
+  "growthRate": "medium",
+  "flavorText": "The electricity emitted by the units on each side of its body cause it to become a strong magnet.",
+  "evolutionChainId": 34,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 6,
+        "move": "thunder-shock"
+      },
+      {
+        "level": 11,
+        "move": "supersonic"
+      },
+      {
+        "level": 16,
+        "move": "sonic-boom"
+      },
+      {
+        "level": 21,
+        "move": "thunder-wave"
+      },
+      {
+        "level": 27,
+        "move": "lock-on"
+      },
+      {
+        "level": 33,
+        "move": "swift"
+      },
+      {
+        "level": 39,
+        "move": "screech"
+      },
+      {
+        "level": 45,
+        "move": "zap-cannon"
+      }
+    ],
+    "machine": [
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

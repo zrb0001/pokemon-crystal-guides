@@ -1,0 +1,156 @@
+{
+  "id": 119,
+  "nameEn": "seaking",
+  "nameZh": "金鱼王",
+  "genusZh": "金鱼宝可梦",
+  "johtoDex": 79,
+  "types": [
+    "water"
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 92,
+    "defense": 65,
+    "special-attack": 65,
+    "special-defense": 80,
+    "speed": 68
+  },
+  "height": 13,
+  "weight": 390,
+  "captureRate": 60,
+  "genderRate": 4,
+  "eggGroups": [
+    "water2"
+  ],
+  "growthRate": "medium",
+  "flavorText": "When autumn comes, the males patrol the area around their nests in order to protect their offspring.",
+  "evolutionChainId": 55,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "peck"
+      },
+      {
+        "level": 1,
+        "move": "tail-whip"
+      },
+      {
+        "level": 10,
+        "move": "supersonic"
+      },
+      {
+        "level": 15,
+        "move": "horn-attack"
+      },
+      {
+        "level": 24,
+        "move": "flail"
+      },
+      {
+        "level": 29,
+        "move": "fury-attack"
+      },
+      {
+        "level": 41,
+        "move": "waterfall"
+      },
+      {
+        "level": 49,
+        "move": "horn-drill"
+      },
+      {
+        "level": 61,
+        "move": "agility"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

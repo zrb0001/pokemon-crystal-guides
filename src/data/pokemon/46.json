@@ -1,0 +1,188 @@
+{
+  "id": 46,
+  "nameEn": "paras",
+  "nameZh": "派拉斯",
+  "genusZh": "蘑菇宝可梦",
+  "johtoDex": 70,
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "stats": {
+    "hp": 35,
+    "attack": 70,
+    "defense": 55,
+    "special-attack": 45,
+    "special-defense": 55,
+    "speed": 25
+  },
+  "height": 3,
+  "weight": 54,
+  "captureRate": 190,
+  "genderRate": 4,
+  "eggGroups": [
+    "bug",
+    "plant"
+  ],
+  "growthRate": "medium",
+  "flavorText": "The tochukaso growing on this POKéMON's back orders it to extract juice from tree trunks.",
+  "evolutionChainId": 19,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "scratch"
+      },
+      {
+        "level": 7,
+        "move": "stun-spore"
+      },
+      {
+        "level": 13,
+        "move": "poison-powder"
+      },
+      {
+        "level": 19,
+        "move": "leech-life"
+      },
+      {
+        "level": 25,
+        "move": "spore"
+      },
+      {
+        "level": 31,
+        "move": "slash"
+      },
+      {
+        "level": 37,
+        "move": "growth"
+      },
+      {
+        "level": 43,
+        "move": "giga-drain"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "counter"
+      },
+      {
+        "move": "false-swipe"
+      },
+      {
+        "move": "flail"
+      },
+      {
+        "move": "light-screen"
+      },
+      {
+        "move": "psybeam"
+      },
+      {
+        "move": "pursuit"
+      },
+      {
+        "move": "screech"
+      }
+    ],
+    "tutor": []
+  }
+}

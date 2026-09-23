@@ -1,0 +1,158 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Toc from '../../components/Toc.astro';
+import TypeBadge from '../../components/TypeBadge.astro';
+import StatsTable from '../../components/StatsTable.astro';
+import LearnsetTable from '../../components/LearnsetTable.astro';
+import {
+  getAllPokemon,
+  getPokemon,
+  getEvolutionChain,
+  flattenChain,
+  conditionText,
+  EGG_GROUP_NAMES,
+  GROWTH_RATE_NAMES,
+} from '../../lib/data';
+import type { GetStaticPaths } from 'astro';
+
+export const getStaticPaths = (() =>
+  getAllPokemon().map((p) => ({ params: { id: String(p.id) } }))) satisfies GetStaticPaths;
+
+const id = Number(Astro.params.id);
+const p = getPokemon(id)!;
+const prev = getPokemon(id - 1);
+const next = getPokemon(id + 1);
+
+const chain = getEvolutionChain(p.evolutionChainId);
+const flat = chain ? flattenChain(chain) : [];
+
+const tocItems = [
+  { id: 'overview', label: '概览' },
+  { id: 'stats', label: '种族值' },
+  ...(flat.length > 1 ? [{ id: 'evolution', label: '进化链' }] : []),
+  { id: 'learnset', label: '习得招式' },
+];
+
+function genderText(rate: number): string {
+  if (rate === -1) return '无性别';
+  const female = (rate / 8) * 100;
+  return `♂ ${100 - female}% / ♀ ${female}%`;
+}
+---
+
+<Layout title={`${p.nameZh ?? p.nameEn} 图鉴`} description={p.flavorText ?? undefined}>
+  <nav class="pager">
+    {prev ? <a href={`/pokemon/${prev.id}/`}>← {prev.nameZh}</a> : <span />}
+    {next ? <a href={`/pokemon/${next.id}/`}>{next.nameZh} →</a> : <span />}
+  </nav>
+
+  <Toc items={tocItems}>
+    <section class="panel" id="overview">
+      <div class="overview-grid">
+        <div>
+          <div class="detail-head">
+            <div class="detail-sprites">
+              <figure>
+                <img
+                  id="main-sprite"
+                  src={`/sprites/normal/${p.id}.png`}
+                  data-normal={`/sprites/normal/${p.id}.png`}
+                  data-shiny={`/sprites/shiny/${p.id}.png`}
+                  alt={p.nameZh ?? p.nameEn}
+                />
+              </figure>
+              <div class="sprite-toggle" role="group" aria-label="切换立绘">
+                <button type="button" data-sprite="normal" aria-pressed="true">通常</button>
+                <button type="button" data-sprite="shiny" aria-pressed="false">闪光</button>
+              </div>
+            </div>
+            <div class="detail-title">
+              <h1>{p.nameZh ?? p.nameEn}</h1>
+              <div class="sub">
+                {p.nameEn} · {p.genusZh ?? ''} · 全国 No.{String(p.id).padStart(3, '0')}
+                {p.johtoDex != null && ` · 城都 No.${String(p.johtoDex).padStart(3, '0')}`}
+              </div>
+              <div>{p.types.map((t) => <TypeBadge type={t} />)}</div>
+            </div>
+          </div>
+          {p.flavorText && <p class="flavor">{p.flavorText}（水晶版图鉴描述，英文原文）</p>}
+        </div>
+        <div>
+          <h2>基础信息</h2>
+          <table class="info-table">
+            <tr><th>身高</th><td>{(p.height / 10).toFixed(1)} m</td></tr>
+            <tr><th>体重</th><td>{(p.weight / 10).toFixed(1)} kg</td></tr>
+            <tr><th>捕获率</th><td>{p.captureRate}</td></tr>
+            <tr><th>性别比例</th><td>{genderText(p.genderRate)}</td></tr>
+            <tr>
+              <th>蛋群</th>
+              <td>{p.eggGroups.map((g) => EGG_GROUP_NAMES[g] ?? g).join('、')}</td>
+            </tr>
+            <tr><th>成长速度</th><td>{GROWTH_RATE_NAMES[p.growthRate] ?? p.growthRate}</td></tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="stats">
+      <h2>种族值</h2>
+      <StatsTable stats={p.stats} />
+    </section>
+
+    {
+      flat.length > 1 && (
+        <section class="panel" id="evolution">
+          <h2>进化链</h2>
+          <div class="evo-list">
+            {flat.map((node, i) => {
+              const np = getPokemon(node.id);
+              return (
+                <>
+                  {i > 0 && (
+                    <div class="evo-arrow">
+                      →
+                      <br />
+                      {node.conditions.map((c) => conditionText(c)).join(' 或 ')}
+                    </div>
+                  )}
+                  <div class="evo-node" style={node.depth > 0 && flat[i - 1]?.depth < node.depth ? 'margin-left: 8px' : ''}>
+                    <a href={`/pokemon/${node.id}/`}>
+                      <img src={`/sprites/normal/${node.id}.png`} alt={np?.nameZh ?? node.name} />
+                      <div class="evo-name">
+                        {np?.nameZh ?? node.name}
+                        {node.id === p.id && '（当前）'}
+                        </div>
+                    </a>
+                  </div>
+                </>
+              );
+            })}
+          </div>
+        </section>
+      )
+    }
+
+    <section class="panel" id="learnset">
+      <h2>习得招式（水晶版）</h2>
+      <LearnsetTable title="升级习得" kind="level" entries={p.learnset.levelUp} />
+      <LearnsetTable title="TM / HM" kind="machine" entries={p.learnset.machine} />
+      <LearnsetTable title="遗传" kind="simple" entries={p.learnset.egg} />
+      <LearnsetTable title="教学" kind="simple" entries={p.learnset.tutor} />
+    </section>
+  </Toc>
+
+  <script>
+    const spriteImg = document.getElementById('main-sprite') as HTMLImageElement;
+    const toggleBtns = Array.from(
+      document.querySelectorAll<HTMLButtonElement>('.sprite-toggle button'),
+    );
+    for (const btn of toggleBtns) {
+      btn.addEventListener('click', () => {
+        const shiny = btn.dataset.sprite === 'shiny';
+        spriteImg.src = (shiny ? spriteImg.dataset.shiny : spriteImg.dataset.normal)!;
+        spriteImg.alt = shiny ? `闪光${spriteImg.alt.replace(/^闪光/, '')}` : spriteImg.alt.replace(/^闪光/, '');
+        for (const b of toggleBtns) b.setAttribute('aria-pressed', String(b === btn));
+      });
+    }
+  </script>
+</Layout>

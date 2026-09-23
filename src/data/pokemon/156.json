@@ -1,0 +1,188 @@
+{
+  "id": 156,
+  "nameEn": "quilava",
+  "nameZh": "火岩鼠",
+  "genusZh": "火山宝可梦",
+  "johtoDex": 5,
+  "types": [
+    "fire"
+  ],
+  "stats": {
+    "hp": 58,
+    "attack": 64,
+    "defense": 58,
+    "special-attack": 80,
+    "special-defense": 65,
+    "speed": 80
+  },
+  "height": 9,
+  "weight": 190,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "Before battle, it turns its back on its opponent to demonstrate how ferociously its fire blazes.",
+  "evolutionChainId": 80,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "smokescreen"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 6,
+        "move": "smokescreen"
+      },
+      {
+        "level": 12,
+        "move": "ember"
+      },
+      {
+        "level": 21,
+        "move": "quick-attack"
+      },
+      {
+        "level": 31,
+        "move": "flame-wheel"
+      },
+      {
+        "level": 42,
+        "move": "swift"
+      },
+      {
+        "level": 54,
+        "move": "flamethrower"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

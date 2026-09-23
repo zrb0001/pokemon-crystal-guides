@@ -1,0 +1,159 @@
+{
+  "id": 133,
+  "nameEn": "eevee",
+  "nameZh": "伊布",
+  "genusZh": "进化宝可梦",
+  "johtoDex": 180,
+  "types": [
+    "normal"
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 50,
+    "special-attack": 45,
+    "special-defense": 65,
+    "speed": 55
+  },
+  "height": 3,
+  "weight": 65,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "medium",
+  "flavorText": "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
+  "evolutionChainId": 67,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 1,
+        "move": "tail-whip"
+      },
+      {
+        "level": 8,
+        "move": "sand-attack"
+      },
+      {
+        "level": 16,
+        "move": "growl"
+      },
+      {
+        "level": 23,
+        "move": "quick-attack"
+      },
+      {
+        "level": 30,
+        "move": "bite"
+      },
+      {
+        "level": 36,
+        "move": "baton-pass"
+      },
+      {
+        "level": 42,
+        "move": "take-down"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "charm"
+      },
+      {
+        "move": "flail"
+      }
+    ],
+    "tutor": []
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "id": 241,
+  "nameEn": "miltank",
+  "nameZh": "大奶罐",
+  "genusZh": "奶牛宝可梦",
+  "johtoDex": 149,
+  "types": [
+    "normal"
+  ],
+  "stats": {
+    "hp": 95,
+    "attack": 80,
+    "defense": 105,
+    "special-attack": 40,
+    "special-defense": 70,
+    "speed": 100
+  },
+  "height": 12,
+  "weight": 755,
+  "captureRate": 45,
+  "genderRate": 8,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "slow",
+  "flavorText": "In order to milk a MILTANK, one must have a knack for rhythmically pull­ ing up and down on its udders.",
+  "evolutionChainId": 122,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 4,
+        "move": "growl"
+      },
+      {
+        "level": 8,
+        "move": "defense-curl"
+      },
+      {
+        "level": 13,
+        "move": "stomp"
+      },
+      {
+        "level": 19,
+        "move": "milk-drink"
+      },
+      {
+        "level": 26,
+        "move": "bide"
+      },
+      {
+        "level": 34,
+        "move": "rollout"
+      },
+      {
+        "level": 43,
+        "move": "body-slam"
+      },
+      {
+        "level": 53,
+        "move": "heal-bell"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [
+      {
+        "move": "present"
+      },
+      {
+        "move": "reversal"
+      },
+      {
+        "move": "seismic-toss"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+---
+import type { Move } from '../types';
+import TypeBadge from './TypeBadge.astro';
+import { getMove, moveCategory } from '../lib/data';
+
+interface Props {
+  title: string;
+  kind: 'level' | 'machine' | 'simple';
+  entries: { level?: number; move: string; tm?: string | null }[];
+}
+const { title, kind, entries } = Astro.props;
+if (entries.length === 0) return;
+
+function moveOf(name: string): Move | undefined {
+  return getMove(name);
+}
+---
+
+<h3>{title}</h3>
+<div class="table-scroll">
+<table class="move-table">
+  <thead>
+    <tr>
+      {kind === 'level' && <th>等级</th>}
+      {kind === 'machine' && <th>机器</th>}
+      <th>招式</th>
+      <th>属性</th>
+      <th>分类</th>
+      <th>威力</th>
+      <th>命中</th>
+      <th>PP</th>
+    </tr>
+  </thead>
+  <tbody>
+    {
+      entries.map((e) => {
+        const mv = moveOf(e.move);
+        const cat = mv ? (mv.power == null ? '变化' : moveCategory(mv.type)) : null;
+        return (
+          <tr>
+            {kind === 'level' && <td>{e.level === 0 ? '—' : e.level}</td>}
+            {kind === 'machine' && <td>{e.tm ?? '—'}</td>}
+            <td>
+              <a href={`/moves/${mv?.id ?? ''}/`}>{mv?.nameZh ?? e.move}</a>
+            </td>
+            <td>{mv ? <TypeBadge type={mv.type} /> : '—'}</td>
+            <td>{cat ? <span class="cat-badge" data-cat={cat}>{cat}</span> : '—'}</td>
+            <td>{mv?.power ?? '—'}</td>
+            <td>{mv?.accuracy ?? '—'}</td>
+            <td>{mv?.pp ?? '—'}</td>
+          </tr>
+        );
+      })
+    }
+  </tbody>
+</table>
+</div>

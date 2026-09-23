@@ -1,0 +1,229 @@
+{
+  "id": 104,
+  "nameEn": "cubone",
+  "nameZh": "卡拉卡拉",
+  "genusZh": "孤独宝可梦",
+  "johtoDex": 203,
+  "types": [
+    "ground"
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 95,
+    "special-attack": 40,
+    "special-defense": 50,
+    "speed": 35
+  },
+  "height": 4,
+  "weight": 65,
+  "captureRate": 190,
+  "genderRate": 4,
+  "eggGroups": [
+    "monster"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It lost its mother after its birth. It wears its mother's skull, never revealing its true face.",
+  "evolutionChainId": 46,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 5,
+        "move": "tail-whip"
+      },
+      {
+        "level": 9,
+        "move": "bone-club"
+      },
+      {
+        "level": 13,
+        "move": "headbutt"
+      },
+      {
+        "level": 17,
+        "move": "leer"
+      },
+      {
+        "level": 21,
+        "move": "focus-energy"
+      },
+      {
+        "level": 25,
+        "move": "bonemerang"
+      },
+      {
+        "level": 29,
+        "move": "rage"
+      },
+      {
+        "level": 33,
+        "move": "false-swipe"
+      },
+      {
+        "level": 37,
+        "move": "thrash"
+      },
+      {
+        "level": 41,
+        "move": "bone-rush"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "ancient-power"
+      },
+      {
+        "move": "belly-drum"
+      },
+      {
+        "move": "perish-song"
+      },
+      {
+        "move": "rock-slide"
+      },
+      {
+        "move": "screech"
+      },
+      {
+        "move": "skull-bash"
+      },
+      {
+        "move": "swords-dance"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      },
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

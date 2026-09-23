@@ -1,0 +1,178 @@
+{
+  "id": 47,
+  "nameEn": "parasect",
+  "nameZh": "派拉斯特",
+  "genusZh": "蘑菇宝可梦",
+  "johtoDex": 71,
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 95,
+    "defense": 80,
+    "special-attack": 60,
+    "special-defense": 80,
+    "speed": 30
+  },
+  "height": 10,
+  "weight": 295,
+  "captureRate": 75,
+  "genderRate": 4,
+  "eggGroups": [
+    "bug",
+    "plant"
+  ],
+  "growthRate": "medium",
+  "flavorText": "When nothing's left to extract from the bug, the mushrooms on its back leave spores on the bug's egg.",
+  "evolutionChainId": 19,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "poison-powder"
+      },
+      {
+        "level": 1,
+        "move": "scratch"
+      },
+      {
+        "level": 1,
+        "move": "stun-spore"
+      },
+      {
+        "level": 7,
+        "move": "stun-spore"
+      },
+      {
+        "level": 13,
+        "move": "poison-powder"
+      },
+      {
+        "level": 19,
+        "move": "leech-life"
+      },
+      {
+        "level": 28,
+        "move": "spore"
+      },
+      {
+        "level": 37,
+        "move": "slash"
+      },
+      {
+        "level": 46,
+        "move": "growth"
+      },
+      {
+        "level": 55,
+        "move": "giga-drain"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

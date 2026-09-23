@@ -1,0 +1,161 @@
+{
+  "id": 84,
+  "nameEn": "doduo",
+  "nameZh": "嘟嘟",
+  "genusZh": "两头鸟宝可梦",
+  "johtoDex": 199,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "stats": {
+    "hp": 35,
+    "attack": 85,
+    "defense": 45,
+    "special-attack": 35,
+    "special-defense": 35,
+    "speed": 75
+  },
+  "height": 14,
+  "weight": 392,
+  "captureRate": 190,
+  "genderRate": 4,
+  "eggGroups": [
+    "flying"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It lives on a grassy plain where it can see a long way. If it sees an enemy, it runs away at 60 mph.",
+  "evolutionChainId": 36,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "peck"
+      },
+      {
+        "level": 9,
+        "move": "pursuit"
+      },
+      {
+        "level": 13,
+        "move": "fury-attack"
+      },
+      {
+        "level": 21,
+        "move": "tri-attack"
+      },
+      {
+        "level": 25,
+        "move": "rage"
+      },
+      {
+        "level": 33,
+        "move": "drill-peck"
+      },
+      {
+        "level": 37,
+        "move": "agility"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "feint-attack"
+      },
+      {
+        "move": "flail"
+      },
+      {
+        "move": "haze"
+      },
+      {
+        "move": "quick-attack"
+      },
+      {
+        "move": "supersonic"
+      }
+    ],
+    "tutor": []
+  }
+}

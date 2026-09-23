@@ -1,0 +1,188 @@
+{
+  "id": 74,
+  "nameEn": "geodude",
+  "nameZh": "小拳石",
+  "genusZh": "岩石宝可梦",
+  "johtoDex": 34,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 80,
+    "defense": 100,
+    "special-attack": 30,
+    "special-defense": 30,
+    "speed": 20
+  },
+  "height": 4,
+  "weight": 200,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "mineral"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "Proud of their sturdy bodies, they bash against each other in a contest to prove whose is harder.",
+  "evolutionChainId": 31,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 6,
+        "move": "defense-curl"
+      },
+      {
+        "level": 11,
+        "move": "rock-throw"
+      },
+      {
+        "level": 16,
+        "move": "magnitude"
+      },
+      {
+        "level": 21,
+        "move": "self-destruct"
+      },
+      {
+        "level": 26,
+        "move": "harden"
+      },
+      {
+        "level": 31,
+        "move": "rollout"
+      },
+      {
+        "level": 36,
+        "move": "earthquake"
+      },
+      {
+        "level": 41,
+        "move": "explosion"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "mega-punch"
+      },
+      {
+        "move": "rock-slide"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

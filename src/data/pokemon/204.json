@@ -1,0 +1,173 @@
+{
+  "id": 204,
+  "nameEn": "pineco",
+  "nameZh": "榛果球",
+  "genusZh": "蓑衣虫宝可梦",
+  "johtoDex": 93,
+  "types": [
+    "bug"
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 90,
+    "special-attack": 35,
+    "special-defense": 35,
+    "speed": 15
+  },
+  "height": 6,
+  "weight": 72,
+  "captureRate": 190,
+  "genderRate": 4,
+  "eggGroups": [
+    "bug"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It spits out a fluid that it uses to glue tree bark to its body. The fluid hardens when it touches air.",
+  "evolutionChainId": 102,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "protect"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 8,
+        "move": "self-destruct"
+      },
+      {
+        "level": 15,
+        "move": "take-down"
+      },
+      {
+        "level": 22,
+        "move": "rapid-spin"
+      },
+      {
+        "level": 29,
+        "move": "bide"
+      },
+      {
+        "level": 36,
+        "move": "explosion"
+      },
+      {
+        "level": 43,
+        "move": "spikes"
+      },
+      {
+        "level": 50,
+        "move": "double-edge"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "flail"
+      },
+      {
+        "move": "pin-missile"
+      },
+      {
+        "move": "reflect"
+      },
+      {
+        "move": "swift"
+      }
+    ],
+    "tutor": []
+  }
+}

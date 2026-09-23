@@ -1,0 +1,73 @@
+---
+import PokemonCard from './PokemonCard.astro';
+import { getAllPokemon, getTypes, typeZh } from '../lib/data';
+
+const all = getAllPokemon();
+const types = Object.keys(getTypes()).filter((t) => t !== 'unknown');
+---
+
+<div class="type-filter" role="group" aria-label="按属性筛选（最多选两个）">
+  {
+    types.map((t) => (
+      <button type="button" class={`type-chip type-${t}`} data-type={t} aria-pressed="false">
+        {typeZh(t)}
+      </button>
+    ))
+  }
+</div>
+<p class="type-filter-hint" id="filter-hint">点击属性快速筛选，最多同时选中两个</p>
+
+<div class="dex-grid" id="grid">
+  {
+    all.map((p) => (
+      <div class="dex-item" data-id={p.id} data-types={p.types.join(',')}>
+        <PokemonCard pokemon={p} />
+      </div>
+    ))
+  }
+</div>
+<p id="empty" style="display: none" class="flavor">没有匹配的宝可梦。</p>
+
+<script>
+  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>('.type-chip'));
+  const items = Array.from(document.querySelectorAll<HTMLElement>('.dex-item'));
+  const empty = document.getElementById('empty')!;
+  const hint = document.getElementById('filter-hint')!;
+  const selected: string[] = [];
+
+  function apply() {
+    let visible = 0;
+    for (const el of items) {
+      const types = el.dataset.types!.split(',');
+      const show = selected.every((t) => types.includes(t));
+      el.style.display = show ? '' : 'none';
+      if (show) visible++;
+    }
+    empty.style.display = visible ? 'none' : 'block';
+    hint.textContent =
+      selected.length === 0
+        ? '点击属性快速筛选，最多同时选中两个'
+        : `已筛选出 ${visible} 只`;
+  }
+
+  for (const chip of chips) {
+    chip.addEventListener('click', () => {
+      const t = chip.dataset.type!;
+      const i = selected.indexOf(t);
+      if (i >= 0) {
+        selected.splice(i, 1);
+        chip.setAttribute('aria-pressed', 'false');
+      } else {
+        if (selected.length >= 2) {
+          const oldest = selected.shift()!;
+          chips
+            .find((c) => c.dataset.type === oldest)
+            ?.setAttribute('aria-pressed', 'false');
+        }
+        selected.push(t);
+        chip.setAttribute('aria-pressed', 'true');
+      }
+      apply();
+    });
+  }
+</script>

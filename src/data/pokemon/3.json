@@ -1,0 +1,194 @@
+{
+  "id": 3,
+  "nameEn": "venusaur",
+  "nameZh": "妙蛙花",
+  "genusZh": "种子宝可梦",
+  "johtoDex": 228,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 83,
+    "special-attack": 100,
+    "special-defense": 100,
+    "speed": 80
+  },
+  "height": 20,
+  "weight": 1000,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "monster",
+    "plant"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "As it warms it­ self and absorbs the sunlight, its flower petals release a pleasant fragrance.",
+  "evolutionChainId": 1,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "leech-seed"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 1,
+        "move": "vine-whip"
+      },
+      {
+        "level": 4,
+        "move": "growl"
+      },
+      {
+        "level": 7,
+        "move": "leech-seed"
+      },
+      {
+        "level": 10,
+        "move": "vine-whip"
+      },
+      {
+        "level": 15,
+        "move": "poison-powder"
+      },
+      {
+        "level": 15,
+        "move": "sleep-powder"
+      },
+      {
+        "level": 22,
+        "move": "razor-leaf"
+      },
+      {
+        "level": 29,
+        "move": "sweet-scent"
+      },
+      {
+        "level": 41,
+        "move": "growth"
+      },
+      {
+        "level": 53,
+        "move": "synthesis"
+      },
+      {
+        "level": 65,
+        "move": "solar-beam"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

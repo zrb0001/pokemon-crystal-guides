@@ -1,0 +1,153 @@
+{
+  "id": 42,
+  "nameEn": "golbat",
+  "nameZh": "大嘴蝠",
+  "genusZh": "蝙蝠宝可梦",
+  "johtoDex": 38,
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "stats": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 70,
+    "special-attack": 65,
+    "special-defense": 75,
+    "speed": 90
+  },
+  "height": 16,
+  "weight": 550,
+  "captureRate": 90,
+  "genderRate": 4,
+  "eggGroups": [
+    "flying"
+  ],
+  "growthRate": "medium",
+  "flavorText": "When it plunges its fangs into its prey, it instantly draws and gulps down more than ten ounces of blood.",
+  "evolutionChainId": 17,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "leech-life"
+      },
+      {
+        "level": 1,
+        "move": "screech"
+      },
+      {
+        "level": 1,
+        "move": "supersonic"
+      },
+      {
+        "level": 6,
+        "move": "supersonic"
+      },
+      {
+        "level": 12,
+        "move": "bite"
+      },
+      {
+        "level": 19,
+        "move": "confuse-ray"
+      },
+      {
+        "level": 30,
+        "move": "wing-attack"
+      },
+      {
+        "level": 42,
+        "move": "mean-look"
+      },
+      {
+        "level": 55,
+        "move": "haze"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

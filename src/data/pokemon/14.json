@@ -1,0 +1,44 @@
+{
+  "id": 14,
+  "nameEn": "kakuna",
+  "nameZh": "铁壳蛹",
+  "genusZh": "蛹宝可梦",
+  "johtoDex": 28,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 25,
+    "defense": 50,
+    "special-attack": 25,
+    "special-defense": 25,
+    "speed": 35
+  },
+  "height": 6,
+  "weight": 100,
+  "captureRate": 120,
+  "genderRate": 4,
+  "eggGroups": [
+    "bug"
+  ],
+  "growthRate": "medium",
+  "flavorText": "Nearly incapable of movement, it leans against stout trees while waiting for its evolution.",
+  "evolutionChainId": 5,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "harden"
+      },
+      {
+        "level": 7,
+        "move": "harden"
+      }
+    ],
+    "machine": [],
+    "egg": [],
+    "tutor": []
+  }
+}

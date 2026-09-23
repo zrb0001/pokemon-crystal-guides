@@ -1,0 +1,188 @@
+{
+  "id": 152,
+  "nameEn": "chikorita",
+  "nameZh": "菊草叶",
+  "genusZh": "叶子宝可梦",
+  "johtoDex": 1,
+  "types": [
+    "grass"
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 49,
+    "defense": 65,
+    "special-attack": 49,
+    "special-defense": 65,
+    "speed": 45
+  },
+  "height": 9,
+  "weight": 64,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "monster",
+    "plant"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "It loves to bask in the sunlight. It uses the leaf on its head to seek out warm places.",
+  "evolutionChainId": 79,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 8,
+        "move": "razor-leaf"
+      },
+      {
+        "level": 12,
+        "move": "reflect"
+      },
+      {
+        "level": 15,
+        "move": "poison-powder"
+      },
+      {
+        "level": 22,
+        "move": "synthesis"
+      },
+      {
+        "level": 29,
+        "move": "body-slam"
+      },
+      {
+        "level": 36,
+        "move": "light-screen"
+      },
+      {
+        "level": 43,
+        "move": "safeguard"
+      },
+      {
+        "level": 50,
+        "move": "solar-beam"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "ancient-power"
+      },
+      {
+        "move": "counter"
+      },
+      {
+        "move": "flail"
+      },
+      {
+        "move": "leech-seed"
+      },
+      {
+        "move": "swords-dance"
+      },
+      {
+        "move": "vine-whip"
+      }
+    ],
+    "tutor": []
+  }
+}

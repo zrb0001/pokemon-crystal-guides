@@ -1,0 +1,204 @@
+{
+  "id": 147,
+  "nameEn": "dratini",
+  "nameZh": "迷你龙",
+  "genusZh": "龙宝可梦",
+  "johtoDex": 241,
+  "types": [
+    "dragon"
+  ],
+  "stats": {
+    "hp": 41,
+    "attack": 64,
+    "defense": 45,
+    "special-attack": 50,
+    "special-defense": 50,
+    "speed": 50
+  },
+  "height": 18,
+  "weight": 33,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "water1",
+    "dragon"
+  ],
+  "growthRate": "slow",
+  "flavorText": "It sheds many lay­ ers of skin as it grows larger. Dur­ ing this process, it is protected by a rapid waterfall.",
+  "evolutionChainId": 76,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "wrap"
+      },
+      {
+        "level": 8,
+        "move": "thunder-wave"
+      },
+      {
+        "level": 15,
+        "move": "twister"
+      },
+      {
+        "level": 22,
+        "move": "dragon-rage"
+      },
+      {
+        "level": 29,
+        "move": "slam"
+      },
+      {
+        "level": 36,
+        "move": "agility"
+      },
+      {
+        "level": 43,
+        "move": "safeguard"
+      },
+      {
+        "level": 50,
+        "move": "outrage"
+      },
+      {
+        "level": 57,
+        "move": "hyper-beam"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dragon-breath",
+        "tm": "TM24"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [
+      {
+        "move": "haze"
+      },
+      {
+        "move": "light-screen"
+      },
+      {
+        "move": "mist"
+      },
+      {
+        "move": "supersonic"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      },
+      {
+        "move": "ice-beam"
+      },
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

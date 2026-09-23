@@ -1,0 +1,190 @@
+{
+  "id": 141,
+  "nameEn": "kabutops",
+  "nameZh": "镰刀盔",
+  "genusZh": "甲壳宝可梦",
+  "johtoDex": 223,
+  "types": [
+    "rock",
+    "water"
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 115,
+    "defense": 105,
+    "special-attack": 65,
+    "special-defense": 70,
+    "speed": 80
+  },
+  "height": 13,
+  "weight": 405,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "water1",
+    "water3"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It was able to swim quickly thro­ ugh the water by compactly folding up its razor-sharp sickles.",
+  "evolutionChainId": 70,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "absorb"
+      },
+      {
+        "level": 1,
+        "move": "harden"
+      },
+      {
+        "level": 1,
+        "move": "scratch"
+      },
+      {
+        "level": 10,
+        "move": "absorb"
+      },
+      {
+        "level": 19,
+        "move": "leer"
+      },
+      {
+        "level": 28,
+        "move": "sand-attack"
+      },
+      {
+        "level": 37,
+        "move": "endure"
+      },
+      {
+        "level": 40,
+        "move": "slash"
+      },
+      {
+        "level": 51,
+        "move": "mega-drain"
+      },
+      {
+        "level": 65,
+        "move": "ancient-power"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

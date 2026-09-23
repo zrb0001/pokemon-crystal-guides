@@ -1,0 +1,184 @@
+{
+  "id": 98,
+  "nameEn": "krabby",
+  "nameZh": "大钳蟹",
+  "genusZh": "清水蟹宝可梦",
+  "johtoDex": 164,
+  "types": [
+    "water"
+  ],
+  "stats": {
+    "hp": 30,
+    "attack": 105,
+    "defense": 90,
+    "special-attack": 25,
+    "special-defense": 25,
+    "speed": 50
+  },
+  "height": 4,
+  "weight": 65,
+  "captureRate": 225,
+  "genderRate": 4,
+  "eggGroups": [
+    "water3"
+  ],
+  "growthRate": "medium",
+  "flavorText": "If it is unable to find food, it will absorb nutrients by swallowing a mouthful of sand.",
+  "evolutionChainId": 43,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "bubble"
+      },
+      {
+        "level": 5,
+        "move": "leer"
+      },
+      {
+        "level": 12,
+        "move": "vice-grip"
+      },
+      {
+        "level": 16,
+        "move": "harden"
+      },
+      {
+        "level": 23,
+        "move": "stomp"
+      },
+      {
+        "level": 27,
+        "move": "guillotine"
+      },
+      {
+        "level": 34,
+        "move": "protect"
+      },
+      {
+        "level": 41,
+        "move": "crabhammer"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "amnesia"
+      },
+      {
+        "move": "dig"
+      },
+      {
+        "move": "flail"
+      },
+      {
+        "move": "haze"
+      },
+      {
+        "move": "slam"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

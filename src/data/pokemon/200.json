@@ -1,0 +1,187 @@
+{
+  "id": 200,
+  "nameEn": "misdreavus",
+  "nameZh": "梦妖",
+  "genusZh": "夜啼宝可梦",
+  "johtoDex": 214,
+  "types": [
+    "ghost"
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 60,
+    "special-attack": 85,
+    "special-defense": 85,
+    "speed": 85
+  },
+  "height": 7,
+  "weight": 10,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "indeterminate"
+  ],
+  "growthRate": "fast",
+  "flavorText": "It loves to watch people it's scar­ ed. It frightens them by screaming loudly or appear­ ing suddenly.",
+  "evolutionChainId": 98,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "psywave"
+      },
+      {
+        "level": 6,
+        "move": "spite"
+      },
+      {
+        "level": 12,
+        "move": "confuse-ray"
+      },
+      {
+        "level": 19,
+        "move": "mean-look"
+      },
+      {
+        "level": 27,
+        "move": "psybeam"
+      },
+      {
+        "level": 36,
+        "move": "pain-split"
+      },
+      {
+        "level": 46,
+        "move": "perish-song"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [
+      {
+        "move": "destiny-bond"
+      },
+      {
+        "move": "screech"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

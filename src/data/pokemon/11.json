@@ -1,0 +1,43 @@
+{
+  "id": 11,
+  "nameEn": "metapod",
+  "nameZh": "铁甲蛹",
+  "genusZh": "蛹宝可梦",
+  "johtoDex": 25,
+  "types": [
+    "bug"
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 20,
+    "defense": 55,
+    "special-attack": 25,
+    "special-defense": 25,
+    "speed": 30
+  },
+  "height": 7,
+  "weight": 99,
+  "captureRate": 120,
+  "genderRate": 4,
+  "eggGroups": [
+    "bug"
+  ],
+  "growthRate": "medium",
+  "flavorText": "This is its pre- evolved form. At this stage, it can only harden, so it remains motionless to avoid attack.",
+  "evolutionChainId": 4,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "harden"
+      },
+      {
+        "level": 7,
+        "move": "harden"
+      }
+    ],
+    "machine": [],
+    "egg": [],
+    "tutor": []
+  }
+}

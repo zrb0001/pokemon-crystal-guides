@@ -1,0 +1,177 @@
+{
+  "id": 164,
+  "nameEn": "noctowl",
+  "nameZh": "猫头夜鹰",
+  "genusZh": "猫头鹰宝可梦",
+  "johtoDex": 16,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "stats": {
+    "hp": 100,
+    "attack": 50,
+    "defense": 50,
+    "special-attack": 86,
+    "special-defense": 96,
+    "speed": 70
+  },
+  "height": 16,
+  "weight": 408,
+  "captureRate": 90,
+  "genderRate": 4,
+  "eggGroups": [
+    "flying"
+  ],
+  "growthRate": "medium",
+  "flavorText": "Its extremely soft feathers make no sound in flight. It silently sneaks up on prey without being detected.",
+  "evolutionChainId": 83,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "foresight"
+      },
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "peck"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 6,
+        "move": "foresight"
+      },
+      {
+        "level": 11,
+        "move": "peck"
+      },
+      {
+        "level": 16,
+        "move": "hypnosis"
+      },
+      {
+        "level": 25,
+        "move": "reflect"
+      },
+      {
+        "level": 33,
+        "move": "take-down"
+      },
+      {
+        "level": 41,
+        "move": "confusion"
+      },
+      {
+        "level": 57,
+        "move": "dream-eater"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dream-eater",
+        "tm": "TM42"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

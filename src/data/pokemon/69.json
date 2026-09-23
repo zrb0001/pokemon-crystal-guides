@@ -1,0 +1,173 @@
+{
+  "id": 69,
+  "nameEn": "bellsprout",
+  "nameZh": "喇叭芽",
+  "genusZh": "花宝可梦",
+  "johtoDex": 64,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 75,
+    "defense": 35,
+    "special-attack": 70,
+    "special-defense": 30,
+    "speed": 40
+  },
+  "height": 7,
+  "weight": 40,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "plant"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "If it notices anything that moves, it immediately flings its vine at the object.",
+  "evolutionChainId": 29,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "vine-whip"
+      },
+      {
+        "level": 6,
+        "move": "growth"
+      },
+      {
+        "level": 11,
+        "move": "wrap"
+      },
+      {
+        "level": 15,
+        "move": "sleep-powder"
+      },
+      {
+        "level": 17,
+        "move": "poison-powder"
+      },
+      {
+        "level": 19,
+        "move": "stun-spore"
+      },
+      {
+        "level": 23,
+        "move": "acid"
+      },
+      {
+        "level": 30,
+        "move": "sweet-scent"
+      },
+      {
+        "level": 37,
+        "move": "razor-leaf"
+      },
+      {
+        "level": 45,
+        "move": "slam"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "encore"
+      },
+      {
+        "move": "leech-life"
+      },
+      {
+        "move": "reflect"
+      },
+      {
+        "move": "swords-dance"
+      },
+      {
+        "move": "synthesis"
+      }
+    ],
+    "tutor": []
+  }
+}

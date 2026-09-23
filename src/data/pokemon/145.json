@@ -1,0 +1,177 @@
+{
+  "id": 145,
+  "nameEn": "zapdos",
+  "nameZh": "闪电鸟",
+  "genusZh": "电击宝可梦",
+  "johtoDex": 236,
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 90,
+    "defense": 85,
+    "special-attack": 125,
+    "special-defense": 90,
+    "speed": 100
+  },
+  "height": 16,
+  "weight": 526,
+  "captureRate": 3,
+  "genderRate": -1,
+  "eggGroups": [
+    "no-eggs"
+  ],
+  "growthRate": "slow",
+  "flavorText": "Legendary bird POKéMON. They say lightning caused by the flapping of its wings causes summer storms.",
+  "evolutionChainId": 74,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "peck"
+      },
+      {
+        "level": 1,
+        "move": "thunder-shock"
+      },
+      {
+        "level": 13,
+        "move": "thunder-wave"
+      },
+      {
+        "level": 25,
+        "move": "agility"
+      },
+      {
+        "level": 37,
+        "move": "detect"
+      },
+      {
+        "level": 49,
+        "move": "drill-peck"
+      },
+      {
+        "level": 61,
+        "move": "light-screen"
+      },
+      {
+        "level": 73,
+        "move": "thunder"
+      }
+    ],
+    "machine": [
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

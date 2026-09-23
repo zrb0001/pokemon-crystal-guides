@@ -1,0 +1,167 @@
+{
+  "id": 77,
+  "nameEn": "ponyta",
+  "nameZh": "小火马",
+  "genusZh": "火马宝可梦",
+  "johtoDex": 201,
+  "types": [
+    "fire"
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 85,
+    "defense": 55,
+    "special-attack": 65,
+    "special-defense": 65,
+    "speed": 90
+  },
+  "height": 10,
+  "weight": 300,
+  "captureRate": 190,
+  "genderRate": 4,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "medium",
+  "flavorText": "Training by jumping over grass that grows longer every day has made it a world-class jumper.",
+  "evolutionChainId": 32,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 4,
+        "move": "growl"
+      },
+      {
+        "level": 8,
+        "move": "tail-whip"
+      },
+      {
+        "level": 13,
+        "move": "ember"
+      },
+      {
+        "level": 19,
+        "move": "stomp"
+      },
+      {
+        "level": 26,
+        "move": "fire-spin"
+      },
+      {
+        "level": 34,
+        "move": "take-down"
+      },
+      {
+        "level": 43,
+        "move": "agility"
+      },
+      {
+        "level": 53,
+        "move": "fire-blast"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "charm"
+      },
+      {
+        "move": "double-kick"
+      },
+      {
+        "move": "flame-wheel"
+      },
+      {
+        "move": "hypnosis"
+      },
+      {
+        "move": "quick-attack"
+      },
+      {
+        "move": "thrash"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "id": 4,
+  "nameEn": "charmander",
+  "nameZh": "小火龙",
+  "genusZh": "蜥蜴宝可梦",
+  "johtoDex": 229,
+  "types": [
+    "fire"
+  ],
+  "stats": {
+    "hp": 39,
+    "attack": 52,
+    "defense": 43,
+    "special-attack": 60,
+    "special-defense": 50,
+    "speed": 65
+  },
+  "height": 6,
+  "weight": 85,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "If it's healthy, the flame on the tip of its tail will burn vigor­ ously, even if it gets a bit wet.",
+  "evolutionChainId": 2,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "scratch"
+      },
+      {
+        "level": 7,
+        "move": "ember"
+      },
+      {
+        "level": 13,
+        "move": "smokescreen"
+      },
+      {
+        "level": 19,
+        "move": "rage"
+      },
+      {
+        "level": 25,
+        "move": "scary-face"
+      },
+      {
+        "level": 31,
+        "move": "flamethrower"
+      },
+      {
+        "level": 37,
+        "move": "slash"
+      },
+      {
+        "level": 43,
+        "move": "dragon-rage"
+      },
+      {
+        "level": 49,
+        "move": "fire-spin"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dragon-breath",
+        "tm": "TM24"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "ancient-power"
+      },
+      {
+        "move": "beat-up"
+      },
+      {
+        "move": "belly-drum"
+      },
+      {
+        "move": "bite"
+      },
+      {
+        "move": "outrage"
+      },
+      {
+        "move": "rock-slide"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

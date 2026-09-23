@@ -1,0 +1,55 @@
+---
+interface Props {
+  items: { id: string; label: string }[];
+}
+const { items } = Astro.props;
+---
+
+<div class="page-with-toc">
+  <nav class="toc" aria-label="本页目录">
+    <p class="toc-title">本页目录</p>
+    <ul>
+      {
+        items.map((it) => (
+          <li>
+            <a href={`#${it.id}`} data-toc-link={it.id}>
+              {it.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+  <div class="page-content">
+    <slot />
+  </div>
+</div>
+
+<script>
+  const links = Array.from(document.querySelectorAll<HTMLAnchorElement>('[data-toc-link]'));
+  if (links.length > 0) {
+    const byId = new Map(links.map((a) => [a.dataset.tocLink!, a]));
+    const sections = links
+      .map((a) => document.getElementById(a.dataset.tocLink!))
+      .filter((el): el is HTMLElement => el !== null);
+
+    const activate = (id: string) => {
+      for (const a of links) a.classList.toggle('active', a.dataset.tocLink === id);
+    };
+    activate(sections[0]?.id ?? '');
+
+    const visible = new Set<string>();
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) visible.add(entry.target.id);
+          else visible.delete(entry.target.id);
+        }
+        const first = sections.find((s) => visible.has(s.id));
+        if (first) activate(first.id);
+      },
+      { rootMargin: '-72px 0px -60% 0px' },
+    );
+    for (const s of sections) observer.observe(s);
+  }
+</script>

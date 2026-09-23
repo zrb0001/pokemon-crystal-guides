@@ -1,0 +1,44 @@
+{
+  "id": 13,
+  "nameEn": "weedle",
+  "nameZh": "独角虫",
+  "genusZh": "毛毛虫宝可梦",
+  "johtoDex": 27,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 35,
+    "defense": 30,
+    "special-attack": 20,
+    "special-defense": 20,
+    "speed": 50
+  },
+  "height": 3,
+  "weight": 32,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "bug"
+  ],
+  "growthRate": "medium",
+  "flavorText": "The barb on top of its head secretes a strong poison. It uses this toxic barb to protect itself.",
+  "evolutionChainId": 5,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "poison-sting"
+      },
+      {
+        "level": 1,
+        "move": "string-shot"
+      }
+    ],
+    "machine": [],
+    "egg": [],
+    "tutor": []
+  }
+}

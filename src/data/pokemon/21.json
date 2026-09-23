@@ -1,0 +1,165 @@
+{
+  "id": 21,
+  "nameEn": "spearow",
+  "nameZh": "烈雀",
+  "genusZh": "小鸟宝可梦",
+  "johtoDex": 13,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 60,
+    "defense": 30,
+    "special-attack": 31,
+    "special-defense": 31,
+    "speed": 70
+  },
+  "height": 3,
+  "weight": 20,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "flying"
+  ],
+  "growthRate": "medium",
+  "flavorText": "To protect its territory, it flies around ceaselessly, making high- pitched cries.",
+  "evolutionChainId": 8,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "growl"
+      },
+      {
+        "level": 1,
+        "move": "peck"
+      },
+      {
+        "level": 7,
+        "move": "leer"
+      },
+      {
+        "level": 13,
+        "move": "fury-attack"
+      },
+      {
+        "level": 25,
+        "move": "pursuit"
+      },
+      {
+        "level": 31,
+        "move": "mirror-move"
+      },
+      {
+        "level": 37,
+        "move": "drill-peck"
+      },
+      {
+        "level": 43,
+        "move": "agility"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "false-swipe"
+      },
+      {
+        "move": "feint-attack"
+      },
+      {
+        "move": "quick-attack"
+      },
+      {
+        "move": "scary-face"
+      },
+      {
+        "move": "tri-attack"
+      }
+    ],
+    "tutor": []
+  }
+}

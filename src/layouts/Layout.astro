@@ -1,0 +1,54 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = '宝可梦水晶版（第二世代）中文攻略图鉴' } = Astro.props;
+
+const navItems = [
+  { href: '/pokemon/', label: '图鉴', match: /^\/pokemon\// },
+  { href: '/moves/', label: '招式', match: /^\/moves\// },
+  { href: '/items/', label: '道具', match: /^\/items\// },
+  { href: '/guides/', label: '攻略', match: /^\/guides\// },
+];
+const path = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/favicon.png" sizes="56x56" />
+    <meta name="description" content={description} />
+    <title>{title} · 宝可梦水晶攻略</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="site-title" href="/">宝可梦水晶攻略</a>
+        <nav class="site-nav">
+          {
+            navItems.map((item) => (
+              <a href={item.href} aria-current={item.match.test(path) ? 'page' : undefined}>
+                {item.label}
+              </a>
+            ))
+          }
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        数据来源：<a href="https://pokeapi.co">PokéAPI</a> · 非官方粉丝站点，宝可梦相关版权归 Nintendo / Game Freak 所有
+      </div>
+    </footer>
+  </body>
+</html>

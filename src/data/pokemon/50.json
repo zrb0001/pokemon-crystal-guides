@@ -1,0 +1,168 @@
+{
+  "id": 50,
+  "nameEn": "diglett",
+  "nameZh": "地鼠",
+  "genusZh": "鼹鼠宝可梦",
+  "johtoDex": 132,
+  "types": [
+    "ground"
+  ],
+  "stats": {
+    "hp": 10,
+    "attack": 55,
+    "defense": 25,
+    "special-attack": 35,
+    "special-defense": 45,
+    "speed": 95
+  },
+  "height": 2,
+  "weight": 8,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "ground"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It digs under­ ground and chews on tree roots, sticking its head out only when the sun isn't bright.",
+  "evolutionChainId": 21,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "scratch"
+      },
+      {
+        "level": 5,
+        "move": "growl"
+      },
+      {
+        "level": 9,
+        "move": "magnitude"
+      },
+      {
+        "level": 17,
+        "move": "dig"
+      },
+      {
+        "level": 25,
+        "move": "sand-attack"
+      },
+      {
+        "level": 33,
+        "move": "slash"
+      },
+      {
+        "level": 41,
+        "move": "earthquake"
+      },
+      {
+        "level": 49,
+        "move": "fissure"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "ancient-power"
+      },
+      {
+        "move": "beat-up"
+      },
+      {
+        "move": "feint-attack"
+      },
+      {
+        "move": "pursuit"
+      },
+      {
+        "move": "screech"
+      }
+    ],
+    "tutor": []
+  }
+}

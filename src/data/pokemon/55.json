@@ -1,0 +1,213 @@
+{
+  "id": 55,
+  "nameEn": "golduck",
+  "nameZh": "哥达鸭",
+  "genusZh": "鸭宝可梦",
+  "johtoDex": 139,
+  "types": [
+    "water"
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 78,
+    "special-attack": 95,
+    "special-defense": 80,
+    "speed": 85
+  },
+  "height": 17,
+  "weight": 766,
+  "captureRate": 75,
+  "genderRate": 4,
+  "eggGroups": [
+    "water1",
+    "ground"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It swims grace­ fully along on the quiet, slow-moving rivers and lakes of which it is so fond.",
+  "evolutionChainId": 23,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "confusion"
+      },
+      {
+        "level": 1,
+        "move": "disable"
+      },
+      {
+        "level": 1,
+        "move": "scratch"
+      },
+      {
+        "level": 1,
+        "move": "tail-whip"
+      },
+      {
+        "level": 5,
+        "move": "tail-whip"
+      },
+      {
+        "level": 10,
+        "move": "disable"
+      },
+      {
+        "level": 16,
+        "move": "confusion"
+      },
+      {
+        "level": 23,
+        "move": "screech"
+      },
+      {
+        "level": 31,
+        "move": "psych-up"
+      },
+      {
+        "level": 44,
+        "move": "fury-swipes"
+      },
+      {
+        "level": 58,
+        "move": "hydro-pump"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "fury-cutter",
+        "tm": "TM49"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psych-up",
+        "tm": "TM09"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

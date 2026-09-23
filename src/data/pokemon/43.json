@@ -1,0 +1,162 @@
+{
+  "id": 43,
+  "nameEn": "oddish",
+  "nameZh": "走路草",
+  "genusZh": "杂草宝可梦",
+  "johtoDex": 83,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 50,
+    "defense": 55,
+    "special-attack": 75,
+    "special-defense": 65,
+    "speed": 30
+  },
+  "height": 5,
+  "weight": 54,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "plant"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "During the day, it stays in the cold underground to avoid the sun. It grows by bath­ ing in moonlight.",
+  "evolutionChainId": 18,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "absorb"
+      },
+      {
+        "level": 7,
+        "move": "sweet-scent"
+      },
+      {
+        "level": 14,
+        "move": "poison-powder"
+      },
+      {
+        "level": 16,
+        "move": "stun-spore"
+      },
+      {
+        "level": 18,
+        "move": "sleep-powder"
+      },
+      {
+        "level": 23,
+        "move": "acid"
+      },
+      {
+        "level": 32,
+        "move": "moonlight"
+      },
+      {
+        "level": 39,
+        "move": "petal-dance"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "flail"
+      },
+      {
+        "move": "razor-leaf"
+      },
+      {
+        "move": "swords-dance"
+      },
+      {
+        "move": "synthesis"
+      }
+    ],
+    "tutor": []
+  }
+}

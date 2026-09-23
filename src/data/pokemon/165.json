@@ -1,0 +1,191 @@
+{
+  "id": 165,
+  "nameEn": "ledyba",
+  "nameZh": "芭瓢虫",
+  "genusZh": "五星宝可梦",
+  "johtoDex": 30,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 20,
+    "defense": 30,
+    "special-attack": 40,
+    "special-defense": 80,
+    "speed": 55
+  },
+  "height": 10,
+  "weight": 108,
+  "captureRate": 255,
+  "genderRate": 4,
+  "eggGroups": [
+    "bug"
+  ],
+  "growthRate": "fast",
+  "flavorText": "It is timid and clusters together with others. The fluid secreted by its feet indicates its location.",
+  "evolutionChainId": 84,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 8,
+        "move": "supersonic"
+      },
+      {
+        "level": 15,
+        "move": "comet-punch"
+      },
+      {
+        "level": 22,
+        "move": "light-screen"
+      },
+      {
+        "level": 22,
+        "move": "reflect"
+      },
+      {
+        "level": 22,
+        "move": "safeguard"
+      },
+      {
+        "level": 29,
+        "move": "baton-pass"
+      },
+      {
+        "level": 36,
+        "move": "swift"
+      },
+      {
+        "level": 43,
+        "move": "agility"
+      },
+      {
+        "level": 50,
+        "move": "double-edge"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "bide"
+      },
+      {
+        "move": "light-screen"
+      },
+      {
+        "move": "psybeam"
+      }
+    ],
+    "tutor": []
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "id": 183,
+  "nameEn": "marill",
+  "nameZh": "玛力露",
+  "genusZh": "水鼠宝可梦",
+  "johtoDex": 130,
+  "types": [
+    "water"
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 20,
+    "defense": 50,
+    "special-attack": 20,
+    "special-defense": 50,
+    "speed": 40
+  },
+  "height": 4,
+  "weight": 85,
+  "captureRate": 190,
+  "genderRate": 4,
+  "eggGroups": [
+    "water1",
+    "fairy"
+  ],
+  "growthRate": "fast",
+  "flavorText": "The fur on its body naturally repels water. It can stay dry, even when it plays in the water.",
+  "evolutionChainId": 90,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 3,
+        "move": "defense-curl"
+      },
+      {
+        "level": 6,
+        "move": "tail-whip"
+      },
+      {
+        "level": 10,
+        "move": "water-gun"
+      },
+      {
+        "level": 15,
+        "move": "rollout"
+      },
+      {
+        "level": 21,
+        "move": "bubble-beam"
+      },
+      {
+        "level": 28,
+        "move": "double-edge"
+      },
+      {
+        "level": 36,
+        "move": "rain-dance"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "amnesia"
+      },
+      {
+        "move": "belly-drum"
+      },
+      {
+        "move": "foresight"
+      },
+      {
+        "move": "future-sight"
+      },
+      {
+        "move": "light-screen"
+      },
+      {
+        "move": "perish-song"
+      },
+      {
+        "move": "present"
+      },
+      {
+        "move": "supersonic"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

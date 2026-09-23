@@ -1,0 +1,181 @@
+{
+  "id": 246,
+  "nameEn": "larvitar",
+  "nameZh": "幼基拉斯",
+  "genusZh": "岩石肤宝可梦",
+  "johtoDex": 244,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 64,
+    "defense": 50,
+    "special-attack": 45,
+    "special-defense": 50,
+    "speed": 41
+  },
+  "height": 6,
+  "weight": 720,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "monster"
+  ],
+  "growthRate": "slow",
+  "flavorText": "Born deep under­ ground, this POKéMON becomes a pupa after eating enough dirt to make a mountain.",
+  "evolutionChainId": 126,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "bite"
+      },
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 8,
+        "move": "sandstorm"
+      },
+      {
+        "level": 15,
+        "move": "screech"
+      },
+      {
+        "level": 22,
+        "move": "rock-slide"
+      },
+      {
+        "level": 29,
+        "move": "thrash"
+      },
+      {
+        "level": 36,
+        "move": "scary-face"
+      },
+      {
+        "level": 43,
+        "move": "crunch"
+      },
+      {
+        "level": 50,
+        "move": "earthquake"
+      },
+      {
+        "level": 57,
+        "move": "hyper-beam"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "ancient-power"
+      },
+      {
+        "move": "focus-energy"
+      },
+      {
+        "move": "outrage"
+      },
+      {
+        "move": "pursuit"
+      },
+      {
+        "move": "stomp"
+      }
+    ],
+    "tutor": []
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": 12,
+  "nameEn": "butterfree",
+  "nameZh": "巴大蝶",
+  "genusZh": "蝴蝶宝可梦",
+  "johtoDex": 26,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 50,
+    "special-attack": 90,
+    "special-defense": 80,
+    "speed": 70
+  },
+  "height": 11,
+  "weight": 320,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "bug"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It flits from flower to flower, collecting honey. It can even identify distant flowers in bloom.",
+  "evolutionChainId": 4,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "confusion"
+      },
+      {
+        "level": 10,
+        "move": "confusion"
+      },
+      {
+        "level": 13,
+        "move": "poison-powder"
+      },
+      {
+        "level": 14,
+        "move": "stun-spore"
+      },
+      {
+        "level": 15,
+        "move": "sleep-powder"
+      },
+      {
+        "level": 18,
+        "move": "supersonic"
+      },
+      {
+        "level": 23,
+        "move": "whirlwind"
+      },
+      {
+        "level": 28,
+        "move": "gust"
+      },
+      {
+        "level": 34,
+        "move": "psybeam"
+      },
+      {
+        "level": 40,
+        "move": "safeguard"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "giga-drain",
+        "tm": "TM19"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "nightmare",
+        "tm": "TM50"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "solar-beam",
+        "tm": "TM22"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "sweet-scent",
+        "tm": "TM12"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

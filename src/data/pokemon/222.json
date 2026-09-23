@@ -1,0 +1,194 @@
+{
+  "id": 222,
+  "nameEn": "corsola",
+  "nameZh": "太阳珊瑚",
+  "genusZh": "珊瑚宝可梦",
+  "johtoDex": 171,
+  "types": [
+    "water",
+    "rock"
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 55,
+    "defense": 95,
+    "special-attack": 65,
+    "special-defense": 95,
+    "speed": 35
+  },
+  "height": 6,
+  "weight": 50,
+  "captureRate": 60,
+  "genderRate": 6,
+  "eggGroups": [
+    "water1",
+    "water3"
+  ],
+  "growthRate": "fast",
+  "flavorText": "The points on its head absorb nutrients from clean water. They cannot survive in polluted water.",
+  "evolutionChainId": 113,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 7,
+        "move": "harden"
+      },
+      {
+        "level": 13,
+        "move": "bubble"
+      },
+      {
+        "level": 19,
+        "move": "recover"
+      },
+      {
+        "level": 25,
+        "move": "bubble-beam"
+      },
+      {
+        "level": 31,
+        "move": "spike-cannon"
+      },
+      {
+        "level": 37,
+        "move": "mirror-coat"
+      },
+      {
+        "level": 43,
+        "move": "ancient-power"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "psychic",
+        "tm": "TM29"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "amnesia"
+      },
+      {
+        "move": "mist"
+      },
+      {
+        "move": "rock-slide"
+      },
+      {
+        "move": "safeguard"
+      },
+      {
+        "move": "screech"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

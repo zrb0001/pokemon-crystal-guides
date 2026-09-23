@@ -1,0 +1,196 @@
+{
+  "id": 68,
+  "nameEn": "machamp",
+  "nameZh": "怪力",
+  "genusZh": "怪力宝可梦",
+  "johtoDex": 142,
+  "types": [
+    "fighting"
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 130,
+    "defense": 80,
+    "special-attack": 65,
+    "special-defense": 85,
+    "speed": 55
+  },
+  "height": 16,
+  "weight": 1300,
+  "captureRate": 45,
+  "genderRate": 2,
+  "eggGroups": [
+    "humanshape"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "With four arms that react more quickly than it can think, it can execute many punches at once.",
+  "evolutionChainId": 28,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "focus-energy"
+      },
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "low-kick"
+      },
+      {
+        "level": 8,
+        "move": "focus-energy"
+      },
+      {
+        "level": 15,
+        "move": "karate-chop"
+      },
+      {
+        "level": 19,
+        "move": "seismic-toss"
+      },
+      {
+        "level": 25,
+        "move": "foresight"
+      },
+      {
+        "level": 34,
+        "move": "vital-throw"
+      },
+      {
+        "level": 43,
+        "move": "cross-chop"
+      },
+      {
+        "level": 52,
+        "move": "scary-face"
+      },
+      {
+        "level": 61,
+        "move": "submission"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "earthquake",
+        "tm": "TM26"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

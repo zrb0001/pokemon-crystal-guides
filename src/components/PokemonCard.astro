@@ -1,0 +1,18 @@
+---
+import type { Pokemon } from '../types';
+import TypeBadge from './TypeBadge.astro';
+
+interface Props {
+  pokemon: Pokemon;
+}
+const { pokemon: p } = Astro.props;
+---
+
+<a class="dex-card" href={`/pokemon/${p.id}/`}>
+  <img src={`/sprites/normal/${p.id}.png`} alt={p.nameZh ?? p.nameEn} loading="lazy" />
+  <div class="dex-no">No.{String(p.id).padStart(3, '0')}</div>
+  <div class="dex-name">{p.nameZh ?? p.nameEn}</div>
+  <div>
+    {p.types.map((t) => <TypeBadge type={t} />)}
+  </div>
+</a>

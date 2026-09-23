@@ -1,0 +1,169 @@
+{
+  "id": 146,
+  "nameEn": "moltres",
+  "nameZh": "火焰鸟",
+  "genusZh": "火焰宝可梦",
+  "johtoDex": 237,
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 100,
+    "defense": 90,
+    "special-attack": 125,
+    "special-defense": 85,
+    "speed": 90
+  },
+  "height": 20,
+  "weight": 600,
+  "captureRate": 3,
+  "genderRate": -1,
+  "eggGroups": [
+    "no-eggs"
+  ],
+  "growthRate": "slow",
+  "flavorText": "Legendary bird POKéMON. It is said to migrate from the south along with the spring.",
+  "evolutionChainId": 75,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "ember"
+      },
+      {
+        "level": 1,
+        "move": "wing-attack"
+      },
+      {
+        "level": 13,
+        "move": "fire-spin"
+      },
+      {
+        "level": 25,
+        "move": "agility"
+      },
+      {
+        "level": 37,
+        "move": "endure"
+      },
+      {
+        "level": 49,
+        "move": "flamethrower"
+      },
+      {
+        "level": 61,
+        "move": "safeguard"
+      },
+      {
+        "level": 73,
+        "move": "sky-attack"
+      }
+    ],
+    "machine": [
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-blast",
+        "tm": "TM38"
+      },
+      {
+        "move": "fly",
+        "tm": "HM02"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sandstorm",
+        "tm": "TM37"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "steel-wing",
+        "tm": "TM47"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "flamethrower"
+      }
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "id": 90,
+  "nameEn": "shellder",
+  "nameZh": "大舌贝",
+  "genusZh": "双壳贝宝可梦",
+  "johtoDex": 169,
+  "types": [
+    "water"
+  ],
+  "stats": {
+    "hp": 30,
+    "attack": 65,
+    "defense": 100,
+    "special-attack": 45,
+    "special-defense": 25,
+    "speed": 40
+  },
+  "height": 3,
+  "weight": 40,
+  "captureRate": 190,
+  "genderRate": 4,
+  "eggGroups": [
+    "water3"
+  ],
+  "growthRate": "slow",
+  "flavorText": "Clamping on to an opponent reveals its vulnerable parts, so it uses this move only as a last resort.",
+  "evolutionChainId": 39,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 1,
+        "move": "withdraw"
+      },
+      {
+        "level": 9,
+        "move": "supersonic"
+      },
+      {
+        "level": 17,
+        "move": "aurora-beam"
+      },
+      {
+        "level": 25,
+        "move": "protect"
+      },
+      {
+        "level": 33,
+        "move": "leer"
+      },
+      {
+        "level": 41,
+        "move": "clamp"
+      },
+      {
+        "level": 49,
+        "move": "ice-beam"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "barrier"
+      },
+      {
+        "move": "bubble-beam"
+      },
+      {
+        "move": "rapid-spin"
+      },
+      {
+        "move": "screech"
+      },
+      {
+        "move": "take-down"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

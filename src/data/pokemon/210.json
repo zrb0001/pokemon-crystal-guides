@@ -1,0 +1,205 @@
+{
+  "id": 210,
+  "nameEn": "granbull",
+  "nameZh": "布鲁皇",
+  "genusZh": "妖精宝可梦",
+  "johtoDex": 124,
+  "types": [
+    "normal"
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 120,
+    "defense": 75,
+    "special-attack": 60,
+    "special-defense": 60,
+    "speed": 45
+  },
+  "height": 14,
+  "weight": 487,
+  "captureRate": 75,
+  "genderRate": 6,
+  "eggGroups": [
+    "ground",
+    "fairy"
+  ],
+  "growthRate": "fast",
+  "flavorText": "It can make most any POKéMON run away simply by opening its mouth wide to reveal its big fangs.",
+  "evolutionChainId": 105,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "scary-face"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 4,
+        "move": "tail-whip"
+      },
+      {
+        "level": 8,
+        "move": "charm"
+      },
+      {
+        "level": 13,
+        "move": "bite"
+      },
+      {
+        "level": 19,
+        "move": "lick"
+      },
+      {
+        "level": 28,
+        "move": "roar"
+      },
+      {
+        "level": 38,
+        "move": "rage"
+      },
+      {
+        "level": 51,
+        "move": "take-down"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "hyper-beam",
+        "tm": "TM15"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "roar",
+        "tm": "TM05"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "shadow-ball",
+        "tm": "TM30"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

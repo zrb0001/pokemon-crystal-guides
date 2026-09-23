@@ -1,0 +1,200 @@
+{
+  "id": 158,
+  "nameEn": "totodile",
+  "nameZh": "小锯鳄",
+  "genusZh": "大颚宝可梦",
+  "johtoDex": 7,
+  "types": [
+    "water"
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 64,
+    "special-attack": 44,
+    "special-defense": 48,
+    "speed": 43
+  },
+  "height": 6,
+  "weight": 95,
+  "captureRate": 45,
+  "genderRate": 1,
+  "eggGroups": [
+    "monster",
+    "water1"
+  ],
+  "growthRate": "medium-slow",
+  "flavorText": "This rough critter chomps at any moving object it sees. Turning your back on it is not recommended.",
+  "evolutionChainId": 81,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "leer"
+      },
+      {
+        "level": 1,
+        "move": "scratch"
+      },
+      {
+        "level": 7,
+        "move": "rage"
+      },
+      {
+        "level": 13,
+        "move": "water-gun"
+      },
+      {
+        "level": 20,
+        "move": "bite"
+      },
+      {
+        "level": 27,
+        "move": "scary-face"
+      },
+      {
+        "level": 35,
+        "move": "slash"
+      },
+      {
+        "level": 43,
+        "move": "screech"
+      },
+      {
+        "level": 52,
+        "move": "hydro-pump"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "cut",
+        "tm": "HM01"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "dig",
+        "tm": "TM28"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "iron-tail",
+        "tm": "TM23"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "ancient-power"
+      },
+      {
+        "move": "crunch"
+      },
+      {
+        "move": "hydro-pump"
+      },
+      {
+        "move": "razor-wind"
+      },
+      {
+        "move": "rock-slide"
+      },
+      {
+        "move": "thrash"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "id": 106,
+  "nameEn": "hitmonlee",
+  "nameZh": "飞腿郎",
+  "genusZh": "踢腿宝可梦",
+  "johtoDex": 144,
+  "types": [
+    "fighting"
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 120,
+    "defense": 53,
+    "special-attack": 35,
+    "special-defense": 110,
+    "speed": 87
+  },
+  "height": 15,
+  "weight": 498,
+  "captureRate": 45,
+  "genderRate": 0,
+  "eggGroups": [
+    "humanshape"
+  ],
+  "growthRate": "medium",
+  "flavorText": "It is also called the Kick Master. It uses its elastic legs to execute every known kick.",
+  "evolutionChainId": 47,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "double-kick"
+      },
+      {
+        "level": 6,
+        "move": "meditate"
+      },
+      {
+        "level": 11,
+        "move": "rolling-kick"
+      },
+      {
+        "level": 16,
+        "move": "jump-kick"
+      },
+      {
+        "level": 21,
+        "move": "focus-energy"
+      },
+      {
+        "level": 26,
+        "move": "high-jump-kick"
+      },
+      {
+        "level": 31,
+        "move": "mind-reader"
+      },
+      {
+        "level": 36,
+        "move": "foresight"
+      },
+      {
+        "level": 41,
+        "move": "endure"
+      },
+      {
+        "level": 46,
+        "move": "mega-kick"
+      },
+      {
+        "level": 51,
+        "move": "reversal"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

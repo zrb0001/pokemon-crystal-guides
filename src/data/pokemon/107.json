@@ -1,0 +1,176 @@
+{
+  "id": 107,
+  "nameEn": "hitmonchan",
+  "nameZh": "快拳郎",
+  "genusZh": "拳击宝可梦",
+  "johtoDex": 145,
+  "types": [
+    "fighting"
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 105,
+    "defense": 79,
+    "special-attack": 35,
+    "special-defense": 110,
+    "speed": 76
+  },
+  "height": 14,
+  "weight": 502,
+  "captureRate": 45,
+  "genderRate": 0,
+  "eggGroups": [
+    "humanshape"
+  ],
+  "growthRate": "medium",
+  "flavorText": "To increase the strength of all its punch moves, it spins its arms just before making contact.",
+  "evolutionChainId": 47,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "comet-punch"
+      },
+      {
+        "level": 7,
+        "move": "agility"
+      },
+      {
+        "level": 13,
+        "move": "pursuit"
+      },
+      {
+        "level": 26,
+        "move": "fire-punch"
+      },
+      {
+        "level": 26,
+        "move": "ice-punch"
+      },
+      {
+        "level": 26,
+        "move": "thunder-punch"
+      },
+      {
+        "level": 32,
+        "move": "mach-punch"
+      },
+      {
+        "level": 38,
+        "move": "mega-punch"
+      },
+      {
+        "level": 44,
+        "move": "detect"
+      },
+      {
+        "level": 50,
+        "move": "counter"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "detect",
+        "tm": "TM43"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dynamic-punch",
+        "tm": "TM01"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "fire-punch",
+        "tm": "TM48"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "ice-punch",
+        "tm": "TM33"
+      },
+      {
+        "move": "mud-slap",
+        "tm": "TM31"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rock-smash",
+        "tm": "TM08"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "strength",
+        "tm": "HM04"
+      },
+      {
+        "move": "sunny-day",
+        "tm": "TM11"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thief",
+        "tm": "TM46"
+      },
+      {
+        "move": "thunder-punch",
+        "tm": "TM41"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      }
+    ],
+    "egg": [],
+    "tutor": []
+  }
+}

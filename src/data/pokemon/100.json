@@ -1,0 +1,152 @@
+{
+  "id": 100,
+  "nameEn": "voltorb",
+  "nameZh": "霹雳电球",
+  "genusZh": "球宝可梦",
+  "johtoDex": 120,
+  "types": [
+    "electric"
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 30,
+    "defense": 50,
+    "special-attack": 55,
+    "special-defense": 55,
+    "speed": 100
+  },
+  "height": 5,
+  "weight": 104,
+  "captureRate": 190,
+  "genderRate": -1,
+  "eggGroups": [
+    "mineral"
+  ],
+  "growthRate": "medium",
+  "flavorText": "During the study of this POKéMON, it was discovered that its compo­ nents are not found in nature.",
+  "evolutionChainId": 44,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 9,
+        "move": "screech"
+      },
+      {
+        "level": 17,
+        "move": "sonic-boom"
+      },
+      {
+        "level": 23,
+        "move": "self-destruct"
+      },
+      {
+        "level": 29,
+        "move": "rollout"
+      },
+      {
+        "level": 33,
+        "move": "light-screen"
+      },
+      {
+        "level": 37,
+        "move": "swift"
+      },
+      {
+        "level": 39,
+        "move": "explosion"
+      },
+      {
+        "level": 41,
+        "move": "mirror-coat"
+      }
+    ],
+    "machine": [
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "flash",
+        "tm": "HM05"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "thunder",
+        "tm": "TM25"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "zap-cannon",
+        "tm": "TM07"
+      }
+    ],
+    "egg": [],
+    "tutor": [
+      {
+        "move": "thunderbolt"
+      }
+    ]
+  }
+}

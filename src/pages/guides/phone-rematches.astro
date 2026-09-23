@@ -1,0 +1,483 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Toc from '../../components/Toc.astro';
+import { getPokemon, getItem } from '../../lib/data';
+
+interface TeamMember {
+  id: number;
+  lv: number;
+}
+
+interface Contact {
+  location: string;
+  cls: string;
+  name: string;
+  first: TeamMember[];
+  max: TeamMember[] | null;
+  special: string;
+  specialItems?: string[];
+  note?: string;
+}
+
+// 数据来源：pokecrystal 反汇编（data/phone/phone_contacts.asm、
+// engine/phone/scripts/*.asm、各地图脚本与 data/trainers/parties.asm）。
+// “最强再战队伍”为各地图脚本中可达成的最高档位。
+const contacts: Contact[] = [
+  {
+    location: '自然公园',
+    cls: '学生',
+    name: 'Jack',
+    first: [{ id: 43, lv: 12 }, { id: 100, lv: 15 }],
+    max: [{ id: 101, lv: 35 }, { id: 58, lv: 35 }, { id: 45, lv: 37 }],
+    special: '仅约战（闲聊来电会讲一些招式冷知识）',
+  },
+  {
+    location: '自然公园',
+    cls: '宝可梦迷',
+    name: 'Beverly',
+    first: [{ id: 209, lv: 14 }],
+    max: null,
+    special: '不定时来电赠送金珠，去找她领取（可重复）',
+    specialItems: ['nugget'],
+    note: '队伍中带着玛力露才肯留号码；不会再战。',
+  },
+  {
+    location: '浅葱灯塔 2F',
+    cls: '水手',
+    name: 'Huey',
+    first: [{ id: 60, lv: 18 }, { id: 61, lv: 18 }],
+    max: [{ id: 186, lv: 38 }, { id: 62, lv: 38 }],
+    special: '首次打赢最高档后赠送攻击增强剂（一次性）',
+    specialItems: ['protein'],
+  },
+  {
+    location: '26 号道路',
+    cls: '精英训练家',
+    name: 'Gaven',
+    first: [{ id: 71, lv: 32 }, { id: 99, lv: 32 }, { id: 136, lv: 32 }],
+    max: [{ id: 71, lv: 39 }, { id: 99, lv: 39 }, { id: 136, lv: 39 }],
+    special: '仅约战',
+  },
+  {
+    location: '26 号道路',
+    cls: '精英训练家',
+    name: 'Beth',
+    first: [{ id: 78, lv: 36 }],
+    max: [{ id: 78, lv: 43 }],
+    special: '仅约战',
+  },
+  {
+    location: '27 号道路',
+    cls: '养鸟人',
+    name: 'Jose',
+    first: [{ id: 83, lv: 34 }],
+    max: [{ id: 83, lv: 40 }],
+    special: '不定时来电赠送星星碎片，去找他领取（可重复）',
+    specialItems: ['star-piece'],
+  },
+  {
+    location: '27 号道路',
+    cls: '精英训练家',
+    name: 'Reena',
+    first: [{ id: 121, lv: 31 }, { id: 31, lv: 33 }, { id: 121, lv: 31 }],
+    max: [{ id: 121, lv: 38 }, { id: 31, lv: 40 }, { id: 121, lv: 38 }],
+    special: '仅约战',
+  },
+  {
+    location: '30 号道路',
+    cls: '短裤小子',
+    name: 'Joey',
+    first: [{ id: 19, lv: 4 }],
+    max: [{ id: 20, lv: 37 }],
+    special: '首次打赢最高档后赠送ＨＰ增强剂（一次性）',
+    specialItems: ['hp-up'],
+  },
+  {
+    location: '31 号道路',
+    cls: '捕虫少年',
+    name: 'Wade',
+    first: [{ id: 10, lv: 2 }, { id: 10, lv: 2 }, { id: 13, lv: 3 }, { id: 10, lv: 2 }],
+    max: [{ id: 12, lv: 30 }, { id: 12, lv: 30 }, { id: 15, lv: 32 }, { id: 12, lv: 34 }],
+    special: '不定时来电赠送树果（Berry／PSNCureBerry／PRZCureBerry／Bitter Berry 随机一种，可重复）',
+  },
+  {
+    location: '32 号道路',
+    cls: '垂钓者',
+    name: 'Ralph',
+    first: [{ id: 118, lv: 10 }],
+    max: [{ id: 211, lv: 35 }, { id: 119, lv: 39 }],
+    special: '来电通知千针鱼大量出现（当天在 32 号道路垂钓容易钓到）',
+  },
+  {
+    location: '32 号道路',
+    cls: '野餐女孩',
+    name: 'Liz',
+    first: [{ id: 29, lv: 9 }],
+    max: [{ id: 70, lv: 30 }, { id: 34, lv: 32 }, { id: 31, lv: 32 }],
+    special: '仅约战',
+  },
+  {
+    location: '33 号道路',
+    cls: '登山男',
+    name: 'Anthony',
+    first: [{ id: 74, lv: 11 }, { id: 66, lv: 11 }],
+    max: [{ id: 75, lv: 34 }, { id: 76, lv: 36 }, { id: 67, lv: 34 }],
+    special: '来电通知土龙弟弟大量出现（当天黑暗洞窟内大量出现）',
+  },
+  {
+    location: '34 号道路',
+    cls: '露营少年',
+    name: 'Todd',
+    first: [{ id: 54, lv: 14 }],
+    max: [{ id: 75, lv: 33 }, { id: 75, lv: 33 }, { id: 219, lv: 36 }, { id: 55, lv: 34 }],
+    special: '来电通知满金百货店正在打折（屋台商品半价）',
+  },
+  {
+    location: '34 号道路',
+    cls: '野餐女孩',
+    name: 'Gina',
+    first: [{ id: 187, lv: 9 }, { id: 187, lv: 9 }, { id: 1, lv: 12 }],
+    max: [{ id: 189, lv: 33 }, { id: 189, lv: 33 }, { id: 3, lv: 38 }],
+    special: '不定时来电赠送叶之石，去找她领取（可重复）',
+    specialItems: ['leaf-stone'],
+  },
+  {
+    location: '35 号道路',
+    cls: '杂耍艺人',
+    name: 'Irwin',
+    first: [{ id: 100, lv: 2 }, { id: 100, lv: 6 }, { id: 100, lv: 10 }, { id: 100, lv: 14 }],
+    max: null,
+    special: '不会再战。全游戏最爱打电话的人，有事没事都来闲聊；火箭队占领广播塔期间会通风报信',
+  },
+  {
+    location: '35 号道路',
+    cls: '捕虫少年',
+    name: 'Arnie',
+    first: [{ id: 48, lv: 15 }],
+    max: [{ id: 49, lv: 40 }],
+    special: '来电通知蜻蜻蜓大量出现（当天 35 号道路草丛大量出现）',
+  },
+  {
+    location: '36 号道路',
+    cls: '学生',
+    name: 'Alan',
+    first: [{ id: 114, lv: 16 }],
+    max: [{ id: 178, lv: 35 }, { id: 114, lv: 32 }, { id: 193, lv: 32 }, { id: 195, lv: 35 }],
+    special: '不定时来电赠送火之石，去找他领取（可重复）',
+    specialItems: ['fire-stone'],
+  },
+  {
+    location: '38 号道路',
+    cls: '迷你裙',
+    name: 'Dana',
+    first: [{ id: 180, lv: 18 }, { id: 54, lv: 18 }],
+    max: [{ id: 181, lv: 36 }, { id: 55, lv: 36 }],
+    special: '不定时来电赠送雷之石，去找她领取（可重复）',
+    specialItems: ['thunder-stone'],
+  },
+  {
+    location: '38 号道路',
+    cls: '学生',
+    name: 'Chad',
+    first: [{ id: 122, lv: 19 }],
+    max: [{ id: 122, lv: 34 }, { id: 82, lv: 38 }],
+    special: '仅约战',
+  },
+  {
+    location: '39 号道路',
+    cls: '宝可梦迷',
+    name: 'Derek',
+    first: [{ id: 25, lv: 17 }],
+    max: null,
+    special: '不定时来电赠送金珠，去找他领取（可重复）；周二/四/六还会提醒当天有捕虫大会',
+    specialItems: ['nugget'],
+    note: '队伍中带着皮卡丘才肯留号码；不会再战。',
+  },
+  {
+    location: '42 号道路',
+    cls: '垂钓者',
+    name: 'Tully',
+    first: [{ id: 211, lv: 18 }],
+    max: [{ id: 119, lv: 34 }, { id: 119, lv: 34 }, { id: 211, lv: 37 }],
+    special: '不定时来电赠送水之石，去找他领取（可重复）',
+    specialItems: ['water-stone'],
+  },
+  {
+    location: '43 号道路',
+    cls: '宝可梦狂',
+    name: 'Brent',
+    first: [{ id: 108, lv: 19 }],
+    max: [{ id: 113, lv: 41 }],
+    special: '仅约战（电话里吹嘘的“稀有宝可梦”其实就是他再战时用的队伍）',
+  },
+  {
+    location: '43 号道路',
+    cls: '野餐女孩',
+    name: 'Tiffany',
+    first: [{ id: 35, lv: 20 }],
+    max: [{ id: 35, lv: 43 }],
+    special: '不定时来电赠送 Pink Bow（粉红缎带：一般属性招式威力提升 10%，无官方中文名），去找她领取（可重复）',
+    note: '队伍中带着皮皮才肯留号码。',
+  },
+  {
+    location: '44 号道路',
+    cls: '养鸟人',
+    name: 'Vance',
+    first: [{ id: 17, lv: 25 }, { id: 17, lv: 25 }],
+    max: [{ id: 18, lv: 38 }, { id: 18, lv: 38 }],
+    special: '首次打赢最高档后赠送速度增强剂（一次性）',
+    specialItems: ['carbos'],
+  },
+  {
+    location: '44 号道路',
+    cls: '垂钓者',
+    name: 'Wilton',
+    first: [{ id: 118, lv: 23 }, { id: 118, lv: 23 }, { id: 119, lv: 25 }],
+    max: [{ id: 119, lv: 34 }, { id: 119, lv: 34 }, { id: 223, lv: 38 }],
+    special: '不定时来电赠送精灵球／超级球／高级球（随机一种，可重复）',
+    specialItems: ['poke-ball', 'great-ball', 'ultra-ball'],
+  },
+  {
+    location: '45 号道路',
+    cls: '空手道王',
+    name: 'Kenji',
+    first: [{ id: 67, lv: 28 }],
+    max: null,
+    special: '不会再战。每隔几天外出修行，白天休息时会接电话；此时去 45 号道路找他对话，可获赠ＰＰ提升剂（可重复）',
+    specialItems: ['pp-up'],
+  },
+  {
+    location: '45 号道路',
+    cls: '登山男',
+    name: 'Parry',
+    first: [{ id: 95, lv: 29 }],
+    max: [{ id: 221, lv: 35 }, { id: 51, lv: 35 }, { id: 208, lv: 38 }],
+    special: '首次打赢最高档后赠送防御增强剂（一次性）',
+    specialItems: ['iron'],
+  },
+  {
+    location: '46 号道路',
+    cls: '野餐女孩',
+    name: 'Erin',
+    first: [{ id: 77, lv: 16 }, { id: 77, lv: 16 }],
+    max: [{ id: 77, lv: 36 }, { id: 26, lv: 34 }, { id: 77, lv: 36 }],
+    special: '首次打赢最高档后赠送特攻增强剂（一次性）',
+    specialItems: ['calcium'],
+  },
+];
+
+// 英文名 → 中文名（按日版原名翻译；水晶版无官方中译，本站自译）
+const NAME_ZH: Record<string, string> = {
+  Jack: '修一', Beverly: '惠', Huey: '元气', Gaven: '俊', Beth: '瞳',
+  Jose: '英二', Reena: '夏帆', Joey: '五郎', Wade: '浩一', Ralph: '康明',
+  Liz: '香织', Anthony: '勉', Todd: '洋一', Gina: '瑞穗', Irwin: '迈克',
+  Arnie: '洋太', Alan: '学', Dana: '莉香', Chad: '克里奥', Derek: '美江春',
+  Tully: '实', Brent: '诚', Tiffany: '千里', Vance: '元弘', Wilton: '秀典',
+  Kenji: '武德', Parry: '太郎', Erin: '惠美',
+};
+
+// 英文名 → 日版原名
+const NAME_JA: Record<string, string> = {
+  Jack: 'シュウイチ', Beverly: 'メグミ', Huey: 'ゲンキ', Gaven: 'シュン', Beth: 'ヒトミ',
+  Jose: 'エイジ', Reena: 'ナツホ', Joey: 'ゴロウ', Wade: 'コウイチ', Ralph: 'ヤスアキ',
+  Liz: 'カオリ', Anthony: 'ツトム', Todd: 'ヨウイチ', Gina: 'ミズホ', Irwin: 'マイク',
+  Arnie: 'ヨウタ', Alan: 'マナブ', Dana: 'リカ', Chad: 'クリオ', Derek: 'ミエハル',
+  Tully: 'ミノル', Brent: 'マコト', Tiffany: 'チサト', Vance: 'モトヒロ', Wilton: 'ヒデノリ',
+  Kenji: 'タケノリ', Parry: 'タロウ', Erin: 'エミ',
+};
+
+const poke = (id: number) => getPokemon(id)!;
+---
+
+<Layout
+  title="电话约战 NPC 一览"
+  description="宝可梦水晶版全部 28 位可登记电话的训练家：地点、初遇与最强再战队伍、大量出现与赠送道具等特殊来电"
+>
+  <h1>电话约战 NPC 一览（全 28 人）</h1>
+
+  <Toc
+    items={[
+      { id: 'mechanism', label: '机制说明' },
+      { id: 'list', label: '训练家一览（28）' },
+      { id: 'notes', label: '补充说明' },
+    ]}
+  >
+  <section class="panel" id="mechanism">
+    <p style="margin: 0">
+      水晶版中，战胜部分训练家后再次对话，可以把对方登记进<strong>宝可齿轮的电话簿</strong>（上限 10 个号码，
+      登满需先删除才能再加）。全作共有 <strong>28</strong> 位这样的训练家，其中 <strong>24</strong>
+      位会不定时来电约战——接到约战电话后，<strong>回到对方所在地点与其对话</strong>即可再战，经验值照常获得，
+      是中后期稳定的练级手段。再战队伍分档变强：每打赢一次解锁下一档，更高档位还需推进剧情
+      （抵达满金市/浅葱市、解决满金广播塔事件、战胜四天王、修复无人发电厂）才会开放，
+      表中“最强再战队伍”即各人的最高档。除约战外，不少人还会来电赠送道具或通报大量出现情报（见最右列）；
+      杂耍艺人迈克、宝可梦迷美江春／惠、空手道王武德四人<strong>不会再战</strong>，登记他们只为了赠礼或彩蛋。
+      水晶版没有官方中文版，表中人名按日版原名译成中文（日版/美版原名附在中文名下方）。
+    </p>
+  </section>
+
+  <section class="panel" id="list">
+    <div class="table-scroll">
+    <table class="phone-table">
+      <thead>
+        <tr>
+          <th>地点</th>
+          <th>训练家</th>
+          <th>初遇队伍</th>
+          <th>最强再战队伍</th>
+          <th>特殊来电</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          contacts.map((c) => (
+            <tr>
+              <td>{c.location}</td>
+              <td>
+                {c.cls} {NAME_ZH[c.name] ?? c.name}
+                <div class="note">日版 {NAME_JA[c.name] ?? ''} · 美版 {c.name}</div>
+                {c.note && <div class="note">{c.note}</div>}
+              </td>
+              <td>
+                <span class="team">
+                  {c.first.map((m) => {
+                    const pk = poke(m.id);
+                    return (
+                      <a class="member" href={`/pokemon/${m.id}/`} title={pk.nameZh ?? ''}>
+                        <img src={`/sprites/normal/${m.id}.png`} alt={pk.nameZh ?? ''} />
+                        <span>Lv{m.lv}</span>
+                      </a>
+                    );
+                  })}
+                </span>
+              </td>
+              <td>
+                {c.max ? (
+                  <span class="team">
+                    {c.max.map((m) => {
+                      const pk = poke(m.id);
+                      return (
+                        <a class="member" href={`/pokemon/${m.id}/`} title={pk.nameZh ?? ''}>
+                          <img src={`/sprites/normal/${m.id}.png`} alt={pk.nameZh ?? ''} />
+                          <span>Lv{m.lv}</span>
+                        </a>
+                      );
+                    })}
+                  </span>
+                ) : (
+                  <span class="no-rematch">不能再战</span>
+                )}
+              </td>
+              <td class="special">
+                {c.specialItems && (
+                  <span class="item-row">
+                    {c.specialItems.map((name) => {
+                      const it = getItem(name);
+                      return (
+                        it?.sprite && (
+                          <img class="item-icon" src={it.sprite} alt={it.nameZh ?? it.nameEn} title={it.nameZh ?? it.nameEn} />
+                        )
+                      );
+                    })}
+                  </span>
+                )}
+                {c.special}
+              </td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <section class="panel" id="notes">
+    <h2>补充说明</h2>
+    <ul class="notes">
+      <li>妈妈、空木博士、正辉、自行车店、布耶娜（满金电台）等也能登记电话号码，但没有任何对战功能，故未列入表中。</li>
+      <li>劲敌（小银）不靠电话约战：在月见山击败他之后，<strong>每周一和周三</strong>他会出现在石英高原宝可梦中心门口，可各再战一次。</li>
+      <li>赠送进化石/道具类的来电（瑞穗、莉香、实、学、千里、英二、秀典、浩一、美江春、惠）在领过一次后仍会以较低概率再次触发，可以反复领取；增强剂类（五郎、元气、元弘、太郎、惠美）只在首次打赢最高档时赠送一次。</li>
+      <li>大量出现来电每天每人最多一次，接到后当天内生效：康明的千针鱼要用钓竿在 32 号道路垂钓；勉的土龙弟弟在黑暗洞窟；洋太的蜻蜻蜓在 35 号道路草丛。大量出现也是获得这三种稀有宝可梦最省事的办法。</li>
+      <li>队伍中带着特定宝可梦才肯留号码的有三位：惠要玛力露、美江春要皮卡丘、千里要皮皮。</li>
+      <li>本页数据以水晶版反汇编（pokecrystal）的电话脚本与地图脚本为准；其中迈克、美江春、惠、武德四人在水晶版里没有再战脚本，与部分沿用金银资料的旧攻略不同。</li>
+    </ul>
+  </section>
+  </Toc>
+</Layout>
+
+<style>
+  .phone-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  .phone-table th,
+  .phone-table td {
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+    vertical-align: top;
+  }
+  .phone-table th {
+    color: var(--muted);
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 10px;
+  }
+  .member {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    font-size: 12px;
+    color: var(--muted);
+    text-decoration: none;
+  }
+  .member:hover {
+    color: var(--accent);
+  }
+  .member img {
+    width: 44px;
+    height: 44px;
+    image-rendering: pixelated;
+    object-fit: contain;
+  }
+  .no-rematch {
+    color: var(--muted);
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  .phone-table td.special {
+    white-space: normal;
+    min-width: 220px;
+  }
+  .item-row {
+    display: inline-flex;
+    gap: 4px;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+  .item-icon {
+    width: 24px;
+    height: 24px;
+    image-rendering: pixelated;
+    object-fit: contain;
+  }
+  .note {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 4px;
+    white-space: normal;
+  }
+  .notes {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  .notes li {
+    margin: 6px 0;
+  }
+</style>

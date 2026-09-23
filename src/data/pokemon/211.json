@@ -1,0 +1,186 @@
+{
+  "id": 211,
+  "nameEn": "qwilfish",
+  "nameZh": "千针鱼",
+  "genusZh": "气球宝可梦",
+  "johtoDex": 161,
+  "types": [
+    "water",
+    "poison"
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 85,
+    "special-attack": 55,
+    "special-defense": 55,
+    "speed": 85
+  },
+  "height": 5,
+  "weight": 39,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "water2"
+  ],
+  "growthRate": "medium",
+  "flavorText": "When faced with a larger opponent, it swallows as much water as it can to match the opponent's size.",
+  "evolutionChainId": 106,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "poison-sting"
+      },
+      {
+        "level": 1,
+        "move": "spikes"
+      },
+      {
+        "level": 1,
+        "move": "tackle"
+      },
+      {
+        "level": 10,
+        "move": "harden"
+      },
+      {
+        "level": 10,
+        "move": "minimize"
+      },
+      {
+        "level": 19,
+        "move": "water-gun"
+      },
+      {
+        "level": 28,
+        "move": "pin-missile"
+      },
+      {
+        "level": 37,
+        "move": "take-down"
+      },
+      {
+        "level": 46,
+        "move": "hydro-pump"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "defense-curl",
+        "tm": "TM40"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "rollout",
+        "tm": "TM04"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "sludge-bomb",
+        "tm": "TM36"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "bubble-beam"
+      },
+      {
+        "move": "flail"
+      },
+      {
+        "move": "haze"
+      },
+      {
+        "move": "supersonic"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}

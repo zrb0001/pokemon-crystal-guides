@@ -1,0 +1,51 @@
+{
+  "id": 202,
+  "nameEn": "wobbuffet",
+  "nameZh": "果然翁",
+  "genusZh": "忍耐宝可梦",
+  "johtoDex": 107,
+  "types": [
+    "psychic"
+  ],
+  "stats": {
+    "hp": 190,
+    "attack": 33,
+    "defense": 58,
+    "special-attack": 33,
+    "special-defense": 58,
+    "speed": 33
+  },
+  "height": 13,
+  "weight": 285,
+  "captureRate": 45,
+  "genderRate": 4,
+  "eggGroups": [
+    "indeterminate"
+  ],
+  "growthRate": "medium",
+  "flavorText": "In order to con­ ceal its black tail, it lives in a dark cave and only moves about at night.",
+  "evolutionChainId": 100,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "counter"
+      },
+      {
+        "level": 1,
+        "move": "destiny-bond"
+      },
+      {
+        "level": 1,
+        "move": "mirror-coat"
+      },
+      {
+        "level": 1,
+        "move": "safeguard"
+      }
+    ],
+    "machine": [],
+    "egg": [],
+    "tutor": []
+  }
+}

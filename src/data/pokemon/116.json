@@ -1,0 +1,176 @@
+{
+  "id": 116,
+  "nameEn": "horsea",
+  "nameZh": "墨海马",
+  "genusZh": "龙宝可梦",
+  "johtoDex": 186,
+  "types": [
+    "water"
+  ],
+  "stats": {
+    "hp": 30,
+    "attack": 40,
+    "defense": 70,
+    "special-attack": 70,
+    "special-defense": 25,
+    "speed": 60
+  },
+  "height": 4,
+  "weight": 80,
+  "captureRate": 225,
+  "genderRate": 4,
+  "eggGroups": [
+    "water1",
+    "dragon"
+  ],
+  "growthRate": "medium",
+  "flavorText": "When they're in a safe location, they can be seen playfully tangling their tails together.",
+  "evolutionChainId": 54,
+  "learnset": {
+    "levelUp": [
+      {
+        "level": 1,
+        "move": "bubble"
+      },
+      {
+        "level": 8,
+        "move": "smokescreen"
+      },
+      {
+        "level": 15,
+        "move": "leer"
+      },
+      {
+        "level": 22,
+        "move": "water-gun"
+      },
+      {
+        "level": 29,
+        "move": "twister"
+      },
+      {
+        "level": 36,
+        "move": "agility"
+      },
+      {
+        "level": 43,
+        "move": "hydro-pump"
+      }
+    ],
+    "machine": [
+      {
+        "move": "attract",
+        "tm": "TM45"
+      },
+      {
+        "move": "blizzard",
+        "tm": "TM14"
+      },
+      {
+        "move": "curse",
+        "tm": "TM03"
+      },
+      {
+        "move": "double-team",
+        "tm": "TM32"
+      },
+      {
+        "move": "dragon-breath",
+        "tm": "TM24"
+      },
+      {
+        "move": "endure",
+        "tm": "TM20"
+      },
+      {
+        "move": "frustration",
+        "tm": "TM21"
+      },
+      {
+        "move": "headbutt",
+        "tm": "TM02"
+      },
+      {
+        "move": "hidden-power",
+        "tm": "TM10"
+      },
+      {
+        "move": "icy-wind",
+        "tm": "TM16"
+      },
+      {
+        "move": "protect",
+        "tm": "TM17"
+      },
+      {
+        "move": "rain-dance",
+        "tm": "TM18"
+      },
+      {
+        "move": "rest",
+        "tm": "TM44"
+      },
+      {
+        "move": "return",
+        "tm": "TM27"
+      },
+      {
+        "move": "sleep-talk",
+        "tm": "TM35"
+      },
+      {
+        "move": "snore",
+        "tm": "TM13"
+      },
+      {
+        "move": "surf",
+        "tm": "HM03"
+      },
+      {
+        "move": "swagger",
+        "tm": "TM34"
+      },
+      {
+        "move": "swift",
+        "tm": "TM39"
+      },
+      {
+        "move": "toxic",
+        "tm": "TM06"
+      },
+      {
+        "move": "waterfall",
+        "tm": "HM07"
+      },
+      {
+        "move": "whirlpool",
+        "tm": "HM06"
+      }
+    ],
+    "egg": [
+      {
+        "move": "aurora-beam"
+      },
+      {
+        "move": "disable"
+      },
+      {
+        "move": "dragon-rage"
+      },
+      {
+        "move": "flail"
+      },
+      {
+        "move": "octazooka"
+      },
+      {
+        "move": "splash"
+      }
+    ],
+    "tutor": [
+      {
+        "move": "ice-beam"
+      }
+    ]
+  }
+}
