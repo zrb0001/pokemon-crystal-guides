@@ -1,0 +1,265 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Toc from '../../components/Toc.astro';
+import TypeBadge from '../../components/TypeBadge.astro';
+import { getPokemon, getMoveById } from '../../lib/data';
+
+interface TeamMember {
+  id: number;
+  lv: number;
+  moves: number[];
+}
+
+interface Elite {
+  nameZh: string;
+  nameEn: string;
+  nameJa: string;
+  title: string;
+  type: string;
+  note?: string;
+  team: TeamMember[];
+}
+
+// 数据来源：pokecrystal 反汇编（data/trainers/parties.asm 的
+// WillGroup / KogaGroup / BrunoGroup / KarenGroup / ChampionGroup）。
+const elites: Elite[] = [
+  {
+    nameZh: '一树', nameEn: 'Will', nameJa: 'イツキ',
+    title: '四天王 · 第一人',
+    type: 'psychic',
+    note: '开场天然雀的预知未来要两回合后才结算伤害，别被打个措手不及；全员都带精神强念，呆壳兽会用诅咒强化后用泰山压顶输出。',
+    team: [
+      { id: 178, lv: 40, moves: [98, 248, 109, 94] },
+      { id: 124, lv: 41, moves: [3, 142, 8, 94] },
+      { id: 103, lv: 41, moves: [115, 73, 121, 94] },
+      { id: 80, lv: 41, moves: [174, 133, 34, 94] },
+      { id: 178, lv: 42, moves: [98, 248, 109, 94] },
+    ],
+  },
+  {
+    nameZh: '阿桔', nameEn: 'Koga', nameJa: 'キョウ',
+    title: '四天王 · 第二人',
+    type: 'poison',
+    note: '原浅红市馆主。阿利多斯的蛛网会阻止你换人，还会用接棒把影子分身的闪避强化传给后排；佛烈托斯会大爆炸，臭臭泥则靠缩小+剧毒打消耗战。',
+    team: [
+      { id: 168, lv: 40, moves: [104, 169, 226, 202] },
+      { id: 49, lv: 41, moves: [48, 16, 94, 92] },
+      { id: 205, lv: 43, moves: [182, 129, 153, 191] },
+      { id: 89, lv: 42, moves: [107, 151, 188, 92] },
+      { id: 169, lv: 44, moves: [104, 98, 17, 92] },
+    ],
+  },
+  {
+    nameZh: '希巴', nameEn: 'Bruno', nameJa: 'シバ',
+    title: '四天王 · 第三人',
+    type: 'fighting',
+    note: '战舞郎会挖地洞拖回合，飞腿郎的虚张声势让对手混乱的同时还会抬高其攻击；沙瓦郎带齐雷/冰/火三属性拳补盲；怪力的十字劈容易击中要害。第二世代格斗是物理属性，用高防御的飞行/超能力系应对最稳。',
+    team: [
+      { id: 237, lv: 42, moves: [228, 98, 91, 197] },
+      { id: 106, lv: 42, moves: [207, 24, 136, 193] },
+      { id: 107, lv: 42, moves: [9, 8, 7, 183] },
+      { id: 95, lv: 43, moves: [20, 89, 201, 157] },
+      { id: 68, lv: 46, moves: [157, 193, 233, 238] },
+    ],
+  },
+  {
+    nameZh: '梨花', nameEn: 'Karen', nameJa: 'カリン',
+    title: '四天王 · 第四人',
+    type: 'dark',
+    note: '第二世代恶属性招式全是特殊攻击。月伊布用黑色目光锁住对手后靠奇异之光+出奇一击磨血；耿鬼濒死时会用同命拉你垫背；黑暗鸦会吹飞强行换人；黑鲁加的咬碎能重创超能力和幽灵系。',
+    team: [
+      { id: 197, lv: 42, moves: [28, 109, 185, 212] },
+      { id: 45, lv: 42, moves: [78, 51, 236, 80] },
+      { id: 94, lv: 45, moves: [122, 180, 174, 194] },
+      { id: 198, lv: 44, moves: [98, 18, 228, 185] },
+      { id: 229, lv: 47, moves: [46, 228, 53, 242] },
+    ],
+  },
+  {
+    nameZh: '阿渡', nameEn: 'Lance', nameJa: 'ワタル',
+    title: '联盟冠军',
+    type: 'dragon',
+    note: '三只快龙全员破坏光线，收尾的 Lv50 快龙还会逆鳞+神秘守护防异常、大字爆炎补盲冰系；化石翼龙和喷火龙提供岩石/火属性打击面。冰属性招式四倍克制快龙，是最有效的武器。',
+    team: [
+      { id: 130, lv: 44, moves: [175, 240, 57, 63] },
+      { id: 149, lv: 47, moves: [86, 239, 87, 63] },
+      { id: 149, lv: 47, moves: [86, 239, 59, 63] },
+      { id: 142, lv: 46, moves: [17, 246, 157, 63] },
+      { id: 6, lv: 46, moves: [53, 17, 163, 63] },
+      { id: 149, lv: 50, moves: [126, 219, 200, 63] },
+    ],
+  },
+];
+
+const poke = (id: number) => getPokemon(id)!;
+const move = (id: number) => getMoveById(id)!;
+---
+
+<Layout
+  title="四天王与冠军对战数据"
+  description="宝可梦水晶版石英高原四天王（一树/阿桔/希巴/梨花）与冠军阿渡的队伍、等级、招式配置一览"
+>
+  <h1>四天王与冠军对战数据</h1>
+
+  <Toc
+    items={[
+      { id: 'intro', label: '挑战机制' },
+      { id: 'will', label: '一树（超能力）' },
+      { id: 'koga', label: '阿桔（毒）' },
+      { id: 'bruno', label: '希巴（格斗）' },
+      { id: 'karen', label: '梨花（恶）' },
+      { id: 'lance', label: '冠军阿渡（龙）' },
+      { id: 'notes', label: '补充说明' },
+    ]}
+  >
+  <section class="panel" id="intro">
+    <p style="margin: 0">
+      集齐城都 8 枚徽章后，从 27/26 号道路穿过<strong>冠军之路</strong>抵达<strong>石英高原</strong>，
+      即可挑战宝可梦联盟。四天王与冠军必须<strong>连战五场、中途无法离开</strong>（战败即从头再来），
+      但每场之间可以自由使用背包里的回复道具、调整队伍顺序——出发前请带足全满药、全复药与复活道具。
+      对方每人固定 5 只（冠军 6 只），首发固定为表中第一只。以下数据以水晶版反汇编（pokecrystal）为准；
+      宝可梦按出场顺序排列，点击宝可梦/招式可跳转对应详情页。
+    </p>
+  </section>
+
+  {
+    elites.map((e) => (
+      <section class="panel gym" id={e.nameEn.toLowerCase()}>
+        <div class="gym-head">
+          <h3>
+            <span class="gym-no">{e.title}</span>
+            {e.nameZh}
+          </h3>
+          <div class="gym-meta">
+            <span>擅长 <TypeBadge type={e.type} /></span>
+            <span class="note">日版 {e.nameJa} · 美版 {e.nameEn}</span>
+          </div>
+        </div>
+        <div class="team">
+          {e.team.map((m) => (
+            <div class="member">
+              <a class="member-head" href={`/pokemon/${m.id}/`}>
+                <img src={`/sprites/normal/${m.id}.png`} alt={poke(m.id).nameZh ?? ''} />
+                <span>
+                  {poke(m.id).nameZh} <em>Lv{m.lv}</em>
+                </span>
+              </a>
+              <ul class="moves">
+                {m.moves.map((mv) => (
+                  <li>
+                    <TypeBadge type={move(mv).type} />
+                    <a href={`/moves/${mv}/`}>{move(mv).nameZh}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+        {e.note && <p class="gym-note">{e.note}</p>}
+      </section>
+    ))
+  }
+
+  <section class="panel" id="notes">
+    <h2>补充说明</h2>
+    <ul class="notes">
+      <li>战胜阿渡后进入<strong>名人堂</strong>登记，随后播放通关字幕；之后从浅葱市乘水流号前往枯叶市，解锁整个关都地区，集齐 16 枚徽章后可进白银山挑战赤红。</li>
+      <li>四天王与冠军的宝可梦均不携带道具，但他们的 AI 会在濒血时使用全满药等回复道具（阿渡尤其频繁），别指望磨血战术轻松过关。</li>
+      <li>等级建议：队伍平均 45 级以上再进联盟比较从容；阿渡的 Lv50 快龙是剧情流程中等级最高的固定战斗（不含白银山赤红的 70+ 队伍）。</li>
+      <li>第二世代物理/特殊按属性划分：一树的超能力、梨花的恶、阿渡的龙都是特殊攻击；希巴的格斗、阿桔的毒是物理攻击。挑盾牌时要分清物防和特防。</li>
+      <li>战胜四天王后，劲敌小银会在每周一/周三出现在石英高原宝可梦中心门口接受再战（详见「电话约战 NPC 一览」页的补充说明）。</li>
+    </ul>
+  </section>
+  </Toc>
+</Layout>
+
+<style>
+  .gym {
+    margin-bottom: 14px;
+  }
+  .gym-head h3 {
+    margin: 0 0 6px;
+    font-size: 17px;
+  }
+  .gym-no {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 2px 8px;
+    margin-right: 8px;
+    vertical-align: 2px;
+  }
+  .gym-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+    font-size: 13px;
+    color: var(--muted);
+    align-items: center;
+  }
+  .team {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 14px;
+  }
+  .member {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 10px 12px;
+    background: var(--bg);
+  }
+  .member-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--text);
+    font-size: 14px;
+  }
+  .member-head:hover {
+    color: var(--accent);
+  }
+  .member-head img {
+    width: 44px;
+    height: 44px;
+    image-rendering: pixelated;
+    object-fit: contain;
+  }
+  .member-head em {
+    font-style: normal;
+    color: var(--muted);
+    font-size: 12px;
+  }
+  .moves {
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+    font-size: 13px;
+  }
+  .moves li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 3px 0;
+  }
+  .gym-note {
+    margin: 12px 0 0;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .note {
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .notes {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  .notes li {
+    margin: 6px 0;
+  }
+</style>

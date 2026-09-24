@@ -1,0 +1,478 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Toc from '../../components/Toc.astro';
+import TypeBadge from '../../components/TypeBadge.astro';
+import { getPokemon, getMoveById } from '../../lib/data';
+
+interface TeamMember {
+  id: number;
+  lv: number;
+  moves: number[];
+}
+
+interface Gym {
+  city: string;
+  leaderZh: string;
+  leaderEn: string;
+  leaderJa: string;
+  type: string;
+  badge: string;
+  badgeEn: string;
+  tm: { num: string; moveId: number } | null;
+  note?: string;
+  team: TeamMember[];
+}
+
+// 数据来源：pokecrystal 反汇编（data/trainers/parties.asm、各地图脚本）。
+// TM 奖励以各道馆地图脚本的 verbosegiveitem 为准；小椿的 TM24 在龙穴发放。
+const johto: Gym[] = [
+  {
+    city: '桔梗市',
+    leaderZh: '阿速', leaderEn: 'Falkner', leaderJa: 'ハヤト',
+    type: 'flying',
+    badge: '飞翼徽章', badgeEn: 'Zephyr Badge',
+    tm: { num: '31', moveId: 189 },
+    team: [
+      { id: 16, lv: 7, moves: [33, 189] },
+      { id: 17, lv: 9, moves: [33, 189, 16] },
+    ],
+  },
+  {
+    city: '桧皮镇',
+    leaderZh: '阿笔', leaderEn: 'Bugsy', leaderJa: 'ツクシ',
+    type: 'bug',
+    badge: '昆虫徽章', badgeEn: 'Hive Badge',
+    tm: { num: '49', moveId: 210 },
+    team: [
+      { id: 11, lv: 14, moves: [33, 81, 106] },
+      { id: 14, lv: 14, moves: [40, 81, 106] },
+      { id: 123, lv: 16, moves: [98, 43, 210] },
+    ],
+  },
+  {
+    city: '满金市',
+    leaderZh: '小茜', leaderEn: 'Whitney', leaderJa: 'アカネ',
+    type: 'normal',
+    badge: '标准徽章', badgeEn: 'Plain Badge',
+    tm: { num: '45', moveId: 213 },
+    note: '新人杀手：大奶罐的滚动每回合威力翻倍，配合着迷（异性无法行动）和牛奶饮回复，建议用格斗招式或催眠/麻痹速战速决。',
+    team: [
+      { id: 35, lv: 18, moves: [3, 102, 227, 118] },
+      { id: 241, lv: 20, moves: [205, 213, 23, 208] },
+    ],
+  },
+  {
+    city: '圆朱市',
+    leaderZh: '松叶', leaderEn: 'Morty', leaderJa: 'マツバ',
+    type: 'ghost',
+    badge: '魅影徽章', badgeEn: 'Fog Badge',
+    tm: { num: '30', moveId: 247 },
+    note: '唯一带 4 只的城都馆主。幽灵属性在第二世代是物理攻击，一般属性招式完全无效；耿鬼的催眠术+食梦组合威胁很大。',
+    team: [
+      { id: 92, lv: 21, moves: [122, 180, 212, 174] },
+      { id: 93, lv: 21, moves: [95, 102, 174, 101] },
+      { id: 94, lv: 25, moves: [95, 247, 212, 138] },
+      { id: 93, lv: 23, moves: [180, 212, 102, 101] },
+    ],
+  },
+  {
+    city: '湛蓝市',
+    leaderZh: '阿四', leaderEn: 'Chuck', leaderJa: 'シジマ',
+    type: 'fighting',
+    badge: '打击徽章', badgeEn: 'Storm Badge',
+    tm: { num: '01', moveId: 223 },
+    note: '快泳蛙的催眠术+心之眼+爆裂拳是必杀连招：心之眼后爆裂拳必中，命中即混乱。馆主房间里要先推动机关放水。',
+    team: [
+      { id: 57, lv: 27, moves: [43, 99, 2, 154] },
+      { id: 62, lv: 30, moves: [95, 170, 57, 223] },
+    ],
+  },
+  {
+    city: '浅葱市',
+    leaderZh: '阿蜜', leaderEn: 'Jasmine', leaderJa: 'ミカン',
+    type: 'steel',
+    badge: '钢铁徽章', badgeEn: 'Mineral Badge',
+    tm: { num: '23', moveId: 231 },
+    note: '首次挑战前要先去灯塔顶层帮她取药。大钢蛇会大晴天+岩石爆破（第二世代岩石是物理，克制火属性），别指望用火系硬推。',
+    team: [
+      { id: 81, lv: 30, moves: [85, 48, 49, 86] },
+      { id: 81, lv: 30, moves: [85, 48, 49, 86] },
+      { id: 208, lv: 35, moves: [103, 241, 88, 231] },
+    ],
+  },
+  {
+    city: '卡吉镇',
+    leaderZh: '柳伯', leaderEn: 'Pryce', leaderJa: 'ヤナギ',
+    type: 'ice',
+    badge: '冰冻徽章', badgeEn: 'Glacier Badge',
+    tm: { num: '16', moveId: 196 },
+    team: [
+      { id: 86, lv: 27, moves: [29, 196, 62, 156] },
+      { id: 87, lv: 29, moves: [29, 196, 62, 156] },
+      { id: 221, lv: 31, moves: [196, 31, 54, 59] },
+    ],
+  },
+  {
+    city: '烟墨市',
+    leaderZh: '小椿', leaderEn: 'Clair', leaderJa: 'イブキ',
+    type: 'dragon',
+    badge: '升龙徽章', badgeEn: 'Rising Badge',
+    tm: { num: '24', moveId: 225 },
+    note: '战败后她拒绝交出徽章：须进入道馆后方的龙穴通过长老的考验，她才会赶来发放徽章和 TM24 龙息（水晶版存在可领取两次的 BUG）。三只哈克龙分别以冲浪/十万伏特/冰冻光束补盲，王牌是刺龙王。',
+    team: [
+      { id: 148, lv: 37, moves: [86, 57, 21, 225] },
+      { id: 148, lv: 37, moves: [86, 85, 21, 225] },
+      { id: 148, lv: 37, moves: [86, 58, 21, 225] },
+      { id: 230, lv: 40, moves: [108, 57, 63, 225] },
+    ],
+  },
+];
+
+const kanto: Gym[] = [
+  {
+    city: '深灰市',
+    leaderZh: '小刚', leaderEn: 'Brock', leaderJa: 'タケシ',
+    type: 'rock',
+    badge: '灰色徽章', badgeEn: 'Boulder Badge',
+    tm: null,
+    team: [
+      { id: 75, lv: 41, moves: [111, 157, 205, 89] },
+      { id: 111, lv: 41, moves: [31, 184, 89, 32] },
+      { id: 139, lv: 42, moves: [44, 57, 182, 131] },
+      { id: 95, lv: 44, moves: [20, 157, 117, 201] },
+      { id: 141, lv: 42, moves: [163, 57, 203, 202] },
+    ],
+  },
+  {
+    city: '华蓝市',
+    leaderZh: '小霞', leaderEn: 'Misty', leaderJa: 'カスミ',
+    type: 'water',
+    badge: '蓝色徽章', badgeEn: 'Cascade Badge',
+    tm: null,
+    note: '首次到访时她不在道馆：要先解决无人发电厂事件，再去 25 号道路尽头打断她的约会。',
+    team: [
+      { id: 55, lv: 42, moves: [57, 50, 244, 94] },
+      { id: 195, lv: 42, moves: [57, 133, 89, 240] },
+      { id: 131, lv: 44, moves: [57, 195, 59, 240] },
+      { id: 121, lv: 47, moves: [57, 109, 105, 58] },
+    ],
+  },
+  {
+    city: '枯叶市',
+    leaderZh: '马志士', leaderEn: 'Lt. Surge', leaderJa: 'マチス',
+    type: 'electric',
+    badge: '橙色徽章', badgeEn: 'Thunder Badge',
+    tm: null,
+    note: '机关与第一世代相同：在垃圾桶里连找两个开关。两只顽皮弹都会大爆炸，注意血量。',
+    team: [
+      { id: 26, lv: 44, moves: [86, 98, 85, 87] },
+      { id: 101, lv: 40, moves: [103, 104, 129, 153] },
+      { id: 82, lv: 40, moves: [199, 104, 129, 192] },
+      { id: 101, lv: 40, moves: [103, 104, 129, 153] },
+      { id: 125, lv: 46, moves: [98, 9, 113, 87] },
+    ],
+  },
+  {
+    city: '玉虹市',
+    leaderZh: '莉佳', leaderEn: 'Erika', leaderJa: 'エリカ',
+    type: 'grass',
+    badge: '彩虹徽章', badgeEn: 'Rainbow Badge',
+    tm: { num: '19', moveId: 202 },
+    team: [
+      { id: 114, lv: 42, moves: [22, 20, 202, 79] },
+      { id: 189, lv: 41, moves: [72, 73, 178, 202] },
+      { id: 71, lv: 46, moves: [241, 235, 51, 75] },
+      { id: 182, lv: 46, moves: [241, 235, 80, 76] },
+    ],
+  },
+  {
+    city: '浅红市',
+    leaderZh: '阿杏', leaderEn: 'Janine', leaderJa: 'アンズ',
+    type: 'poison',
+    badge: '粉红徽章', badgeEn: 'Soul Badge',
+    tm: { num: '06', moveId: 92 },
+    note: '阿桔升任四天王后由女儿阿杏接任。道馆里的忍者全都伪装成她的样子，真身在最里面。两只双弹瓦斯都会大爆炸。',
+    team: [
+      { id: 169, lv: 36, moves: [103, 48, 109, 17] },
+      { id: 110, lv: 36, moves: [123, 188, 92, 153] },
+      { id: 110, lv: 36, moves: [123, 188, 92, 153] },
+      { id: 168, lv: 33, moves: [184, 202, 81, 101] },
+      { id: 49, lv: 39, moves: [193, 104, 16, 94] },
+    ],
+  },
+  {
+    city: '金黄市',
+    leaderZh: '娜姿', leaderEn: 'Sabrina', leaderJa: 'ナツメ',
+    type: 'psychic',
+    badge: '金色徽章', badgeEn: 'Marsh Badge',
+    tm: null,
+    team: [
+      { id: 196, lv: 46, moves: [28, 98, 129, 94] },
+      { id: 122, lv: 46, moves: [112, 115, 226, 94] },
+      { id: 65, lv: 48, moves: [105, 248, 94, 115] },
+    ],
+  },
+  {
+    city: '双子岛',
+    leaderZh: '夏伯', leaderEn: 'Blaine', leaderJa: 'カツラ',
+    type: 'fire',
+    badge: '深红徽章', badgeEn: 'Volcano Badge',
+    tm: null,
+    note: '红莲镇火山喷发后道馆迁到双子岛。第二世代火属性招式全是特殊攻击，烈焰马的火焰旋涡会束缚住对手。',
+    team: [
+      { id: 219, lv: 45, moves: [174, 123, 53, 157] },
+      { id: 126, lv: 45, moves: [9, 7, 241, 109] },
+      { id: 78, lv: 50, moves: [98, 83, 31, 126] },
+    ],
+  },
+  {
+    city: '常青市',
+    leaderZh: '青绿', leaderEn: 'Blue', leaderJa: 'グリーン',
+    type: '',
+    badge: '绿色徽章', badgeEn: 'Earth Badge',
+    tm: null,
+    note: '前冠军，无固定擅长属性，队伍均衡且等级远超其他馆主。首次到访时他不在，要先去枯叶市的宝可梦发烧友俱乐部找他。风速狗会第二世代专属的神速。',
+    team: [
+      { id: 18, lv: 56, moves: [98, 18, 17, 119] },
+      { id: 65, lv: 54, moves: [50, 105, 94, 115] },
+      { id: 112, lv: 56, moves: [31, 201, 157, 89] },
+      { id: 130, lv: 58, moves: [239, 56, 240, 63] },
+      { id: 103, lv: 58, moves: [241, 73, 121, 76] },
+      { id: 59, lv: 58, moves: [46, 129, 53, 245] },
+    ],
+  },
+];
+
+const poke = (id: number) => getPokemon(id)!;
+const move = (id: number) => getMoveById(id)!;
+---
+
+<Layout
+  title="道馆馆主对战数据"
+  description="宝可梦水晶版全部 16 位道馆馆主（城都 8 + 关都 8）的队伍、等级、招式配置、徽章与 TM 奖励一览"
+>
+  <h1>道馆馆主对战数据（全 16 馆）</h1>
+
+  <Toc
+    items={[
+      { id: 'intro', label: '说明' },
+      { id: 'johto', label: '城都道馆（8）' },
+      { id: 'kanto', label: '关都道馆（8）' },
+      { id: 'notes', label: '补充说明' },
+    ]}
+  >
+  <section class="panel" id="intro">
+    <p style="margin: 0">
+      水晶版共有 <strong>16</strong> 座道馆：先在城都地区集齐 8 枚徽章、在石英高原战胜四天王成为冠军后，
+      乘水流号前往关都，再挑战另外 8 座道馆；集齐 16 枚徽章后才有资格进入白银山挑战赤红。
+      以下队伍、等级与招式均以水晶版反汇编（pokecrystal）为准，与金银存在差异（如松叶多一只鬼斯通、阿杏队伍不同）。
+      宝可梦按出场顺序排列，点击宝可梦/招式可跳转对应详情页。
+    </p>
+  </section>
+
+  <h2 id="johto">城都道馆</h2>
+  {
+    johto.map((g, i) => (
+      <section class="panel gym">
+        <div class="gym-head">
+          <h3>
+            <span class="gym-no">第 {i + 1} 馆</span>
+            {g.city}道馆 · {g.leaderZh}
+          </h3>
+          <div class="gym-meta">
+            <span>擅长 {g.type ? <TypeBadge type={g.type} /> : '—'}</span>
+            <span>徽章：{g.badge}（{g.badgeEn}）</span>
+            <span>
+              奖励：
+              {g.tm ? (
+                <a href={`/moves/${g.tm.moveId}/`}>
+                  TM{g.tm.num} {move(g.tm.moveId).nameZh}
+                </a>
+              ) : (
+                '无 TM'
+              )}
+            </span>
+            <span class="note">日版 {g.leaderJa} · 美版 {g.leaderEn}</span>
+          </div>
+        </div>
+        <div class="team">
+          {g.team.map((m) => (
+            <div class="member">
+              <a class="member-head" href={`/pokemon/${m.id}/`}>
+                <img src={`/sprites/normal/${m.id}.png`} alt={poke(m.id).nameZh ?? ''} />
+                <span>
+                  {poke(m.id).nameZh} <em>Lv{m.lv}</em>
+                </span>
+              </a>
+              <ul class="moves">
+                {m.moves.map((mv) => (
+                  <li>
+                    <TypeBadge type={move(mv).type} />
+                    <a href={`/moves/${mv}/`}>{move(mv).nameZh}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+        {g.note && <p class="gym-note">{g.note}</p>}
+      </section>
+    ))
+  }
+
+  <h2 id="kanto">关都道馆（通关后）</h2>
+  {
+    kanto.map((g, i) => (
+      <section class="panel gym">
+        <div class="gym-head">
+          <h3>
+            <span class="gym-no">第 {i + 9} 馆</span>
+            {g.city}道馆 · {g.leaderZh}
+          </h3>
+          <div class="gym-meta">
+            <span>擅长 {g.type ? <TypeBadge type={g.type} /> : '无固定属性'}</span>
+            <span>徽章：{g.badge}（{g.badgeEn}）</span>
+            <span>
+              奖励：
+              {g.tm ? (
+                <a href={`/moves/${g.tm.moveId}/`}>
+                  TM{g.tm.num} {move(g.tm.moveId).nameZh}
+                </a>
+              ) : (
+                '无 TM'
+              )}
+            </span>
+            <span class="note">日版 {g.leaderJa} · 美版 {g.leaderEn}</span>
+          </div>
+        </div>
+        <div class="team">
+          {g.team.map((m) => (
+            <div class="member">
+              <a class="member-head" href={`/pokemon/${m.id}/`}>
+                <img src={`/sprites/normal/${m.id}.png`} alt={poke(m.id).nameZh ?? ''} />
+                <span>
+                  {poke(m.id).nameZh} <em>Lv{m.lv}</em>
+                </span>
+              </a>
+              <ul class="moves">
+                {m.moves.map((mv) => (
+                  <li>
+                    <TypeBadge type={move(mv).type} />
+                    <a href={`/moves/${mv}/`}>{move(mv).nameZh}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+        {g.note && <p class="gym-note">{g.note}</p>}
+      </section>
+    ))
+  }
+
+  <section class="panel" id="notes">
+    <h2>补充说明</h2>
+    <ul class="notes">
+      <li>馆主的宝可梦均不携带道具；招式按水晶版实际数据列出（如撞击在第二世代威力为 35，与后代不同）。</li>
+      <li>城都 8 馆全部赠送 TM；关都只有莉佳（TM19 终极吸取）和阿杏（TM06 剧毒）赠送 TM，其余 6 馆只给徽章。</li>
+      <li>集齐 8 枚城都徽章后，交换来的宝可梦无论等级都会听话；关都徽章不再影响听话判定。</li>
+      <li>第二世代没有特性和性格，物理/特殊按属性划分：阿速的飞行、松叶的幽灵、小茜的一般都是物理攻击，小霞的水、娜姿的超能力是特殊攻击，以此类推。</li>
+      <li>馆主不能使用道具回复，但 AI 会优先使用克制招式；等级压制是最稳妥的策略，最容易翻车的是小茜的大奶罐。</li>
+    </ul>
+  </section>
+  </Toc>
+</Layout>
+
+<style>
+  h2 {
+    margin: 28px 0 12px;
+  }
+  .gym {
+    margin-bottom: 14px;
+  }
+  .gym-head h3 {
+    margin: 0 0 6px;
+    font-size: 17px;
+  }
+  .gym-no {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 2px 8px;
+    margin-right: 8px;
+    vertical-align: 2px;
+  }
+  .gym-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+    font-size: 13px;
+    color: var(--muted);
+    align-items: center;
+  }
+  .team {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 14px;
+  }
+  .member {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 10px 12px;
+    background: var(--bg);
+  }
+  .member-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--text);
+    font-size: 14px;
+  }
+  .member-head:hover {
+    color: var(--accent);
+  }
+  .member-head img {
+    width: 44px;
+    height: 44px;
+    image-rendering: pixelated;
+    object-fit: contain;
+  }
+  .member-head em {
+    font-style: normal;
+    color: var(--muted);
+    font-size: 12px;
+  }
+  .moves {
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+    font-size: 13px;
+  }
+  .moves li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 3px 0;
+  }
+  .gym-note {
+    margin: 12px 0 0;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .note {
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .notes {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  .notes li {
+    margin: 6px 0;
+  }
+</style>

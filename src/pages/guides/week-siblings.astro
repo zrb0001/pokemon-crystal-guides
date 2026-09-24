@@ -51,7 +51,7 @@ const siblings: Sibling[] = [
     day: '星期五',
     name: 'Frieda',
     location: '32 号道路',
-    position: '道路南段宝可梦中心（连通洞窟入口旁）北面的树丛之间。',
+    position: '道路南段宝可梦中心（连接洞窟入口旁）北面的树丛之间。',
     itemName: 'poison-barb',
     boostType: '毒',
   },
@@ -73,10 +73,16 @@ const siblings: Sibling[] = [
   },
 ];
 
-// 英文名 → 中文名（水晶版无官方中译，本站自译）
+// 英文名 → 中文名（按日版原名翻译；水晶版无官方中译，本站自译）
 const NAME_ZH: Record<string, string> = {
-  Monica: '莫妮卡', Tuscany: '托斯卡妮', Wesley: '韦斯利', Arthur: '亚瑟',
-  Frieda: '弗丽达', Santos: '桑托斯', Sunny: '桑妮',
+  Monica: '月子', Tuscany: '火子', Wesley: '水夫', Arthur: '木夫',
+  Frieda: '金子', Santos: '土夫', Sunny: '日夫',
+};
+
+// 英文名 → 日版原名
+const NAME_JA: Record<string, string> = {
+  Monica: 'ツキコ', Tuscany: 'ヒコ', Wesley: 'ミズオ', Arthur: 'モクオ',
+  Frieda: 'カネコ', Santos: 'ツチオ', Sunny: 'ニチオ',
 };
 
 const item = (name: string) => getItem(name)!;
@@ -94,11 +100,12 @@ const item = (name: string) => getItem(name)!;
   >
   <section class="panel" id="mechanism">
     <p style="margin: 0">
-      星期家族（Week Siblings）是散落城都各地的七姐弟，每人只在<strong>每周固定的星期几</strong>出现
+      星期家族（日版称「曜日兄弟」，英文 Week Siblings）是散落城都各地的七姐弟，每人只在<strong>每周固定的星期几</strong>出现
       （按游戏内时钟判定，当天全天都在）。第一次见面会赠送一个<strong>属性强化携带道具</strong>，
       携带后对应属性招式威力提升 <strong>10%</strong>；每件道具每个存档只能获得一次。
-      他们的家在 26 号道路，屋内的便条写着全员的出没日程。七人的名字都与对应的星期谐音
-      （莫妮卡 Monica = Monday 等）；水晶版没有官方中文版，人名均为本站自译，英文原名附在中文名下方。
+      他们的家在 26 号道路，屋内的便条写着全员的出没日程。七人的名字都取自日语中星期的叫法
+      （月曜日〜日曜日的首字「月・火・水・木・金・土・日」，如周一的月子 = ツキコ）；
+      水晶版没有官方中文版，人名按日版原名译成中文，日版/美版原名附在中文名下方。
     </p>
   </section>
 
@@ -123,7 +130,7 @@ const item = (name: string) => getItem(name)!;
                 <td>{s.day}</td>
                 <td>
                   {NAME_ZH[s.name] ?? s.name}
-                  <div class="note">{s.name}</div>
+                  <div class="note">日版 {NAME_JA[s.name] ?? ''} · 美版 {s.name}</div>
                 </td>
                 <td>{s.location}</td>
                 <td class="pos">
@@ -151,7 +158,7 @@ const item = (name: string) => getItem(name)!;
     <ul class="notes">
       <li>第二世代属性强化道具的加成是 <strong>10%</strong>（第四世代起才改为 20%），与本站道具数据库引用的后世代英文描述不同，以本页为准。</li>
       <li>送过道具之后，每周对应的日子仍能遇到本人，但只会打招呼，不会再送礼物。</li>
-      <li>七人中只有托斯卡妮有徽章门槛（飞翼徽章），其他人所在区域本身就要推进主线才能到达：愤怒之湖需经过 43 号道路，烟墨市需穿过冰雪小径。</li>
+      <li>七人中只有火子有徽章门槛（飞翼徽章），其他人所在区域本身就要推进主线才能到达：愤怒之湖需经过 43 号道路，烟墨市需穿过冰雪小径。</li>
       <li>Pink Bow（粉红缎带）无官方中文名，效果为一般属性招式威力提升 10%，是本作中该道具的唯一获取途径。</li>
     </ul>
   </section>

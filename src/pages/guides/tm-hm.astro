@@ -1,0 +1,241 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Toc from '../../components/Toc.astro';
+import TypeBadge from '../../components/TypeBadge.astro';
+import { getMove } from '../../lib/data';
+
+interface Machine {
+  no: string;
+  move: string;
+  obtain: string;
+  extra?: string;
+}
+
+// 数据来源：pokecrystal 反汇编（各地图脚本的 giveitem/itemball、
+// data/items/marts.asm、两所游戏角落的兑换脚本与 data/items/attributes.asm 的售价）。
+const tms: Machine[] = [
+  { no: 'TM01', move: 'dynamic-punch', obtain: '湛蓝道馆：战胜阿四后赠送' },
+  { no: 'TM02', move: 'headbutt', obtain: '桐树林：与入口附近的大叔对话赠送', extra: '拿到过它之后，满金百货店 5F 加售（¥2000，用掉可补货）' },
+  { no: 'TM03', move: 'curse', obtain: '玉虹大厦：屋顶小屋内与制药师对话赠送（仅夜晚）' },
+  { no: 'TM04', move: 'rollout', obtain: '35 号道路：草丛深处地上拾取' },
+  { no: 'TM05', move: 'roar', obtain: '32 号道路：与路边的钓客对话赠送' },
+  { no: 'TM06', move: 'toxic', obtain: '浅红道馆：战胜阿杏后赠送' },
+  { no: 'TM07', move: 'zap-cannon', obtain: '无人发电厂：归还机械零件、恢复关都供电后所长赠送' },
+  { no: 'TM08', move: 'rock-smash', obtain: '36 号道路：赶走胡说树后与路边的男子对话赠送', extra: '拿到过它之后，满金百货店 5F 加售（¥1000，用掉可补货）' },
+  { no: 'TM09', move: 'psych-up', obtain: '无法正常获得', extra: '水晶版游戏内没有任何来源；浅葱道馆里留有赠送 TM09 的未使用文本，属开发残留' },
+  { no: 'TM10', move: 'hidden-power', obtain: '愤怒之湖：西侧小屋的男子赠送', extra: '玉虹百货店 3F 有售（¥3000）' },
+  { no: 'TM11', move: 'sunny-day', obtain: '满金广播塔 3F：解决火箭队占领事件后女性精英赠送', extra: '玉虹百货店 3F 有售（¥2000）' },
+  { no: 'TM12', move: 'sweet-scent', obtain: '34 号道路桐树林闸门：与屋内的女性对话赠送' },
+  { no: 'TM13', move: 'snore', obtain: '哞哞牧场：治好生病的大奶罐后农妇赠送', extra: '黑暗洞窟（烟墨市一侧入口）地上拾取' },
+  { no: 'TM14', move: 'blizzard', obtain: '满金游戏角落：5500 代币兑换' },
+  { no: 'TM15', move: 'hyper-beam', obtain: '玉虹游戏角落奖品屋：7500 代币兑换' },
+  { no: 'TM16', move: 'icy-wind', obtain: '卡吉道馆：战胜柳伯后赠送' },
+  { no: 'TM17', move: 'protect', obtain: '玉虹百货店 3F 有售（¥3000）' },
+  { no: 'TM18', move: 'rain-dance', obtain: '呆呆兽之井最底层：地上拾取（需冲浪）', extra: '玉虹百货店 3F 有售（¥2000）' },
+  { no: 'TM19', move: 'giga-drain', obtain: '玉虹道馆：战胜莉佳后赠送' },
+  { no: 'TM20', move: 'endure', obtain: '烧焦塔地下 1 层：地上拾取（需碎岩）' },
+  { no: 'TM21', move: 'frustration', obtain: '满金百货店 5F：周日出现的接待员赠送（队首宝可梦亲密度低于 50）', extra: '与 TM27 二选一，每个存档只能拿一次' },
+  { no: 'TM22', move: 'solar-beam', obtain: '27 号道路：地上拾取（需冲浪）' },
+  { no: 'TM23', move: 'iron-tail', obtain: '浅葱道馆：战胜阿蜜后赠送' },
+  { no: 'TM24', move: 'dragon-breath', obtain: '烟墨道馆：通过龙穴剧情后小椿赠送', extra: '烟墨道馆与龙穴的脚本会各发一次，利用 BUG 最多可拿两个' },
+  { no: 'TM25', move: 'thunder', obtain: '满金游戏角落：5500 代币兑换' },
+  { no: 'TM26', move: 'earthquake', obtain: '冠军之路：地上拾取' },
+  { no: 'TM27', move: 'return', obtain: '满金百货店 5F：周日出现的接待员赠送（队首宝可梦亲密度 150 以上）', extra: '与 TM21 二选一，每个存档只能拿一次' },
+  { no: 'TM28', move: 'dig', obtain: '自然公园：西南角地上拾取' },
+  { no: 'TM29', move: 'psychic', obtain: '金黄市：东南角小屋的精神强念大叔赠送', extra: '玉虹游戏角落奖品屋 3500 代币兑换' },
+  { no: 'TM30', move: 'shadow-ball', obtain: '圆朱道馆：战胜松叶后赠送' },
+  { no: 'TM31', move: 'mud-slap', obtain: '桔梗道馆：战胜阿速后赠送' },
+  { no: 'TM32', move: 'double-team', obtain: '玉虹游戏角落奖品屋：1500 代币兑换' },
+  { no: 'TM33', move: 'ice-punch', obtain: '满金百货店 5F 有售（¥3000）' },
+  { no: 'TM34', move: 'swagger', obtain: '浅葱灯塔 5F：地上拾取' },
+  { no: 'TM35', move: 'sleep-talk', obtain: '满金地下通道深处仓库：地上拾取（广播塔事件中进入）' },
+  { no: 'TM36', move: 'sludge-bomb', obtain: '43 号道路闸门：解决愤怒之湖火箭队基地事件后与警卫对话赠送' },
+  { no: 'TM37', move: 'sandstorm', obtain: '27 号道路：小屋内的女性赠送（队首宝可梦亲密度 150 以上）', extra: '玉虹百货店 3F 有售（¥2000）' },
+  { no: 'TM38', move: 'fire-blast', obtain: '满金游戏角落：5500 代币兑换' },
+  { no: 'TM39', move: 'swift', obtain: '连接洞窟地下 1 层：地上拾取' },
+  { no: 'TM40', move: 'defense-curl', obtain: '擂钵山 2F：地上拾取' },
+  { no: 'TM41', move: 'thunder-punch', obtain: '满金百货店 5F 有售（¥3000）' },
+  { no: 'TM42', move: 'dream-eater', obtain: '常青市：与市区西南的钓客对话赠送' },
+  { no: 'TM43', move: 'detect', obtain: '愤怒之湖：东北角地上拾取（需冲浪）' },
+  { no: 'TM44', move: 'rest', obtain: '冰雪小径地下 2 层（烟墨市一侧）：地上拾取' },
+  { no: 'TM45', move: 'attract', obtain: '满金道馆：战胜小茜后赠送' },
+  { no: 'TM46', move: 'thief', obtain: '火箭队基地地下 2 层：地上拾取' },
+  { no: 'TM47', move: 'steel-wing', obtain: '28 号道路：小屋内的名人赠送', extra: '岩山隧道 1 层地上拾取' },
+  { no: 'TM48', move: 'fire-punch', obtain: '满金百货店 5F 有售（¥3000）' },
+  { no: 'TM49', move: 'fury-cutter', obtain: '桧皮道馆：战胜阿笔后赠送' },
+  { no: 'TM50', move: 'nightmare', obtain: '31 号道路：把 35 号道路闸门守卫托付的带邮件烈雀交给男子后赠送' },
+];
+
+interface Hm extends Machine {
+  badge: string;
+}
+
+const hms: Hm[] = [
+  { no: 'HM01', move: 'cut', obtain: '桐树林：帮烧炭师傅追回大葱鸭后赠送', badge: '昆虫徽章' },
+  { no: 'HM02', move: 'fly', obtain: '湛蓝市：战胜阿四后与道馆外他的妻子对话赠送', badge: '打击徽章' },
+  { no: 'HM03', move: 'surf', obtain: '圆朱市歌舞练习场：击败台上的火箭队队员后老板赠送', badge: '魅影徽章' },
+  { no: 'HM04', move: 'strength', obtain: '浅葱市食堂：与店内的水手对话赠送', badge: '标准徽章' },
+  { no: 'HM05', move: 'flash', obtain: '喇叭芽之塔 3F：战胜长老后赠送', badge: '飞翼徽章' },
+  { no: 'HM06', move: 'whirlpool', obtain: '火箭队基地地下 2 层：电极怪事件后阿渡赠送', badge: '冰冻徽章' },
+  { no: 'HM07', move: 'waterfall', obtain: '冰雪小径 1 层：地上拾取', badge: '升龙徽章' },
+];
+
+const moveOf = (slug: string) => getMove(slug)!;
+---
+
+<Layout
+  title="技能机器获得方式"
+  description="宝可梦水晶版全部 50 个 TM 与 7 个 HM 的获得方式：道馆奖励、商店售价、游戏角落兑换价格、拾取地点与 NPC 赠送条件"
+>
+  <h1>技能机器获得方式（TM50 + HM07）</h1>
+
+  <Toc
+    items={[
+      { id: 'mechanism', label: '机制说明' },
+      { id: 'tm-list', label: '招式机器 TM01–TM50' },
+      { id: 'hm-list', label: '秘传机器 HM01–HM07' },
+      { id: 'notes', label: '补充说明' },
+    ]}
+  >
+  <section class="panel" id="mechanism">
+    <p style="margin: 0">
+      水晶版共有 <strong>50 个招式机器（TM）</strong>和 <strong>7 个秘传机器（HM）</strong>。
+      第二世代的 TM 是<strong>一次性消耗品</strong>，教完就消失；HM 则可以无限次教学，
+      但对应的场外功能（砍树、冲浪等）需要持有指定徽章才能使用（见 HM 表右列）。
+      TM 编号按水晶版排列，与第一世代完全不同（如第一世代 TM24 是十万伏特，水晶版 TM24 是龙息）。
+      机器能教给哪些宝可梦，可点表中的招式名进入详情页查看。
+    </p>
+  </section>
+
+  <section class="panel" id="tm-list">
+    <h2>招式机器（TM01–TM50）</h2>
+    <div class="table-scroll">
+    <table class="tm-table">
+      <thead>
+        <tr>
+          <th>编号</th>
+          <th>招式</th>
+          <th>获得方式</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          tms.map((t) => {
+            const m = moveOf(t.move);
+            return (
+              <tr>
+                <td class="no">{t.no}</td>
+                <td class="move-cell">
+                  <a href={`/moves/${m.id}/`}>{m.nameZh}</a>
+                  <TypeBadge type={m.type} />
+                </td>
+                <td class="obtain">
+                  {t.obtain}
+                  {t.extra && <div class="note">{t.extra}</div>}
+                </td>
+              </tr>
+            );
+          })
+        }
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <section class="panel" id="hm-list">
+    <h2>秘传机器（HM01–HM07）</h2>
+    <div class="table-scroll">
+    <table class="tm-table">
+      <thead>
+        <tr>
+          <th>编号</th>
+          <th>招式</th>
+          <th>获得方式</th>
+          <th>场外使用条件</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          hms.map((h) => {
+            const m = moveOf(h.move);
+            return (
+              <tr>
+                <td class="no">{h.no}</td>
+                <td class="move-cell">
+                  <a href={`/moves/${m.id}/`}>{m.nameZh}</a>
+                  <TypeBadge type={m.type} />
+                </td>
+                <td class="obtain">{h.obtain}</td>
+                <td class="badge-cell">{h.badge}</td>
+              </tr>
+            );
+          })
+        }
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <section class="panel" id="notes">
+    <h2>补充说明</h2>
+    <ul class="notes">
+      <li>道馆奖励的 10 个 TM（城都 8 馆 + 关都莉佳、阿杏）的详细获得时机见<a href="/guides/gym-leaders/">道馆馆主对战数据</a>；小椿的 TM24 在龙穴发放，存在可拿两次的 BUG。</li>
+      <li>喷射火焰 / 十万伏特 / 冰冻光束在水晶版<strong>没有 TM</strong>，只能找满金市的教学大叔学习（详见<a href="/guides/move-tutor/">招式传授 NPC</a>）；游戏角落兑换的打雷 / 暴风雪 / 大字爆是它们的上位版。</li>
+      <li>满金百货店 5F 固定出售三个元素拳（各 ¥3000）；在你获得过 TM02 铁头功、TM08 碎岩后，柜台会加售这两枚（用掉后的补货途径）。</li>
+      <li>满金百货店 5F 的周日接待员按<strong>队首宝可梦亲密度</strong>二选一赠送：150 以上给 TM27 报恩，低于 50 给 TM21 迁怒，中间则什么都不给；每个存档只能拿一次。</li>
+      <li>玉虹游戏角落的兑换在奖品屋（隔壁建筑）进行：影子分身 1500、精神强念 3500、破坏光线 7500 代币。</li>
+      <li>本页数据以水晶版反汇编（pokecrystal）的地图脚本、商店与兑换数据为准。</li>
+    </ul>
+  </section>
+  </Toc>
+</Layout>
+
+<style>
+  .tm-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  .tm-table th,
+  .tm-table td {
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+    vertical-align: top;
+  }
+  .tm-table th {
+    color: var(--muted);
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .no {
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .move-cell {
+    white-space: nowrap;
+  }
+  .move-cell a {
+    margin-right: 6px;
+  }
+  .obtain {
+    white-space: normal;
+    min-width: 280px;
+  }
+  .badge-cell {
+    white-space: nowrap;
+  }
+  .note {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+  .notes {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  .notes li {
+    margin: 6px 0;
+  }
+</style>
