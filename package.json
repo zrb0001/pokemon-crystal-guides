@@ -10,6 +10,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "fetch-data": "NODE_USE_ENV_PROXY=1 node scripts/fetch-data.mjs",
+    "build-encounters": "node scripts/build-encounters.mjs",
     "astro": "astro"
   },
   "dependencies": {

@@ -10,6 +10,8 @@ import {
   getEvolutionChain,
   flattenChain,
   conditionText,
+  getEncounters,
+  getPreEvolution,
   EGG_GROUP_NAMES,
   GROWTH_RATE_NAMES,
 } from '../../lib/data';
@@ -26,10 +28,50 @@ const next = getPokemon(id + 1);
 const chain = getEvolutionChain(p.evolutionChainId);
 const flat = chain ? flattenChain(chain) : [];
 
+const encounters = getEncounters(id);
+const preEvoId = encounters.length === 0 ? getPreEvolution(id) : undefined;
+const preEvo = preEvoId ? getPokemon(preEvoId) : undefined;
+
+const METHOD_ZH: Record<string, string> = {
+  grass: '草丛',
+  swarm: '大量发生',
+  surf: '冲浪',
+  'fish-old': '垂钓·破旧钓竿',
+  'fish-good': '垂钓·好钓竿',
+  'fish-super': '垂钓·厉害钓竿',
+  'swarm-fish': '垂钓·大量发生',
+  headbutt: '头锤撞树',
+  'headbutt-rare': '头锤·稀有树',
+  rocksmash: '碎岩',
+  contest: '捕虫大会',
+  static: '定点',
+  roam: '游走',
+  gift: '赠送',
+  egg: '蛋',
+  trade: '游戏内交换',
+  gamecorner: '游戏城兑换',
+  event: '事件',
+  unavailable: '无法获得',
+};
+
+const TIME_ZH: Record<string, string> = { morn: '早晨', day: '白天', nite: '夜晚' };
+
+function timeText(time?: string[]): string {
+  if (!time) return '—';
+  if (time.length === 3) return '全天';
+  return time.map((t) => TIME_ZH[t] ?? t).join('、');
+}
+
+function lvText(e: { lvMin?: number; lvMax?: number }): string {
+  if (e.lvMin == null) return '—';
+  return e.lvMin === e.lvMax ? `Lv.${e.lvMin}` : `Lv.${e.lvMin}–${e.lvMax}`;
+}
+
 const tocItems = [
   { id: 'overview', label: '概览' },
   { id: 'stats', label: '种族值' },
   ...(flat.length > 1 ? [{ id: 'evolution', label: '进化链' }] : []),
+  { id: 'encounters', label: '获得方式' },
   { id: 'learnset', label: '习得招式' },
 ];
 
@@ -132,6 +174,53 @@ function genderText(rate: number): string {
       )
     }
 
+    <section class="panel" id="encounters">
+      <h2>获得方式（水晶版）</h2>
+      <p class="enc-note">
+        时段按游戏内时钟划分：早晨 4:00–9:59、白天 10:00–17:59、夜晚 18:00–3:59。
+        概率为该时段内遇到本宝可梦的占比；撞树/碎岩还需先触发战斗（普通树约 50%、稀有树约 80%、碎岩 40%）。
+        数据来源：pokecrystal 反汇编。
+      </p>
+      {
+        encounters.length > 0 ? (
+          <div class="table-scroll">
+            <table class="move-table">
+              <thead>
+                <tr>
+                  <th>地点</th>
+                  <th>方式</th>
+                  <th>时段</th>
+                  <th>等级</th>
+                  <th>概率</th>
+                  <th>备注</th>
+                </tr>
+              </thead>
+              <tbody>
+                {encounters.map((e) => (
+                  <tr>
+                    <td>{e.loc}</td>
+                    <td>{METHOD_ZH[e.method] ?? e.method}</td>
+                    <td>{timeText(e.time)}</td>
+                    <td>{lvText(e)}</td>
+                    <td>{e.rate != null ? `${e.rate}%` : '—'}</td>
+                    <td class="enc-note-cell">{e.note ?? ''}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ) : preEvo ? (
+          <p class="enc-note">
+            无野生分布，由
+            <a href={`/pokemon/${preEvo.id}/`}>{preEvo.nameZh ?? preEvo.nameEn}</a>
+            进化获得。
+          </p>
+        ) : (
+          <p class="enc-note">水晶版无任何获得途径，需从其他作品传入。</p>
+        )
+      }
+    </section>
+
     <section class="panel" id="learnset">
       <h2>习得招式（水晶版）</h2>
       <LearnsetTable title="升级习得" kind="level" entries={p.learnset.levelUp} />
@@ -155,4 +244,18 @@ function genderText(rate: number): string {
       });
     }
   </script>
+
+  <style>
+    .enc-note {
+      color: var(--muted);
+      font-size: 13px;
+      margin: 0 0 12px;
+    }
+    .enc-note-cell {
+      white-space: normal;
+      font-size: 13px;
+      color: var(--muted);
+      min-width: 12em;
+    }
+  </style>
 </Layout>

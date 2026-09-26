@@ -6,6 +6,7 @@
 
 ```bash
 npm run fetch-data   # 抓取/更新数据（幂等，已有缓存会跳过）
+npm run build-encounters  # 从 pokecrystal 反汇编重建遭遇数据
 npm run build        # 构建到 dist/ —— 任何改动后必须通过
 npm run preview      # 预览构建产物
 npm run dev          # 本地开发
@@ -37,6 +38,7 @@ astro dev --background
 - `scripts/fetch-data.mjs` → 输出到 `src/data/`（`pokemon/{1..251}.json`、`moves.json`、`items.json`、`types.json`、`evolutions.json`，**提交进仓库**）和 `public/sprites/{normal,shiny}/{id}.png`、`public/sprites/items/{name}.png`。
 - 道具按 `game_indices` 含 `generation-ii` 过滤；PokéAPI 缺失的 Gen 2 专有道具（水晶版树果/邮件/GS球等约 28 条）手写补充在 `scripts/manual-items.json`（id 9001 起，随 fetch 合并进 `items.json`）。
 - PokéAPI 原始响应缓存在 `scripts/.cache/`（不提交）。要刷新某条数据：删掉对应缓存文件和 `src/data/` 产物，重跑 `npm run fetch-data`。
+- 遭遇/获得数据**不走 PokéAPI**：`scripts/build-encounters.mjs` 直接解析 pokecrystal 反汇编（路径用 `POKECRYSTAL_DIR` 环境变量，默认 `/tmp/pokecrystal`），输出 `src/data/encounters.json`（**提交进仓库**）。覆盖草丛/大量发生/冲浪/垂钓/撞树/碎岩/捕虫大会；定点、赠品、交换、游戏城兑换、游走、活动配信、无法获得等手写补充在 `scripts/manual-encounters.json`（每条都从 pokecrystal 的 `maps/*.asm`/`engine/**` 核实过），随构建合并。页面经 `getEncounters(id)` 访问。
 - 页面不直接读文件，统一走 `src/lib/data.ts` 访问层。
 
 ## Gen 2 数据陷阱（改动数值逻辑前必读）
@@ -58,7 +60,7 @@ astro dev --background
 
 ## 验证
 
-- 改完必须 `npm run build` 通过（当前 508 个页面）。
+- 改完必须 `npm run build` 通过（当前 515 个页面）。
 - 涉及数值/数据的改动，抽查 `dist/` 里的对应 HTML（如 `grep 关键词 dist/pokemon/25/index.html`）。
 
 ## Documentation

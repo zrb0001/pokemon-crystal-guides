@@ -1,8 +1,9 @@
-import type { Pokemon, Move, Item, TypeInfo, EvolutionNode } from '../types';
+import type { Pokemon, Move, Item, TypeInfo, EvolutionNode, Encounter } from '../types';
 import movesJson from '../data/moves.json';
 import itemsJson from '../data/items.json';
 import typesJson from '../data/types.json';
 import evolutionsJson from '../data/evolutions.json';
+import encountersJson from '../data/encounters.json';
 
 const pokemonModules = import.meta.glob<{ default: Pokemon }>('../data/pokemon/*.json', {
   eager: true,
@@ -96,6 +97,29 @@ export function itemCategoryZh(category: string): string {
 
 export function itemPocketZh(pocket: string): string {
   return ITEM_POCKET_NAMES[pocket] ?? pocket;
+}
+
+const encounters = encountersJson as unknown as Record<string, Encounter[]>;
+
+/** 某宝可梦的遭遇/获得方式（pokecrystal 数据），无记录返回 [] */
+export function getEncounters(id: number): Encounter[] {
+  return encounters[String(id)] ?? [];
+}
+
+/** 在全部进化链中找某宝可梦的直接进化前身 */
+export function getPreEvolution(id: number): number | undefined {
+  for (const root of Object.values(evolutions)) {
+    const found = (function walk(node: EvolutionNode): number | undefined {
+      for (const child of node.evolvesTo) {
+        if (child.id === id && node.id <= 251) return node.id;
+        const r = walk(child);
+        if (r) return r;
+      }
+      return undefined;
+    })(root);
+    if (found) return found;
+  }
+  return undefined;
 }
 
 /** 反查某招式在水晶版中的习得者 */

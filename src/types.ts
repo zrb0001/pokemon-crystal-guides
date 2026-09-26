@@ -89,6 +89,17 @@ export interface EvolutionCondition {
   tradeSpecies: string | null;
 }
 
+/** 遭遇/获得方式条目（encounters.json，数据源 pokecrystal） */
+export interface Encounter {
+  loc: string; // 中文地点
+  method: string; // grass/swarm/surf/fish-old/fish-good/fish-super/swarm-fish/headbutt/headbutt-rare/rocksmash/contest/static/roam/gift/egg/trade/gamecorner/event/unavailable
+  time?: string[]; // morn/day/nite 子集；缺省表示不分时段
+  lvMin?: number;
+  lvMax?: number;
+  rate?: number; // 该时段内遭遇概率（%）
+  note?: string;
+}
+
 export interface EvolutionNode {
   id: number;
   name: string;
